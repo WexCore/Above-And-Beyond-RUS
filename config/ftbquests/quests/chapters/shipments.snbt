@@ -14,9 +14,9 @@
 			y: 12.25d
 			shape: "hexagon"
 			description: [
-				"&6Shipments&r are the Automated way to exchange coin for resources. Here you can buy Import Cards for use in the Trading Machine."
+				"&6Поставки&r являются Автоматизированным способом обмена монет на ресурсы. Здесь вы можете приобрести карты импорта для использования в Торговом автомате."
 				""
-				"Each import card comes with a cost up front. Once that is paid you can limitlessly buy the respective goods priced at what's stated in the subtitle."
+				"За каждую карту импорта нужно платить сразу. После оплаты вы можете без ограничений покупать соответствующие товары по цене, указанной в подзаголовке."
 			]
 			size: 2.0d
 			id: "6AC1CED0D341150E"
@@ -27,13 +27,13 @@
 			}]
 		}
 		{
-			title: "Automatic Exchange"
+			title: "Автоматический обмен"
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: 2.0d
 			y: 12.25d
 			shape: "circle"
-			subtitle: "Silver <> Gold"
-			description: ["This Trading card can convert the currency of coins inserted into the Trading Machine."]
+			subtitle: "Серебро <> Золото"
+			description: ["Эта Торговая карта может конвертировать валюту монет, вставленных в Торговый автомат."]
 			dependencies: ["6AC1CED0D341150E"]
 			id: "3B548F2C060C2229"
 			tasks: [{
@@ -65,7 +65,7 @@
 			x: -3.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 Серебра"
 			id: "3DD4855E1FB6D1AE"
 			tasks: [{
 				id: "0A35EFCDB01F6A35"
@@ -98,7 +98,7 @@
 			x: -2.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "13446DAF53B6D0E4"
 			tasks: [{
 				id: "0BC77D25AF6D8A61"
@@ -131,7 +131,7 @@
 			x: -1.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 Серебра"
 			id: "07FEED5F10AEC1F0"
 			tasks: [{
 				id: "1DD78D287B469707"
@@ -164,7 +164,7 @@
 			x: -0.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "6 Серебра"
 			id: "625D9FBC9D99DCBF"
 			tasks: [{
 				id: "6B26F0CA1D738AEA"
@@ -197,7 +197,7 @@
 			x: 0.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "208D67941092BD96"
 			tasks: [{
 				id: "0F1A3FD60705336D"
@@ -230,7 +230,7 @@
 			x: 1.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "12 Серебра"
 			id: "0614B91D323B39B2"
 			tasks: [{
 				id: "4F37AA39D75EDDAD"
@@ -263,7 +263,7 @@
 			x: 2.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "12 Silver"
+			subtitle: "12 Серебра"
 			id: "2C59A0D0ABA4F366"
 			tasks: [{
 				id: "708AF4787DA9DA41"
@@ -296,7 +296,7 @@
 			x: 3.5d
 			y: 0.0d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 Серебра"
 			id: "43A4952C033848B9"
 			tasks: [{
 				id: "36E5DDB0339B10A8"
@@ -329,7 +329,7 @@
 			x: -3.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "2225CCD0ECDB6A1B"
 			tasks: [{
 				id: "16ED3CF161F3015A"
@@ -362,7 +362,7 @@
 			x: -2.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "2B000AE123A647D9"
 			tasks: [{
 				id: "4A209158539C080B"
@@ -395,7 +395,7 @@
 			x: -1.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "30218436FFF34148"
 			tasks: [{
 				id: "446D02AF0A464314"
@@ -428,7 +428,7 @@
 			x: -0.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "7751A17590AA0058"
 			tasks: [{
 				id: "64CEB90ED4CF1788"
@@ -461,7 +461,7 @@
 			x: 0.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "7F1B4FF7DF163AC4"
 			tasks: [{
 				id: "49474827E7575463"
@@ -494,7 +494,7 @@
 			x: 1.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "56B7DF9C128EE945"
 			tasks: [{
 				id: "3F71B879671DE413"
@@ -527,7 +527,7 @@
 			x: 2.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "0B798D53748ADA2E"
 			tasks: [{
 				id: "636B04C752EC6715"
@@ -560,7 +560,7 @@
 			x: 3.5d
 			y: 1.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "7258E09C8FE0A53A"
 			tasks: [{
 				id: "62A48EF0014AEEF2"
@@ -593,7 +593,7 @@
 			x: -3.5d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "2A28A9B55B8CC05B"
 			tasks: [{
 				id: "5A12197D78CEFF10"
@@ -626,7 +626,7 @@
 			x: -2.5d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "36E46992DB4FE882"
 			tasks: [{
 				id: "56ED01939116785C"
@@ -659,7 +659,7 @@
 			x: -3.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 Серебра"
 			id: "0175433625D1B3F0"
 			tasks: [{
 				id: "09B423B82B1F87DF"
@@ -692,7 +692,7 @@
 			x: -2.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "42546DBAEACB6329"
 			tasks: [{
 				id: "30090F5B0C6DBA4F"
@@ -725,7 +725,7 @@
 			x: -1.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "189C4FD0DF2D912E"
 			tasks: [{
 				id: "09CA3EF63236D096"
@@ -758,7 +758,7 @@
 			x: -0.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "7CA0F23A2C7090B5"
 			tasks: [{
 				id: "5E7B555E23090881"
@@ -791,7 +791,7 @@
 			x: 0.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "3C0E8F3A056DEE26"
 			tasks: [{
 				id: "28289B87ED246CF8"
@@ -824,7 +824,7 @@
 			x: 1.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "6B47EF46C44DD8AA"
 			tasks: [{
 				id: "796171A8C0CB8EF9"
@@ -857,7 +857,7 @@
 			x: 2.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "2736A8D1E8FF3DAF"
 			tasks: [{
 				id: "1764A4C29B6D5C38"
@@ -890,7 +890,7 @@
 			x: 3.5d
 			y: 3.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "3700D4CA7CC308B6"
 			tasks: [{
 				id: "5B46B266528A3FED"
@@ -923,7 +923,7 @@
 			x: -3.5d
 			y: 4.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "32F918D9890FA109"
 			tasks: [{
 				id: "2BE1A8021C5B2229"
@@ -956,7 +956,7 @@
 			x: -3.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "477EF5336CE2D190"
 			tasks: [{
 				id: "44D5FC12C04C2180"
@@ -989,7 +989,7 @@
 			x: -2.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "6204167AB1AA6AFF"
 			tasks: [{
 				id: "1E1382B9412957C3"
@@ -1022,7 +1022,7 @@
 			x: -1.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "24BD687B7D2DC35E"
 			tasks: [{
 				id: "13081F8C7D6BA34E"
@@ -1055,7 +1055,7 @@
 			x: -0.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "61C9BB3C35E7EF73"
 			tasks: [{
 				id: "617BAB4C2CDD7AD9"
@@ -1088,7 +1088,7 @@
 			x: 0.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "3B1DD4EA6A0F745B"
 			tasks: [{
 				id: "284AF3DC426D5DDC"
@@ -1121,7 +1121,7 @@
 			x: 1.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "3E821623B77AB2FB"
 			tasks: [{
 				id: "2D6F900E7D7EB98F"
@@ -1154,7 +1154,7 @@
 			x: 2.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "351BFF7AEB3E807D"
 			tasks: [{
 				id: "26F7B5293AA583F2"
@@ -1187,7 +1187,7 @@
 			x: 3.5d
 			y: 6.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "731D25DB11FC410E"
 			tasks: [{
 				id: "7908074E186C8EB1"
@@ -1220,7 +1220,7 @@
 			x: -3.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "64 Silver"
+			subtitle: "64 Серебра"
 			id: "07FD411579D63491"
 			tasks: [{
 				id: "6EAFE704E3832F5A"
@@ -1253,7 +1253,7 @@
 			x: -2.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "658DAEE4F2EB7F75"
 			tasks: [{
 				id: "0640A575FC2BA0AC"
@@ -1286,7 +1286,7 @@
 			x: -1.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "7A83EC201FCF47FF"
 			tasks: [{
 				id: "401879B04E53186B"
@@ -1319,7 +1319,7 @@
 			x: -0.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "1B768C32D93662A3"
 			tasks: [{
 				id: "5A3ECEFFE75D04B7"
@@ -1352,7 +1352,7 @@
 			x: 0.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "46FEC6EE18C08309"
 			tasks: [{
 				id: "58EC8767F2423275"
@@ -1385,7 +1385,7 @@
 			x: 1.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "0FFFB001E2ADAE47"
 			tasks: [{
 				id: "4202804F6FCB32DB"
@@ -1418,7 +1418,7 @@
 			x: 2.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "3AA3897B8E018C57"
 			tasks: [{
 				id: "0DC0380187A428B7"
@@ -1451,7 +1451,7 @@
 			x: 3.5d
 			y: 7.0d
 			shape: "hexagon"
-			subtitle: "64 Silver"
+			subtitle: "64 Серебра"
 			id: "56C9FD94330C1B74"
 			tasks: [{
 				id: "42D7795C1E720A39"
@@ -1484,7 +1484,7 @@
 			x: -3.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "725510555326E365"
 			tasks: [{
 				id: "018348E4457A981D"
@@ -1517,7 +1517,7 @@
 			x: -2.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "113C6E4F335A40B7"
 			tasks: [{
 				id: "4D8F818274A91D67"
@@ -1550,7 +1550,7 @@
 			x: -1.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "1E751917649D5AA7"
 			tasks: [{
 				id: "0446A9EA4BFD1094"
@@ -1583,7 +1583,7 @@
 			x: -0.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "17027C3A5666BA58"
 			tasks: [{
 				id: "5070F2A881184EE8"
@@ -1616,7 +1616,7 @@
 			x: 0.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "195F4084BC420A1F"
 			tasks: [{
 				id: "566F83F1016B7E7A"
@@ -1649,7 +1649,7 @@
 			x: 1.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "09BD482B8DECFE54"
 			tasks: [{
 				id: "0FDE4E1A0D6ED4B7"
@@ -1682,7 +1682,7 @@
 			x: 2.5d
 			y: 8.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "7C388086F091CBE7"
 			tasks: [{
 				id: "419095E4D142D323"
@@ -1715,7 +1715,7 @@
 			x: -1.5d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "2 Silver"
+			subtitle: "2 Серебра"
 			id: "5FE7AC9188F9EF68"
 			tasks: [{
 				id: "6DA20A14850B6E81"
@@ -1748,7 +1748,7 @@
 			x: -0.5d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "5683C54AD9355F93"
 			tasks: [{
 				id: "72C9063754C9BBF6"
@@ -1781,7 +1781,7 @@
 			x: 0.5d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "71B743A93127833E"
 			tasks: [{
 				id: "4884AF1BA2E02133"
@@ -1814,7 +1814,7 @@
 			x: 1.5d
 			y: 9.5d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "7B48829655BA222C"
 			tasks: [{
 				id: "1EF3156635A66673"
@@ -1847,7 +1847,7 @@
 			x: -3.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "09E189BE07745ADD"
 			tasks: [{
 				id: "030A180F2231F906"
@@ -1880,7 +1880,7 @@
 			x: -2.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "08935B70E285805E"
 			tasks: [{
 				id: "73B6E18E96117FCD"
@@ -1913,7 +1913,7 @@
 			x: -1.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "9 Серебра"
 			id: "7EAF8F9E9825CE1F"
 			tasks: [{
 				id: "5DE66E6D1C6AE0BC"
@@ -1946,7 +1946,7 @@
 			x: -0.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "9 Серебра"
 			id: "2E06284D4CB82EFF"
 			tasks: [{
 				id: "60F3B16ECD1A980B"
@@ -1979,7 +1979,7 @@
 			x: 0.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "62A74EED355D01D3"
 			tasks: [{
 				id: "1BC734BC10A7E144"
@@ -2012,7 +2012,7 @@
 			x: 1.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "3B6AE40E44A16937"
 			tasks: [{
 				id: "1DB7F60C4E7061A1"
@@ -2045,7 +2045,7 @@
 			x: 2.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "9 Silver"
+			subtitle: "9 Серебра"
 			id: "2CEA368C66C0BA14"
 			tasks: [{
 				id: "6268F97AF74BC0AF"
@@ -2078,7 +2078,7 @@
 			x: 3.5d
 			y: 15.0d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 Серебра"
 			id: "6CD2A8E5C62CC538"
 			tasks: [{
 				id: "62E4175EB432C241"
@@ -2111,7 +2111,7 @@
 			x: -3.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "10 Silver"
+			subtitle: "10 Серебра"
 			id: "11613C5A499E8380"
 			tasks: [{
 				id: "7154E8E98792EFD2"
@@ -2144,7 +2144,7 @@
 			x: -2.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 Серебра"
 			id: "6A010E906A4EE37A"
 			tasks: [{
 				id: "57D587A7E889220A"
@@ -2177,7 +2177,7 @@
 			x: -1.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 Серебра"
 			id: "1E69859E5ADC6850"
 			tasks: [{
 				id: "2943BD060053BA3E"
@@ -2210,7 +2210,7 @@
 			x: -0.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "4 Silver"
+			subtitle: "4 Серебра"
 			id: "27D33798359303AF"
 			tasks: [{
 				id: "0D435E38A8BD7411"
@@ -2243,7 +2243,7 @@
 			x: 0.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "2747C9588C27C900"
 			tasks: [{
 				id: "0DE352709ED589B8"
@@ -2276,7 +2276,7 @@
 			x: 1.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "09F6B2DD4C226993"
 			tasks: [{
 				id: "1C5DC9A4EBDD525E"
@@ -2309,7 +2309,7 @@
 			x: 2.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 Серебра"
 			id: "73059C1AFF2E128B"
 			tasks: [{
 				id: "216F9FFAF8EE4AFF"
@@ -2342,7 +2342,7 @@
 			x: 3.5d
 			y: 16.0d
 			shape: "hexagon"
-			subtitle: "11 Silver"
+			subtitle: "11 Серебра"
 			id: "1B60FC6597A9AAC4"
 			tasks: [{
 				id: "16707BC180500796"
@@ -2375,7 +2375,7 @@
 			x: -3.5d
 			y: 17.0d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 Серебра"
 			id: "252379D9C6D1E0D4"
 			tasks: [{
 				id: "53B0285AA0998DC3"
@@ -2408,7 +2408,7 @@
 			x: -2.5d
 			y: 17.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "63D59C437EDFD556"
 			tasks: [{
 				id: "76E801E41851E301"
@@ -2441,7 +2441,7 @@
 			x: -3.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 Серебра"
 			id: "678B881144BBC181"
 			tasks: [{
 				id: "00209A8FDBA7BB71"
@@ -2474,7 +2474,7 @@
 			x: -2.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "5512C7DB60178F49"
 			tasks: [{
 				id: "4B2F70B916DC5C31"
@@ -2507,7 +2507,7 @@
 			x: -1.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "4167F3A3542C1123"
 			tasks: [{
 				id: "04FA67DBAA3A72B6"
@@ -2540,7 +2540,7 @@
 			x: -0.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "2763B7F7AE1B09E6"
 			tasks: [{
 				id: "7689C91BC3334B47"
@@ -2573,7 +2573,7 @@
 			x: 0.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "789A6615F258FB63"
 			tasks: [{
 				id: "0CD62C3FE183A881"
@@ -2606,7 +2606,7 @@
 			x: 1.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "1FBD038D9128A707"
 			tasks: [{
 				id: "45FDDDB0D4E704CF"
@@ -2639,7 +2639,7 @@
 			x: 2.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "3F77607D8AEBD416"
 			tasks: [{
 				id: "65A703FD51ECE2F9"
@@ -2672,7 +2672,7 @@
 			x: 3.5d
 			y: 18.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "15254A56371E9E70"
 			tasks: [{
 				id: "26E06B57382A1A96"
@@ -2705,7 +2705,7 @@
 			x: -3.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "3B68C53824BC0AF1"
 			tasks: [{
 				id: "2133109385403391"
@@ -2738,7 +2738,7 @@
 			x: -2.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "6D5E8C49271CA327"
 			tasks: [{
 				id: "7B23292F3BDB2BAA"
@@ -2771,7 +2771,7 @@
 			x: -1.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "42CB91CE0EE9282B"
 			tasks: [{
 				id: "2286EC39C82D230B"
@@ -2804,7 +2804,7 @@
 			x: -0.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "208146611226CC90"
 			tasks: [{
 				id: "5F87D89995A2B458"
@@ -2837,7 +2837,7 @@
 			x: 0.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 Серебра"
 			id: "1E1EB9C286E85CA5"
 			tasks: [{
 				id: "276CC5ECBC4E47F0"
@@ -2870,7 +2870,7 @@
 			x: 1.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 Серебра"
 			id: "4DCC42D2C9EAE8D1"
 			tasks: [{
 				id: "5B48AAC616DB21D4"
@@ -2903,7 +2903,7 @@
 			x: 2.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 Серебра"
 			id: "4E6BB179B3D30179"
 			tasks: [{
 				id: "6A0C2DC1B4CA4CEF"
@@ -2936,7 +2936,7 @@
 			x: 3.5d
 			y: 19.5d
 			shape: "hexagon"
-			subtitle: "1 Silver"
+			subtitle: "1 Серебра"
 			id: "0FDEA89C3D05C80E"
 			tasks: [{
 				id: "7C3CA4EFBF474FF4"
@@ -2969,7 +2969,7 @@
 			x: -3.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "5CCCAB53D388B5E1"
 			tasks: [{
 				id: "69B25D460533A163"
@@ -3002,7 +3002,7 @@
 			x: -2.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "5 Silver"
+			subtitle: "5 Серебра"
 			id: "46030BF2A72C912D"
 			tasks: [{
 				id: "659BF824E5750243"
@@ -3035,7 +3035,7 @@
 			x: -1.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "6 Silver"
+			subtitle: "6 Серебра"
 			id: "63CF48BBF1ADA1AA"
 			tasks: [{
 				id: "4EC36192CB3FF44B"
@@ -3068,7 +3068,7 @@
 			x: -0.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "7 Silver"
+			subtitle: "7 Серебра"
 			id: "0EE4BE1350D60F72"
 			tasks: [{
 				id: "3201F7A1EA86072D"
@@ -3101,7 +3101,7 @@
 			x: 0.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "107AAE4EA7ECF934"
 			tasks: [{
 				id: "259454CBA679000D"
@@ -3134,7 +3134,7 @@
 			x: 1.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "47862F8D76F9969D"
 			tasks: [{
 				id: "4F068B1A38293FC3"
@@ -3167,7 +3167,7 @@
 			x: 2.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "1A261DCD5F86BE98"
 			tasks: [{
 				id: "660304A29A481EB7"
@@ -3200,7 +3200,7 @@
 			x: 3.5d
 			y: 21.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "4533A4CCBC5C70C4"
 			tasks: [{
 				id: "452FDEEF71CE8E5C"
@@ -3233,7 +3233,7 @@
 			x: -3.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "10 Silver"
+			subtitle: "10 Серебра"
 			id: "423AE8A338C0738F"
 			tasks: [{
 				id: "0D908719F97AC7DA"
@@ -3266,7 +3266,7 @@
 			x: -2.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "218C82E655ED0D66"
 			tasks: [{
 				id: "4751CCFDE36A2DA8"
@@ -3299,7 +3299,7 @@
 			x: -1.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "3 Silver"
+			subtitle: "3 Серебра"
 			id: "0DD772E4F673DA1A"
 			tasks: [{
 				id: "13BB6FECB3C77DCA"
@@ -3332,7 +3332,7 @@
 			x: -0.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "20 Silver"
+			subtitle: "20 Серебра"
 			id: "0D430B931BF6072B"
 			tasks: [{
 				id: "2B435757177B3C09"
@@ -3365,7 +3365,7 @@
 			x: 0.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "8 Silver"
+			subtitle: "8 Серебра"
 			id: "312ED00CC9C8ABAE"
 			tasks: [{
 				id: "20A53F63BEDA0266"
@@ -3398,7 +3398,7 @@
 			x: 1.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "2DAEFD5039B39E05"
 			tasks: [{
 				id: "09705F900B0124D4"
@@ -3431,7 +3431,7 @@
 			x: 2.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "620FF9C47297BDF8"
 			tasks: [{
 				id: "776B279A2C6C90E3"
@@ -3464,7 +3464,7 @@
 			x: 3.5d
 			y: 22.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "09CE5AD4CB4B5E30"
 			tasks: [{
 				id: "0E378993CF02210C"
@@ -3497,7 +3497,7 @@
 			x: -3.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "282F6B669035353D"
 			tasks: [{
 				id: "4672644B424294E6"
@@ -3530,7 +3530,7 @@
 			x: -2.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "2AE355FCE8F6A0AE"
 			tasks: [{
 				id: "05A678D683E456AD"
@@ -3563,7 +3563,7 @@
 			x: -1.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "076FEDF607F4EFC6"
 			tasks: [{
 				id: "270D4F07E137FC47"
@@ -3596,7 +3596,7 @@
 			x: -0.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "2868D7A0EF373C25"
 			tasks: [{
 				id: "76FE49B8874C0104"
@@ -3629,7 +3629,7 @@
 			x: 0.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "32 Silver"
+			subtitle: "32 Серебра"
 			id: "09AD9D377AC72988"
 			tasks: [{
 				id: "0EA44EE1C7ADD2AB"
@@ -3662,7 +3662,7 @@
 			x: 1.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "584290368876B425"
 			tasks: [{
 				id: "77F3F2DBA746C89D"
@@ -3695,7 +3695,7 @@
 			x: 2.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "09A6B378B772D578"
 			tasks: [{
 				id: "30693F34B342251E"
@@ -3728,7 +3728,7 @@
 			x: 3.5d
 			y: 23.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "36564FF598EBA474"
 			tasks: [{
 				id: "165B551F90819346"
@@ -3761,7 +3761,7 @@
 			x: -3.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "635E61DFEF2C2C2A"
 			tasks: [{
 				id: "213DC20DEFD61280"
@@ -3794,7 +3794,7 @@
 			x: -2.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "6E864CDCF999B4AA"
 			tasks: [{
 				id: "3D49B4598A6DABF5"
@@ -3827,7 +3827,7 @@
 			x: -1.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "44DCE7EAB47F42CB"
 			tasks: [{
 				id: "6C4B0959B98F937C"
@@ -3860,7 +3860,7 @@
 			x: -0.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "3 Gold"
+			subtitle: "3 Золота"
 			id: "7A6EDAB72AC92EC2"
 			tasks: [{
 				id: "4358442FA3AA24C6"
@@ -3893,7 +3893,7 @@
 			x: 0.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "79B138737D0E5E7C"
 			tasks: [{
 				id: "60808E127B953BFF"
@@ -3926,7 +3926,7 @@
 			x: 1.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "48 Silver"
+			subtitle: "48 Серебра"
 			id: "594AEDFF1DC4E042"
 			tasks: [{
 				id: "3DB55AC2419E59A0"
@@ -3959,7 +3959,7 @@
 			x: 2.5d
 			y: 24.0d
 			shape: "hexagon"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			id: "6009926C9CA7D6DA"
 			tasks: [{
 				id: "501B959151A3BEC5"
@@ -3991,7 +3991,7 @@
 			x: -2.0d
 			y: 12.25d
 			shape: "circle"
-			subtitle: "16 Silver"
+			subtitle: "16 Серебра"
 			description: [
 				"Getting to the Brass Age is hard work!"
 				""
