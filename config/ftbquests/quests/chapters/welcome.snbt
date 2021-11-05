@@ -1,0 +1,232 @@
+{
+	id: "2EE5FBD9BD7C0265"
+	group: ""
+	order_index: 0
+	filename: "welcome"
+	title: "Вступление"
+	icon: "biomesoplenty:wildflower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Бесконечный Потенциал"
+			icon: "minecraft:gold_ore"
+			disable_toast: true
+			x: -3.5d
+			y: -5.0d
+			shape: "hexagon"
+			description: [
+				"Этот модпак был сделан для вас."
+				"Надеемся что вам он понравится."
+				""
+			]
+			size: 2.0d
+			id: "09356B3BEF298E06"
+			tasks: [{
+				id: "7670232EEE67FE29"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "732AA66A91BA5C2B"
+					type: "item"
+					item: "biomesoplenty:wildflower"
+				}
+				{
+					id: "1EE277823ACFB886"
+					type: "item"
+					item: "minecraft:flower_pot"
+				}
+			]
+		}
+		{
+			title: "Полностью Опционально"
+			icon: "minecraft:grass_block"
+			disable_toast: true
+			x: -3.5d
+			y: -2.5d
+			shape: "hexagon"
+			description: [
+				"Система Заданий поможет вам с основными направлениями развития в модпаке: &3Обмены&r и &6прогресирование технологий&r"
+				""
+				"Завершение заданий не является обязательным для совершения прогресса."
+			]
+			hide_dependency_lines: true
+			dependencies: ["09356B3BEF298E06"]
+			size: 1.5d
+			id: "69D55492A8F42A94"
+			tasks: [{
+				id: "0680791525813778"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "I"
+			icon: "create:cogwheel"
+			disable_toast: true
+			x: -4.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: [
+				"Описание Модпака:"
+				"Песочницу перевернули с ног на голову - будьте готовы изобрести ваши лучшие устройства в моде Create. "
+				"&7(или первые, если ещё не доводилось пробовать)"
+			]
+			dependencies: ["69D55492A8F42A94"]
+			size: 1.5d
+			id: "407236D2B1D2257D"
+			tasks: [{
+				id: "71C8186F3C7861F2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3D4250D2B4800C1C"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			title: "II"
+			icon: "create:large_cogwheel"
+			disable_toast: true
+			x: -3.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"Около 50 открытий лежат между вами и луной. "
+				""
+				"Тысячи компонентов будут проходить через постоянно растущую последовательность ваших машин, предоставляя средства для изучения следующего уровня технологий. "
+			]
+			dependencies: ["407236D2B1D2257D"]
+			size: 1.5d
+			id: "2C7ADB6C11B918B1"
+			tasks: [{
+				id: "36AF6DA4FFED8DC2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1BF6428DE53BC0FF"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
+		}
+		{
+			title: "III"
+			icon: "kubejs:andesite_machine"
+			disable_toast: true
+			x: -2.0d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"Вся ваша фабрика будет подвержена испытанию, когда конечные продукты поступят в Центр обработки данных, программируя компьютер управления вашим космическим кораблем."
+				""
+				"Каждый шаг отличается, некоторые могут даже отличаться в зависимости от сида создания вашего Мира."
+			]
+			dependencies: ["2C7ADB6C11B918B1"]
+			size: 1.5d
+			id: "1947C6CE179EBAC6"
+			tasks: [{
+				id: "235CD0501F0E807C"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4000DE1B90DA84CE"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+			}]
+		}
+		{
+			title: "IV"
+			icon: "thermal:machine_press"
+			disable_toast: true
+			x: -0.5d
+			y: 0.5d
+			shape: "hexagon"
+			description: [
+				"Надоело гриндить?"
+				""
+				"Финансируйте операцию монетами, предоставленными либо из различных поручений, либо из выбранных вами профессий. "
+				""
+				"Автоматически отправляйте продукцию со своих ферм или собирайте других игроков, чтобы помочь вам в вашей миссии."
+				""
+				"Затем вы можете приобрести всевозможные ресурсы, артефакты и строительные блоки на рынке, что немного облегчит вашу жизнь."
+			]
+			dependencies: ["1947C6CE179EBAC6"]
+			size: 1.5d
+			id: "58E38BA6D927409F"
+			tasks: [{
+				id: "3A69DCA5AB7A36F2"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "583C35BA7A7B9004"
+				type: "item"
+				item: "thermal:silver_coin"
+			}]
+		}
+		{
+			title: "Обзор Содержания Заданий"
+			icon: {
+				id: "occultism:book_of_calling_djinni_manage_machine"
+				Count: 1b
+				tag: {
+					spiritName: "Marredaeus"
+				}
+			}
+			disable_toast: true
+			x: -1.5d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"- &6Доска объявлений&r предоставляет возможности для заработка валюты для торговли."
+				"Здесь вы можете выполнить различные поручения или купить разрешение на профессию для использования в Торговом автомате."
+				""
+				"- &6Рынок&r дает вам возможность тратить свои деньги на различные забавные и полезные предметы и гаджеты."
+				""
+				"- &6Поставки&r являются автоматизированным способом обмена монет на ресурсы. Здесь вы можете купить Карты Импорта для использования в Торговом автомате."
+				""
+				"- &3Руководство по фабрике&r предоставляет полезную информацию для развития технологий и автоматизации. Все испытания, которые необходимо преодолеть, были аккуратно организованы в главы и задачи. Следовать этому руководству совершенно необязательно."
+				""
+				"- Раздел &3Металлургии&r дает информацию о способах превращения вашей руды в очищенный металл. Разные пути дают разные результаты."
+				""
+				"- &3Выручалки&r привлекают внимание ко всем этим небольшим утилитам, которые могут помочь вам преодолеть стоящие перед вами задачи."
+			]
+			dependencies: ["58E38BA6D927409F"]
+			size: 1.5d
+			id: "00003FCBB33E62C4"
+			tasks: [{
+				id: "181383A364ECB6F1"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "67E25D801A479C56"
+				type: "item"
+				item: "minecraft:writable_book"
+			}]
+		}
+		{
+			title: "Ну вот, вперёд!"
+			icon: "minecraft:gold_block"
+			disable_toast: true
+			x: 2.0d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"Теперь, когда у вас есть представление о том, что является новым, а что нет, устраивайтесь и начинайте свое путешествие."
+				"&7(меню открывается слева, если что)"
+			]
+			dependencies: ["00003FCBB33E62C4"]
+			size: 2.0d
+			id: "31EDFA6D2FF86CB0"
+			tasks: [{
+				id: "422CD0E2E5F2F158"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "27FC36C810ADB897"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+		}
+	]
+}
