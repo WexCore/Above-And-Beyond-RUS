@@ -9,12 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Sleepless"
+			title: "Бессонница"
 			icon: "minecraft:cyan_bed"
 			x: -9.5d
 			y: -1.5d
-			subtitle: "10 Silver"
-			description: ["Your last resort in case the sundown beat you to it."]
+			subtitle: "10 Серебра"
+			description: ["Ваше последнее средство на случай, если закат опередит вас."]
 			id: "5D17CB247942013A"
 			tasks: [{
 				id: "0783860FB502A201"
@@ -30,12 +30,12 @@
 			}]
 		}
 		{
-			title: "Fortress Locator"
+			title: "Локатор Крепости"
 			icon: "create:blaze_burner"
 			x: -7.5d
 			y: 0.5d
-			subtitle: "2 Gold"
-			description: ["Aimlessly traversing the nether is just the worst. This wonderful gadget will point you in the correct direction at all times."]
+			subtitle: "2 Золота"
+			description: ["Бесцельно пересекать Ад - это просто худшее. Этот замечательный гаджет укажет вас в правильном направлении в любой момент."]
 			id: "252B9DD5BFB8184A"
 			tasks: [{
 				id: "5345AA8760A95127"
@@ -57,7 +57,7 @@
 			}]
 		}
 		{
-			title: "Saw everything"
+			title: "Распили Всё"
 			icon: {
 				id: "cb_microblock:diamond_saw"
 				Count: 1b
@@ -75,8 +75,8 @@
 			}
 			x: -8.5d
 			y: -6.5d
-			subtitle: "5 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Kinetic Mechanisms&r."]
+			subtitle: "5 Золота"
+			description: ["Купите эту реликвию, чтобы минимизировать обслуживание инструмента в сборке &6Кинетических механизмов&r."]
 			hide_dependency_lines: true
 			id: "4F953BACF4D1C151"
 			tasks: [
@@ -121,7 +121,7 @@
 			}]
 		}
 		{
-			title: "Never Screwed"
+			title: "Никогда не закручивался"
 			icon: {
 				id: "projectred-core:screwdriver"
 				Count: 1b
@@ -135,8 +135,8 @@
 			}
 			x: -7.0d
 			y: -6.5d
-			subtitle: "7 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Precision Mechanisms&r."]
+			subtitle: "7 Золота"
+			description: ["Купите эту реликвию, чтобы минимизировать обслуживание инструмента в сборке &6Точных Механизмов&r."]
 			id: "72CACE8F0E4701B1"
 			tasks: [
 				{
@@ -179,7 +179,7 @@
 			}]
 		}
 		{
-			title: "Magnetic Energetic"
+			title: "Магнитно Энергичный"
 			icon: {
 				id: "kubejs:chromatic_resonator"
 				Count: 1b
@@ -193,8 +193,8 @@
 			}
 			x: -5.0d
 			y: -6.5d
-			subtitle: "9 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Inductive Mechanisms&r."]
+			subtitle: "9 Золота"
+			description: ["Купите эту реликвию, чтобы минимизировать обслуживание инструмента в сборке &6Индуктивных Механизмов&r."]
 			id: "43FC566E833BE834"
 			tasks: [
 				{
@@ -237,15 +237,15 @@
 			}]
 		}
 		{
-			title: "The Market"
+			title: "Рынок"
 			icon: "minecraft:chest"
 			x: -6.0d
 			y: -4.0d
 			shape: "hexagon"
 			description: [
-				"&6The Market&r gives you options to spend your money on a variety of fun and useful items and gadgets."
+				"&6Рынок&r дает вам возможность тратить свои деньги на различные веселые и полезные предметы и гаджеты."
 				""
-				"Have a look around. I'm sure you'll find something of use."
+				"Осмотритесь. Я уверен, что вы найдете что-то что вам пригодится."
 			]
 			size: 2.0d
 			id: "0F870BEA235D662D"
@@ -255,13 +255,13 @@
 			}]
 		}
 		{
-			title: "Manual Exchange"
+			title: "Ручной Обмен"
 			icon: { id: "thermal:silver_coin", Count: 16b }
 			x: -4.0d
 			y: -4.0d
 			shape: "circle"
-			subtitle: "Gold -> Silver"
-			description: ["Here you can exchange a Gold Coin back to a Stack of Silver."]
+			subtitle: "Золото -> Серебро"
+			description: ["Здесь вы можете обменять золотую монету на стак серебра."]
 			dependencies: ["0F870BEA235D662D"]
 			id: "5326F6482C45D22A"
 			tasks: [{
@@ -289,13 +289,13 @@
 			]
 		}
 		{
-			title: "Manual Exchange"
+			title: "Ручной Обмен"
 			icon: { id: "thermal:gold_coin", Count: 2b }
 			x: -8.0d
 			y: -4.0d
 			shape: "circle"
-			subtitle: "Silver -> Gold"
-			description: ["Some trades require you to hand in Gold Coins. These are worth a stack of Silver each."]
+			subtitle: "Серебро -> Золото"
+			description: ["В некоторых сделках необходимо сдавать Золотые монеты. Они стоят по стаку серебра каждая."]
 			dependencies: ["0F870BEA235D662D"]
 			id: "1A566C74B1F7F050"
 			tasks: [{
@@ -323,12 +323,12 @@
 			]
 		}
 		{
-			title: "Corporate Dinner"
+			title: "Корпоративный ужин"
 			icon: "farmersdelight:steak_and_potatoes"
 			x: -8.0d
 			y: -2.0d
-			subtitle: "10 Silver"
-			description: ["Sometimes you have to treat yourself and the co-workers to a nice meal."]
+			subtitle: "10 Серебра"
+			description: ["Иногда нужно побаловать себя и коллег хорошим обедом."]
 			id: "09DC2E2BE2BE32F4"
 			tasks: [{
 				id: "6235F365D702DF2B"
@@ -371,12 +371,12 @@
 			]
 		}
 		{
-			title: "Landfill Pickup"
+			title: "Подборка Грязи"
 			icon: "minecraft:dirt"
 			x: -6.0d
 			y: 0.0d
-			subtitle: "15 Silver"
-			description: ["Early on it might help to import some dirt for base building."]
+			subtitle: "15 Серебра"
+			description: ["На ранних этапах может помочь ввоз земли для строительства базы."]
 			id: "4B01606CE7AF3121"
 			tasks: [{
 				id: "188BEC2BA245DB13"
@@ -407,7 +407,7 @@
 			]
 		}
 		{
-			title: "Test of Patience"
+			title: "Проверка Терпения"
 			icon: {
 				id: "minecraft:barrel"
 				Count: 1b
@@ -420,8 +420,8 @@
 			}
 			x: -9.0d
 			y: 0.0d
-			subtitle: "50 Silver"
-			description: ["This mysterious fellow is offering a puzzle box with seemingly endless layers of depth. As an expert you know that this can only be finite. But what will await you at the bottom?"]
+			subtitle: "50 Серебра"
+			description: ["Этот таинственный чудак предлагает головоломку с бесконечными, на первый взгляд, слоями глубины. Как эксперт вы знаете, что она может быть только конечной. Но что ждет вас на дне?"]
 			id: "09EA580B3D32FEEB"
 			tasks: [{
 				id: "3EA558277444F605"
@@ -543,12 +543,12 @@
 			}]
 		}
 		{
-			title: "Enderpack"
+			title: "Эндерзак"
 			icon: "minecraft:shulker_box"
 			x: -4.5d
 			y: -0.5d
-			subtitle: "55 Silver"
-			description: ["It's like a backpack but classy."]
+			subtitle: "55 Серебра"
+			description: ["Это как рюкзак, но стильный."]
 			id: "4FD46F841CCD59F8"
 			tasks: [{
 				id: "709557A517B0143F"
@@ -576,7 +576,7 @@
 			]
 		}
 		{
-			title: "The Tinkerbox"
+			title: "Коробка Инженера"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -586,8 +586,8 @@
 			}
 			x: -2.5d
 			y: 1.5d
-			subtitle: "25 Silver"
-			description: ["\"I found this in an abandoned Workshop down the road; would you like to buy it?\""]
+			subtitle: "25 Серебра"
+			description: ["\"Я нашел это в заброшенной мастерской вниз по дороге; не хотите ли вы купить это?\""]
 			id: "0CCF34BF1C5829AE"
 			tasks: [{
 				id: "32ACF7B1C0BD9D97"
@@ -620,7 +620,7 @@
 			icon: "minecraft:totem_of_undying"
 			x: -3.0d
 			y: 0.0d
-			subtitle: "60 Silver"
+			subtitle: "60 Серебра"
 			id: "6D9F2FBEB7CC5195"
 			tasks: [{
 				id: "165B9A886A26BCC8"
@@ -636,12 +636,12 @@
 			}]
 		}
 		{
-			title: "Where mob ?"
+			title: "Где Моб ?"
 			icon: "create:haunted_bell"
 			x: -4.0d
 			y: 2.0d
-			subtitle: "45 Silver"
-			description: ["As seen on TV: This Magical Bell can detect unlit areas around it. Free shipping, bonus cursed campfire. What a Deal!"]
+			subtitle: "45 Серебра"
+			description: ["Как показывают по телевизору: Этот волшебный колокольчик может обнаруживать неосвещенные участки вокруг себя. Бесплатная доставка, бонус - проклятый костер. Какая сделка!"]
 			id: "4B52A04818075900"
 			tasks: [{
 				id: "4FB1B4787D648565"
@@ -664,7 +664,7 @@
 			]
 		}
 		{
-			title: "Windows Update"
+			title: "Обновление Винды"
 			icon: {
 				id: "kubejs:flash_drive"
 				Count: 1b
@@ -681,8 +681,8 @@
 			}
 			x: -3.5d
 			y: -6.5d
-			subtitle: "11 Gold"
-			description: ["Buy this relic to minimise the Tool Maintenance in the assembly of &6Calculation Mechanisms&r."]
+			subtitle: "11 Золота"
+			description: ["Купите эту реликвию, чтобы минимизировать обслуживание инструмента в сборке &6Подсчитывающих Механизмов&r."]
 			id: "00D6DD6AE8E3C014"
 			tasks: [
 				{
@@ -726,12 +726,12 @@
 			}]
 		}
 		{
-			title: "Press Express"
+			title: "Пресс Экспресс"
 			icon: "appliedenergistics2:silicon_press"
 			x: -1.0d
 			y: 2.0d
-			subtitle: "2 Gold"
-			description: ["In case you are struggling to find all the right Circuit Casts, we will sell you additional dice rolls!"]
+			subtitle: "2 Золота"
+			description: ["В случае, если вам не повезёт найти все нужные Прессы для Высекателя, мы продадим вам дополнительные попытки!"]
 			id: "4BAC95CCC72369AD"
 			tasks: [{
 				id: "3D328A6D69E64EDA"
@@ -818,12 +818,12 @@
 			]
 		}
 		{
-			title: "Adopt a Duck"
+			title: "Усыновите Утку"
 			icon: "minecraft:egg"
 			x: -11.0d
 			y: -2.0d
-			subtitle: "5 Silver"
-			description: ["Quack"]
+			subtitle: "5 Серебра"
+			description: ["Кря-Кря"]
 			id: "6C00F2935F27C2AD"
 			tasks: [
 				{
@@ -857,12 +857,12 @@
 			]
 		}
 		{
-			title: "Expensive Hobby"
+			title: "Дорогое Хобби"
 			icon: "buddycards:mystery_pack"
 			x: 0.5d
 			y: 1.5d
-			subtitle: "4 Gold"
-			description: ["Ah the joy of gambling."]
+			subtitle: "4 Золота"
+			description: ["Ах, радость азартных игр."]
 			id: "093FB7B7FEC6B886"
 			tasks: [{
 				id: "30B16CC21946FE8E"
@@ -889,12 +889,12 @@
 			]
 		}
 		{
-			title: "Playing with Fire"
+			title: "Играем с Огнём"
 			icon: "thermal:explosive_grenade"
 			x: -12.5d
 			y: -1.5d
-			subtitle: "32 Silver"
-			description: ["A little testing selection of Thermal Weaponry."]
+			subtitle: "32 Серебра"
+			description: ["Небольшая тестовая подборка из Thermal Weaponry."]
 			id: "1CC29991D5F248CA"
 			tasks: [{
 				id: "2BF8F9E5070C6122"
@@ -931,11 +931,11 @@
 			]
 		}
 		{
-			title: "Gardener's Starter Pack"
+			title: "Стартовый набор Садовника"
 			icon: "biomesoplenty:glowflower"
 			x: -2.5d
 			y: -1.5d
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "42384DE39AA48976"
 			tasks: [{
 				id: "05BB5DFA82280C0C"
@@ -978,11 +978,11 @@
 			]
 		}
 		{
-			title: "Painter's Starter Kit"
+			title: "Стартовый набор Художника"
 			icon: "minecraft:painting"
 			x: -9.5d
 			y: 1.5d
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "61B040CD0832EFC0"
 			tasks: [{
 				id: "6404722100F1DEF7"
@@ -1043,11 +1043,11 @@
 			]
 		}
 		{
-			title: "Railway Starter Pack"
+			title: "Стартовый набор Рельсоукладчика"
 			icon: "minecraft:minecart"
 			x: -11.0d
 			y: 2.0d
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "117587D824D23D69"
 			tasks: [{
 				id: "06C835DB602D6F9F"
@@ -1090,12 +1090,12 @@
 			]
 		}
 		{
-			title: "Handle with Care"
+			title: "Обращаться с Осторожностью"
 			icon: "minecraft:bedrock"
 			x: -1.0d
 			y: -2.0d
-			subtitle: "32 Gold"
-			description: ["Bedrock? How is this possible?"]
+			subtitle: "32 Золота"
+			description: ["Бедрок? Что за...?"]
 			id: "4E3CA739584CF5A3"
 			tasks: [{
 				id: "4090D8BF82115765"
@@ -1111,11 +1111,11 @@
 			}]
 		}
 		{
-			title: "Pet Owner's Starter Pack"
+			title: "Стартовый набор Владельца домашних животных"
 			icon: "minecraft:tropical_fish"
 			x: -13.0d
 			y: 0.0d
-			subtitle: "24 Silver"
+			subtitle: "24 Серебра"
 			id: "2D75D1864FB1EF75"
 			tasks: [{
 				id: "3AA788B63B6A73EF"
@@ -1157,12 +1157,12 @@
 			]
 		}
 		{
-			title: "Instant Aesthetics"
+			title: "Мгновенная Эстетика"
 			icon: "minecraft:oak_leaves"
 			x: 1.0d
 			y: 0.0d
-			subtitle: "24 Silver"
-			description: ["Not too stoked with your facade? Not a problem! Foliage solves everything."]
+			subtitle: "24 Серебра"
+			description: ["Не очень нравится ваш фасад? Не беда! Листва решает все."]
 			id: "7D93DAB3E8ACF953"
 			tasks: [{
 				id: "06028A67C6DCCD00"
