@@ -9,15 +9,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Build-a-Processing:"
+			title: "Конвейерная обработка руды:"
 			icon: "minecraft:gold_ore"
 			x: -9.0d
 			y: -4.0d
 			shape: "circle"
 			description: [
-				"A simple Overview of most options to process your way from Ore to Ingot."
+				"Здесь вы можете увидеть различные возможности по обработке вашей руды в слитки."
 				""
-				"For every path through this graph, the effective yield per ore can be estimated by multiplying the ratio of each included step."
+				"Для каждого пути этого графика объём получаемой руды может быть оценен путем умножения отношения каждого включенного шага."
 			]
 			id: "6B03056FA21424C0"
 			tasks: [{
@@ -26,7 +26,7 @@
 			}]
 		}
 		{
-			title: "Mining Tool"
+			title: "Добывающий инструмент"
 			icon: {
 				id: "minecraft:iron_pickaxe"
 				Count: 1b
@@ -36,7 +36,7 @@
 			}
 			x: -7.0d
 			y: -3.0d
-			subtitle: "1 to 1"
+			subtitle: "1 к 1"
 			dependencies: ["6B03056FA21424C0"]
 			id: "7967324CAC77AF60"
 			tasks: [{
@@ -45,7 +45,7 @@
 			}]
 		}
 		{
-			title: "I: Crushed"
+			title: "I: Дроблёная"
 			icon: "create:crushed_gold_ore"
 			x: -9.0d
 			y: -2.0d
@@ -62,7 +62,7 @@
 			}]
 		}
 		{
-			title: "Fortune"
+			title: "Удача"
 			icon: {
 				id: "minecraft:golden_pickaxe"
 				Count: 1b
@@ -76,7 +76,7 @@
 			}
 			x: -5.0d
 			y: -3.0d
-			subtitle: "1 to 1-2"
+			subtitle: "1 к 1-2"
 			dependencies: ["6B03056FA21424C0"]
 			id: "005F2C4E203E7E62"
 			tasks: [{
@@ -85,11 +85,11 @@
 			}]
 		}
 		{
-			title: "Pulverizing"
+			title: "Измельчение"
 			icon: "thermal:machine_pulverizer"
 			x: -3.0d
 			y: -1.0d
-			subtitle: "1 to 6"
+			subtitle: "1 к 6"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "623EE1E0678E4F2A"
 			tasks: [{
@@ -98,7 +98,7 @@
 			}]
 		}
 		{
-			title: "II: Dust"
+			title: "II: Пыль"
 			icon: "thermal:gold_dust"
 			x: -9.0d
 			y: 0.0d
@@ -116,12 +116,12 @@
 			}]
 		}
 		{
-			title: "IIIb: Liquid"
+			title: "IIIb: Жидкость"
 			icon: "tconstruct:molten_gold_bucket"
 			x: -8.5d
 			y: 2.0d
 			shape: "circle"
-			subtitle: "[in Nuggets]"
+			subtitle: "[в кусочках]"
 			dependencies: [
 				"18EDB4CD525CE110"
 				"715BBD0DF0136FF1"
@@ -135,7 +135,7 @@
 			}]
 		}
 		{
-			title: "IIIa: Nugget"
+			title: "IIIa: Кусочки"
 			icon: "minecraft:gold_nugget"
 			x: -9.5d
 			y: 2.0d
@@ -154,11 +154,11 @@
 			}]
 		}
 		{
-			title: "Smelting"
+			title: "Плавка"
 			icon: "minecraft:furnace"
 			x: -11.0d
 			y: -1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 к 3"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "21E76761CD3761C2"
 			tasks: [{
@@ -167,11 +167,11 @@
 			}]
 		}
 		{
-			title: "Crushing"
+			title: "Дробление"
 			icon: "create:crushing_wheel"
 			x: -5.0d
 			y: -1.0d
-			subtitle: "1 to 3-6"
+			subtitle: "1 к 3-6"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "352F5F851045653A"
 			tasks: [{
@@ -180,11 +180,11 @@
 			}]
 		}
 		{
-			title: "Milling"
+			title: "Помолка"
 			icon: "create:millstone"
 			x: -7.0d
 			y: -1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 к 3"
 			dependencies: ["612100C7C6E0A7C9"]
 			id: "3A81BC460AF1756D"
 			tasks: [{
@@ -193,11 +193,11 @@
 			}]
 		}
 		{
-			title: "Superheated Mixing"
+			title: "Перегретое смешивание"
 			icon: "create:mechanical_mixer"
 			x: -3.0d
 			y: 1.0d
-			subtitle: "1 to 6"
+			subtitle: "1 к 6"
 			dependencies: ["07BE7128982202A7"]
 			dependency_requirement: "one_completed"
 			id: "18EDB4CD525CE110"
@@ -207,11 +207,11 @@
 			}]
 		}
 		{
-			title: "Compacting by Press"
+			title: "Сжатие Прессом"
 			icon: "create:mechanical_press"
 			x: -11.0d
 			y: 3.0d
-			subtitle: "9 to 1"
+			subtitle: "9 к 1"
 			dependencies: ["29DABB5FDE6356E9"]
 			id: "1250AE58911C27A9"
 			tasks: [{
@@ -220,11 +220,11 @@
 			}]
 		}
 		{
-			title: "Induction Smelting"
+			title: "Индукционная плавка"
 			icon: "thermal:machine_smelter"
 			x: -13.0d
 			y: -1.0d
-			subtitle: "1 to 9-27"
+			subtitle: "1 к 9-27"
 			dependencies: ["612100C7C6E0A7C9"]
 			dependency_requirement: "one_completed"
 			id: "5FCCD2F720115D41"
@@ -234,11 +234,11 @@
 			}]
 		}
 		{
-			title: "Melting"
+			title: "Плавление"
 			icon: "tconstruct:smeltery_controller"
 			x: -7.0d
 			y: 1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 к 3"
 			dependencies: ["07BE7128982202A7"]
 			id: "715BBD0DF0136FF1"
 			tasks: [{
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			title: "IV: Ingot"
+			title: "IV: Слиток"
 			icon: "minecraft:gold_ingot"
 			x: -9.0d
 			y: 4.0d
@@ -265,11 +265,11 @@
 			}]
 		}
 		{
-			title: "Ingot Casting"
+			title: "Отливание слитков"
 			icon: "tconstruct:seared_table"
 			x: -7.0d
 			y: 3.0d
-			subtitle: "9 to 1"
+			subtitle: "9 к 1"
 			dependencies: ["6509024553997AB0"]
 			id: "1A5A81CA749DAB2A"
 			tasks: [{
@@ -278,11 +278,11 @@
 			}]
 		}
 		{
-			title: "Compacting by Drawer"
+			title: "Сжатие в Ящике"
 			icon: "storagedrawers:compacting_drawers_3"
 			x: -13.0d
 			y: 3.0d
-			subtitle: "9 to 1"
+			subtitle: "9 к 1"
 			dependencies: ["29DABB5FDE6356E9"]
 			id: "746F9F4F21D8400D"
 			tasks: [{
@@ -291,11 +291,11 @@
 			}]
 		}
 		{
-			title: "Smelting Dust"
+			title: "Плавка пыли"
 			icon: "minecraft:furnace"
 			x: -13.0d
 			y: 1.0d
-			subtitle: "1 to 1"
+			subtitle: "1 к 1"
 			dependencies: ["07BE7128982202A7"]
 			id: "171A0F26C6608E83"
 			tasks: [{
@@ -304,11 +304,11 @@
 			}]
 		}
 		{
-			title: "Washing"
+			title: "Промывка"
 			icon: "create:encased_fan"
 			x: -15.0d
 			y: 1.0d
-			subtitle: "1 to 2"
+			subtitle: "1 к 2"
 			dependencies: ["07BE7128982202A7"]
 			id: "2C2E304910D7F33D"
 			tasks: [{
@@ -317,11 +317,11 @@
 			}]
 		}
 		{
-			title: "Foundry Melting"
+			title: "Литейная плавка"
 			icon: "tconstruct:foundry_controller"
 			x: -5.0d
 			y: 1.0d
-			subtitle: "1 to 3"
+			subtitle: "1 к 3"
 			dependencies: ["07BE7128982202A7"]
 			id: "409A50CBCDBBA1F0"
 			tasks: [{
