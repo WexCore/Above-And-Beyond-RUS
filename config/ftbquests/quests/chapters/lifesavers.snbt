@@ -9,11 +9,11 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Choo Choo"
+			title: "Чу Чууу"
 			icon: "minecraft:chest_minecart"
 			x: -2.0d
 			y: 1.0d
-			description: ["Minecarts are the most flexible mid-range item transport available to you. Seriously, once you've build one railway connection to transfer items between areas, you will never be able to stop adding more. The convenience of these loaders is just off the charts."]
+			description: ["Вагонетки - это самый гибкий средний транспорт для перевозки предметов. Серьезно, как только вы построите одну железную дорогу для передачи предметов между областями, вы никогда не сможете прекратить добавлять новые. Удобство этих погрузчиков просто зашкаливает.."]
 			id: "2A2FA80784667833"
 			tasks: [
 				{
@@ -42,16 +42,16 @@
 			}]
 		}
 		{
-			title: "Control Centre"
+			title: "Центр Контроля"
 			icon: "projectred-illumination:red_inverted_fixture_light"
 			x: -4.0d
 			y: 1.0d
 			description: [
-				"With new circuitry and wiring capability, you can make your factory a little smarter. Also those lamps you can make are really pretty."
+				"Благодаря новым схемам и возможностям проводки, вы можете сделать свою фабрику немного умнее. Кроме того, лампы, которые вы можете сделать, очень красивы."
 				""
-				"For an actual piece of advice: it is pretty simple to set up a little circuit at a few points in your factory, which detect when an item has not been produced in a while. You can use redstone links to redirect those signals to a central control room, giving you an overview of which sections require maintenance."
+				"Что касается реального совета: довольно просто установить в нескольких точках вашей фабрики небольшие цепи, которые определяют, когда предмет не производился в течение некоторого времени. Вы можете использовать связи из красного камня, чтобы перенаправить эти сигналы в комнату контроля, что даст вам представление о том, какие участки требуют обслуживания."
 				""
-				"The circuit on site is basically a tug of war between a slow timer and a content observer detecting the items. The Counter available from circuit stonecutting works perfectly for this."
+				"Схема на месте представляет собой перетягивание каната между медленным таймером и наблюдателем, обнаруживающим предметы. Счетчик отлично подходит для этого."
 			]
 			id: "1127129CBA2B5E6F"
 			tasks: [
@@ -89,10 +89,10 @@
 			}]
 		}
 		{
-			title: "Engineer's Companion"
+			title: "Компаньон Инженера"
 			x: -5.0d
 			y: -1.0d
-			description: ["Especially while building new Contraptions, this gadget is incredibly handy. Instead of filling up your pockets with components, simply pick up the toolbox from the workshop and bring it with you."]
+			description: ["Особенно при создании новых устройств, этот гаджет невероятно удобен. Вместо того чтобы набивать карманы компонентами, просто заберите ящик с инструментами из мастерской и возьмите его с собой."]
 			id: "26C39961F2E2ABF2"
 			tasks: [{
 				id: "5E687A6CBD96D0EF"
@@ -115,13 +115,13 @@
 			}]
 		}
 		{
-			title: "Immersive Minimap"
+			title: "Иммерсивная Мини-карта"
 			x: -6.0d
 			y: -3.0d
 			description: [
-				"A cute alternative to the all-powerful map hud is the atlas."
+				"Есть и симпатичная альтернатива всемогущей стандартной миникарте - атлас."
 				""
-				"Aside from the fantastic feel and design; these atlases can be copied and handed to your friends. If one of the owners explores new Territory or places a marker, everyone else will see it too."
+				"Помимо классных ощущений и дизайна, эти атласы можно копировать и передавать друзьям. Если один из владельцев исследует новую территорию или ставит отметку, все остальные тоже увидят это."
 			]
 			id: "0B8816319F81C12A"
 			tasks: [{
@@ -144,10 +144,10 @@
 			]
 		}
 		{
-			title: "Big Barrels II"
+			title: "Большие Бочки II"
 			x: 1.0d
 			y: 3.0d
-			description: ["If you are looking for extra large but specialised storage space in a block, check out Storage Drawers."]
+			description: ["Если вам нужно дополнительное большое, но специализированное место для хранения в блоке, обратите внимание на Storage Drawers."]
 			id: "382EBC32AC27C839"
 			tasks: [{
 				id: "4BE344E1F204A43D"
@@ -170,10 +170,10 @@
 			}]
 		}
 		{
-			title: "The Joy of Cooking"
+			title: "Радость Кулинарии"
 			x: 0.0d
 			y: -3.0d
-			description: ["Stoves are a good-looking and very useful campfire alternative. Together with a Cooking Pot, it can help you prepare the most delicious meals in the game."]
+			description: ["Кухонная плита - это красивая и очень полезная альтернатива костру. Вместе с котелком она поможет вам приготовить самые вкусные блюда в игре."]
 			id: "0E4476BA80B316F6"
 			tasks: [{
 				id: "72F2D3B586A81A2B"
@@ -188,10 +188,10 @@
 			}]
 		}
 		{
-			title: "Hotswap replace"
+			title: "Горячая Замена"
 			x: -3.0d
 			y: -1.0d
-			description: ["Exchangers make for a nice tool to replace blocks with others. Saves you a lot of digging."]
+			description: ["Exchangers - хорошие инструменты для замены блоков на другие. Это сэкономит вам много времени на копании."]
 			id: "6D7D504E9DC22590"
 			tasks: [{
 				id: "4BE0CCD6F383D961"
@@ -452,10 +452,10 @@
 			}]
 		}
 		{
-			title: "Blockstacker"
+			title: "Блокчейн"
 			x: -1.0d
 			y: -1.0d
-			description: ["Construction wands can extend complete walls or surfaces of blocks by the click of a button."]
+			description: ["Строительные палочки могут воздвигать целые стены или поверхности блоков одним нажатием кнопки."]
 			id: "2F469F6F1511D9C4"
 			tasks: [{
 				id: "039DD9EBD46B2C23"
@@ -510,10 +510,10 @@
 			}]
 		}
 		{
-			title: "Pass me the butter"
+			title: "Передай мне масло"
 			x: 3.0d
 			y: -1.0d
-			description: ["Human Arms just aren't evolved to build machines efficiently, yet. Thankfully this gadget can make up for it by increasing your reach distance significantly."]
+			description: ["Человеческие руки просто еще не развиты для эффективного создания машин. К счастью, этот гаджет может компенсировать это, значительно увеличив расстояние досягаемости."]
 			id: "7061F42CF050ADCA"
 			tasks: [{
 				id: "0710C744349D2090"
@@ -537,7 +537,7 @@
 		{
 			x: -4.0d
 			y: -3.0d
-			description: ["Sometimes it is desirable to travel to a specific Biome. The Nature's Compass can at least point you in the right direction."]
+			description: ["Иногда хочется отправиться в определенный биом. Компас природы может по крайней мере указать вам правильное направление."]
 			id: "45E7810E21F6F9AE"
 			tasks: [{
 				id: "7AD38BD1318A493B"
@@ -557,10 +557,10 @@
 			}]
 		}
 		{
-			title: "Big Barrels"
+			title: "Большие Бочки"
 			x: -1.0d
 			y: 3.0d
-			description: ["In case you need large universal storage space in a block, check out the upgrade options for wooden barrels."]
+			description: ["Если вам нужно большое универсальное пространство для хранения в блоке, ознакомьтесь с вариантами модернизации деревянных бочек."]
 			id: "50E2D6459F3D68C0"
 			tasks: [{
 				id: "6D6CDA4DEFD5795F"
@@ -600,10 +600,10 @@
 			}]
 		}
 		{
-			title: "House Building Cannon"
+			title: "Домостроительная Пушка"
 			x: 1.0d
 			y: -1.0d
-			description: ["With the help of Schematicannons, any .nbt Schematic can be built into your world. Use it to replicate parts of your Building, or even to prepare it in a completely different World ahead of time."]
+			description: ["С помощью Схематичной Пушки любая схема .nbt может быть выстроена в ваш мир. Используйте ее для воспроизведения частей вашего здания или даже для того, чтобы заранее подготовить его в совершенно другом мире."]
 			id: "09EB29F838620371"
 			tasks: [{
 				id: "103E6982FCFE8B6C"
@@ -618,13 +618,13 @@
 			}]
 		}
 		{
-			title: "Big Plans"
+			title: "Большие Планы"
 			x: 2.0d
 			y: -3.0d
 			description: [
-				"These Blueprints can be given one or more crafting recipes, which they then apply to your held items whenever you right-click them."
+				"Этим чертежам можно дать один или несколько рецептов изготовления, которые затем применяются к удерживаемым предметам, когда вы щелкаете по ним правой кнопкой мыши."
 				""
-				"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
+				"Самый быстрый и эффективный способ назначения рецептов - найти рецепт в JEI при открытом пользовательском интерфейсе чертежа. Нажав на "+" в окне просмотра рецепта JEI, вы перенесете ингредиенты рецепта в чертеж."
 			]
 			id: "6D900619B1967D72"
 			tasks: [{
@@ -640,13 +640,13 @@
 			}]
 		}
 		{
-			title: "Pressure Tube"
+			title: "Напорная Трубка"
 			x: 0.0d
 			y: 1.0d
 			description: [
-				"Belts and Arms are great, but sometimes we will still give in to the guilty pleasure of using item pipes."
+				"Ремни и Манипуляторы - это здорово, но иногда мы все же поддаемся постыдному удовольствию в использовании предметных трубок."
 				""
-				"These tubes however can even serve as a pretty sophisticated logistical infrastructure. Blocks like the Item- or Crafting Terminal will be able to request items from any chests connected to them."
+				"Однако эти трубы могут служить даже в качестве довольно сложной логистической инфраструктуры. Такие блоки, как терминал предметов или крафтинга, смогут запрашивать предметы из любых подключенных к ним сундуков."
 			]
 			id: "334146C815B304DB"
 			tasks: [{
@@ -662,13 +662,13 @@
 			}]
 		}
 		{
-			title: "Induction Conduits"
+			title: "Индукционные Проводники"
 			x: 2.0d
 			y: 1.0d
 			description: [
-				"With the rise of Inductive Machinery, you'll want to have the option to connect dynamos and machines together in an energy grid."
+				"С появлением индуктивных машин вы захотите иметь возможность соединять динамо-машины и машины в энергетическую сеть.."
 				""
-				"Something to look out for is that these ducts do not always know when to extract power from a block. You can use a Wrench to sneak-click the pipe connection near the block in order to enable/disable pulling."
+				"Следует обратить внимание на то, что эти Ducts не всегда знают, когда нужно отбирать энергию от блока. Вы можете использовать гаечный ключ, чтобы незаметно щелкнуть по соединению трубы рядом с блоком, чтобы включить/выключить вытягивание.."
 			]
 			id: "6BC864CC7CB2C316"
 			tasks: [{
@@ -685,10 +685,10 @@
 			}]
 		}
 		{
-			title: "Bottoms up!"
+			title: "Дном Кверху!"
 			x: -7.0d
 			y: -1.0d
-			description: ["You can use a Keg to create your favourite brews. Drink Responsibly."]
+			description: ["Вы можете использовать бочонок для создания своих любимых сортов пива. Только пейте ответственно."]
 			id: "7D63FF6A2243A06B"
 			tasks: [{
 				id: "3AD6B6675D0D19D0"
@@ -704,10 +704,10 @@
 			}]
 		}
 		{
-			title: "Friend?"
+			title: "Друг?"
 			x: 1.0d
 			y: -5.0d
-			description: ["Placing a Carved Pumpkin on a Hay Bale creates a Straw Golem, who can take care of your crops."]
+			description: ["Размещение резной тыквы на блок сена создает соломенного голема, который будет заботиться о ваших посевах."]
 			id: "1DBFD0B34659A8F9"
 			tasks: [
 				{
@@ -731,10 +731,10 @@
 			}]
 		}
 		{
-			title: "Roll for Intelligence"
+			title: "Бросок на Интеллект"
 			x: 4.0d
 			y: -3.0d
-			description: ["Sometimes it is hard to make up ones' mind. Thankfully, we have technology to help us make our decision."]
+			description: ["Иногда бывает трудно принять решение. К счастью, у нас есть технологии, которые помогают нам принять решение."]
 			id: "087659F192F41C6E"
 			tasks: [{
 				id: "0F82D1FCCA10EFBC"
