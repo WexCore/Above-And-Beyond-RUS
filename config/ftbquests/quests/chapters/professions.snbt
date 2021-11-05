@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Miner"
+			title: "Шахтер"
 			icon: {
 				id: "tconstruct:pickaxe"
 				Count: 1b
@@ -59,7 +59,7 @@
 			x: -6.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell &6Igneous Rocks&f, &6Metal Ores&f, &6Gems&f and more with the Mining permit."]
+			description: ["Продавайте &6Магматические породы&f, &6Металические рубы&f, &6Самоцветы&f и многое другое с разрешением на добычу полезных ископаемых."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "1E26046FA8177616"
@@ -88,7 +88,7 @@
 			]
 		}
 		{
-			title: "Farmer"
+			title: "Фермер"
 			icon: {
 				id: "tconstruct:kama"
 				Count: 1b
@@ -148,7 +148,7 @@
 			x: -8.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell &6Crops&f, &6Flowers&f, &6Honey&f and more with the Farming permit."]
+			description: ["Продавайте &6сельскохозяйственные культуры&f, &6Цветы&f, &6Мёд&f и многое другое с помощью разрешения на ведение сельского хозяйства."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "12B37E99B1D3837E"
@@ -177,7 +177,7 @@
 			]
 		}
 		{
-			title: "Carpenter"
+			title: "Плотник"
 			icon: {
 				id: "tconstruct:hand_axe"
 				Count: 1b
@@ -227,7 +227,7 @@
 			x: -7.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell &6Wood Logs&f with the Carpentry permit."]
+			description: ["Продавайте &6Брёвна&f с разрешением на плотницкие работы."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "3A48FDC224D029BF"
@@ -256,7 +256,7 @@
 			]
 		}
 		{
-			title: "Chef"
+			title: "Шеф-повар"
 			icon: {
 				id: "farmersdelight:golden_knife"
 				Count: 1b
@@ -267,7 +267,7 @@
 			x: -2.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell &6Prepared Food&f with the Cooking permit."]
+			description: ["Продавайте &6Готовую еду&f с разрешением на приготовление пищи."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "66DA9BE9277FABF1"
@@ -296,7 +296,7 @@
 			]
 		}
 		{
-			title: "Mason"
+			title: "Каменщик"
 			icon: {
 				id: "tconstruct:sledge_hammer"
 				Count: 1b
@@ -355,7 +355,7 @@
 			x: 0.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell mass-produced &6Building Blocks&f for a profit with the Masonry permit."]
+			description: ["Продавайте многочисленные &6Строительные блоки&f для получения прибыли с разрешением на кладку."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "683AA93BE7DEA512"
@@ -384,7 +384,7 @@
 			]
 		}
 		{
-			title: "Hunter"
+			title: "Охотник"
 			icon: {
 				id: "tconstruct:sword"
 				Count: 1b
@@ -433,7 +433,7 @@
 			x: -5.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell all manner of &6Monster Loot&f with the Hunting permit."]
+			description: ["Продавайте всевозможный &6Лут с монстров&f с разрешением на охоту."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "66DDDE912A191E57"
@@ -462,15 +462,15 @@
 			]
 		}
 		{
-			title: "Professions"
+			title: "Профессии"
 			icon: "minecraft:writable_book"
 			x: -3.5d
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"Taking on a &6Profession&r gives you access to a more consistent source of income."
+				"Занятие &6Профессией& дает вам доступ к более постоянному источнику дохода."
 				""
-				"The Profession Cards bought here act as a \"Permit\". All they do is unlock the respective recipes in the Trading Machine. You can absolutely have multiple of these."
+				"Карты профессий, купленные здесь, действуют как \"пермит\". Все, что они делают, это разблокируют соответствующие рецепты в Торговой машине. Вы можете иметь несколько таких карт."
 			]
 			dependencies: ["36E02479368EAF04"]
 			id: "59B17CA4AA6D0DD4"
@@ -480,14 +480,14 @@
 			}]
 		}
 		{
-			title: "The Bulletin Board"
+			title: "Доска Объявлений"
 			icon: "minecraft:oak_sign"
 			x: -3.5d
 			y: -6.5d
 			shape: "hexagon"
 			description: [
-				"&6The Bulletin Board&r provides means to earn currency for Trading."
-				"Here you can complete various errands or buy a profession permit for use in the Trading Machine."
+				"&6Доска Объявлений&r предоставляет возможность зарабатывать валюту для торговли."
+				"Здесь вы можете выполнить различные поручения или купить пермиты для использования в Торговом автомате."
 			]
 			size: 2.0d
 			id: "36E02479368EAF04"
@@ -497,11 +497,11 @@
 			}]
 		}
 		{
-			title: "Sapling Collection"
+			title: "Коллекция саженцев"
 			icon: "minecraft:oak_sapling"
 			x: -4.5d
 			y: -4.0d
-			subtitle: "25 Silver"
+			subtitle: "25 Серебра"
 			id: "41BB50843EF5EF10"
 			tasks: [
 				{
@@ -544,7 +544,7 @@
 			}]
 		}
 		{
-			title: "Fisherman"
+			title: "Рыбак"
 			icon: {
 				id: "aquaculture:gold_fishing_rod"
 				Count: 1b
@@ -555,7 +555,7 @@
 			x: -1.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell &6Fish&f and Subterranean &6Treasure&f with the Fishing permit."]
+			description: ["Продавайте &6Рыбу&f и подземные &6Сокровища&f с разрешением на рыбную ловлю."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "6C0EC278451434AC"
@@ -584,12 +584,12 @@
 			]
 		}
 		{
-			title: "Government Funding"
+			title: "Государственное финансирование"
 			icon: "minecraft:book"
 			x: -2.5d
 			y: -3.5d
-			subtitle: "15 Silver"
-			description: ["Write an application explaining why exactly your organisation is worth investing in."]
+			subtitle: "15 Серебра"
+			description: ["Напишите заявление, в котором объясните, почему именно ваша организация заслуживает инвестирования."]
 			id: "736FC31210F334F2"
 			tasks: [{
 				id: "7D2F867FD8A5A68A"
@@ -609,7 +609,7 @@
 			}]
 		}
 		{
-			title: "Blacksmith"
+			title: "Кузнец"
 			icon: {
 				id: "minecraft:golden_chestplate"
 				Count: 1b
@@ -620,7 +620,7 @@
 			x: 1.0d
 			y: -8.0d
 			shape: "hexagon"
-			description: ["Sell &6Tools&f, &6Armour&f and more with the Smithing permit."]
+			description: ["Продавайте &6Инструменты&f, &6Броню&f и многое другое с помощью разрешения на кузнечное дело."]
 			hide_dependency_lines: true
 			dependencies: ["59B17CA4AA6D0DD4"]
 			id: "32C46B11BDAD7632"
@@ -649,11 +649,11 @@
 			]
 		}
 		{
-			title: "Plentiful Sapling Collection"
+			title: "Обильная коллекция саженцев"
 			icon: "biomesoplenty:flowering_oak_sapling"
 			x: -4.5d
 			y: -2.5d
-			subtitle: "45 Silver"
+			subtitle: "45 Серебра"
 			dependencies: ["41BB50843EF5EF10"]
 			id: "08DB1CFAE4555525"
 			tasks: [
@@ -697,11 +697,11 @@
 			}]
 		}
 		{
-			title: "Mineral Collection"
+			title: "Минеральная коллекция"
 			icon: "thermal:sulfur"
 			x: -1.0d
 			y: -4.5d
-			subtitle: "25 Silver"
+			subtitle: "25 Серебра"
 			id: "128F1A9528CA4130"
 			tasks: [
 				{
@@ -739,11 +739,11 @@
 			}]
 		}
 		{
-			title: "Plentiful Mineral Collection"
+			title: "Обильная коллекция минералов"
 			icon: "thermal:ruby"
 			x: -1.0d
 			y: -3.0d
-			subtitle: "45 Silver"
+			subtitle: "45 Серебра"
 			dependencies: ["128F1A9528CA4130"]
 			id: "669D57A1E1B09CD8"
 			tasks: [
@@ -782,12 +782,12 @@
 			}]
 		}
 		{
-			title: "The lost Tapes"
+			title: "Потерянные записи"
 			icon: "minecraft:music_disc_13"
 			x: -6.0d
 			y: -4.5d
-			subtitle: "32 Silver"
-			description: ["A friendly Record Collector is interested in any discs you find on your travels."]
+			subtitle: "32 Серебра"
+			description: ["Дружелюбный Коллекционер Пластинок заинтересован в любых дисках, которые вы найдете в своих путешествиях."]
 			id: "436DA1A1AB8C0734"
 			tasks: [{
 				id: "28EC11DE8335B74A"
@@ -882,11 +882,11 @@
 			]
 		}
 		{
-			title: "Igneous Sample Collection"
+			title: "Коллекция магматических пород"
 			icon: "minecraft:granite"
 			x: 0.5d
 			y: -4.0d
-			subtitle: "25 Silver"
+			subtitle: "25 Серебра"
 			id: "2A9AAED667A95C6E"
 			tasks: [
 				{
@@ -935,11 +935,11 @@
 			}]
 		}
 		{
-			title: "Plentiful Igneous Sample Collection"
+			title: "Обильная коллекция магматических пород"
 			icon: "minecraft:basalt"
 			x: 0.5d
 			y: -2.5d
-			subtitle: "45 Silver"
+			subtitle: "45 Серебра"
 			dependencies: ["2A9AAED667A95C6E"]
 			id: "7D92D05B4A67FD78"
 			tasks: [
@@ -989,11 +989,11 @@
 			}]
 		}
 		{
-			title: "Landfill Dropoff"
+			title: "Свалка мусора"
 			x: 2.0d
 			y: -5.0d
-			subtitle: "15 Silver"
-			description: ["If you've been terraforming, feel free to send some excess dirt to this Project."]
+			subtitle: "15 Серебра"
+			description: ["Если вы занимаетесь терраформированием, не стесняйтесь присылать сюда излишки грязи."]
 			id: "1C5EA1173F4E592B"
 			tasks: [{
 				id: "0A99B239D9EA5B0B"
@@ -1010,11 +1010,11 @@
 			}]
 		}
 		{
-			title: "Crops Collection"
+			title: "Коллекция сельскохозяйственных культур"
 			icon: "minecraft:carrot"
 			x: -7.5d
 			y: -4.0d
-			subtitle: "25 Silver"
+			subtitle: "25 Серебра"
 			id: "4D07666ECE75D9B5"
 			tasks: [
 				{
@@ -1063,11 +1063,11 @@
 			}]
 		}
 		{
-			title: "Plentiful Crops Collection"
+			title: "Обильная коллекция сельскохозяйственных культур"
 			icon: "farmersdelight:rice_panicle"
 			x: -7.5d
 			y: -2.5d
-			subtitle: "45 Silver"
+			subtitle: "45 Серебра"
 			dependencies: ["4D07666ECE75D9B5"]
 			id: "3F2FB159F1B8875F"
 			tasks: [
@@ -1117,11 +1117,11 @@
 			}]
 		}
 		{
-			title: "Ancient Life"
+			title: "Древняя жизнь"
 			icon: "minecraft:bone"
 			x: -9.0d
 			y: -3.0d
-			subtitle: "55 Silver"
+			subtitle: "55 Серебра"
 			id: "7932D19BE114264A"
 			tasks: [
 				{
@@ -1156,10 +1156,10 @@
 			}]
 		}
 		{
-			title: "Hunt the Undead"
+			title: "Охота на нежить"
 			x: -2.5d
 			y: -1.5d
-			subtitle: "30 Silver"
+			subtitle: "30 Серебра"
 			id: "7C270AB26CD9AAB8"
 			tasks: [{
 				id: "0C72441783664753"
@@ -1177,10 +1177,10 @@
 			}]
 		}
 		{
-			title: "Hunt the Undead II"
+			title: "Охота на нежить II"
 			x: -1.0d
 			y: -1.0d
-			subtitle: "50 Silver"
+			subtitle: "50 Серебра"
 			id: "29B58A9EDA478E7D"
 			tasks: [{
 				id: "6C65780CF2751821"
@@ -1198,10 +1198,10 @@
 			}]
 		}
 		{
-			title: "Hunt the Arthropods"
+			title: "Охота на членистоногих"
 			x: -4.0d
 			y: -1.0d
-			subtitle: "50 Silver"
+			subtitle: "50 Серебра"
 			id: "1AA2C3EECE1832EE"
 			tasks: [{
 				id: "60B3526FA0D6A2AF"
@@ -1219,10 +1219,10 @@
 			}]
 		}
 		{
-			title: "Traders' Finest"
+			title: "Лучшее от торговцев"
 			x: -6.0d
 			y: -2.0d
-			subtitle: "2 Gold"
+			subtitle: "2 Золота"
 			id: "3F00084D9474C381"
 			tasks: [{
 				id: "2CA6E7602A5FBCF5"
@@ -1238,10 +1238,10 @@
 			}]
 		}
 		{
-			title: "The Ranch"
+			title: "Ранчо"
 			x: -9.5d
 			y: -1.5d
-			subtitle: "15 Silver"
+			subtitle: "15 Серебра"
 			id: "562696C1D01B2685"
 			tasks: [{
 				id: "07132D69A1BA37B5"
@@ -1260,11 +1260,11 @@
 			}]
 		}
 		{
-			title: "Ore Collection"
+			title: "Коллекция Руд"
 			icon: "create:crushed_gold_ore"
 			x: 2.5d
 			y: -3.0d
-			subtitle: "30 Silver"
+			subtitle: "30 Серебра"
 			id: "39D56A2B01DBD865"
 			tasks: [
 				{
@@ -1313,7 +1313,7 @@
 			}]
 		}
 		{
-			title: "Revenge"
+			title: "Месть"
 			icon: {
 				id: "minecraft:crossbow"
 				Count: 1b
@@ -1323,8 +1323,8 @@
 			}
 			x: -9.5d
 			y: -4.5d
-			subtitle: "10 Silver"
-			description: ["Defeat those intruders, and you'll have the support from nearby villages."]
+			subtitle: "10 Серебра"
+			description: ["Победите незваных гостей, и вас поддержат жители близлежащих деревень."]
 			id: "76E3B76D47A1F889"
 			tasks: [
 				{
@@ -1421,10 +1421,10 @@
 			]
 		}
 		{
-			title: "Keeping in Shape"
+			title: "Поддерживая тонус"
 			x: 2.0d
 			y: -1.5d
-			subtitle: "60 Silver"
+			subtitle: "60 Серебра"
 			id: "2F2BA8C2AC2E0B93"
 			tasks: [{
 				id: "374CDBF68F90BDC9"
