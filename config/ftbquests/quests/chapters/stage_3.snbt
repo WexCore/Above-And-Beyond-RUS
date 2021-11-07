@@ -9,17 +9,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Chapter 3 Start!"
+			title: "Начало 3 главы!"
 			icon: "create:precision_mechanism"
 			x: -1.5d
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"Working towards a passive supply of Radiant Induction Coils, you'll be sure to encounter some new and unfamiliar tasks. "
+				"Работая над пассивным снабжением сияющих индукционных катушек, вы обязательно столкнетесь с некоторыми новыми, ранее незнакомыми задачами."
 				""
-				"Once again it's time to grab the Wrench, re-stock the toolbox and to clear out a new plot."
+				"Снова пришло время взять гаечный ключ, пополнить запас инструментов и расчистить новый участок."
 				""
-				"Happy Creating!"
+				"Счастливого творчества!"
 			]
 			dependencies: ["780E8AE86250C73D"]
 			hide: true
@@ -36,16 +36,16 @@
 			}]
 		}
 		{
-			title: "Let there be light"
+			title: "Да будет свет"
 			icon: "minecraft:torch"
 			x: -6.5d
 			y: 3.5d
 			shape: "circle"
-			subtitle: "Contraption 27"
+			subtitle: "Механизм #27"
 			description: [
-				"The production of Refined Radiance requires either a steady supply of light emitting blocks, or an active Beacon Beam."
+				"Для производства изысканого сияния требуется либо постоянный запас светоизлучающих блоков, либо активный луч маяка."
 				""
-				"Choose which path you would like to take, and provide necessary preparation/automation."
+				"Выберите, по какому пути вы хотите пойти, и обеспечьте необходимые приготовления/автоматизацию."
 			]
 			hide_dependency_lines: true
 			dependencies: ["397232F676CB621B"]
@@ -56,12 +56,12 @@
 			}]
 		}
 		{
-			title: "Your Favourite Colour"
+			title: "Ваш любимый цвет"
 			icon: "minecraft:rose_bush"
 			x: 0.0d
 			y: 7.0d
-			subtitle: "Contraption 25"
-			description: ["For production of chromatic materials, a colour pigment is needed. It is up to you which colour dye should be automated for this purpose. The only exception is white dye."]
+			subtitle: "Механизм #25"
+			description: ["Для производства хроматических материалов необходим цветной пигмент. Какой именно цветной краситель должен быть автоматизирован для этой цели - решать вам. Ну кроме белого, он не подойдёт."]
 			dependencies: ["402F89CABF6BCDA4"]
 			id: "27C191346BB14D9D"
 			tasks: [
@@ -147,14 +147,14 @@
 			]
 		}
 		{
-			title: "Spectral Correction (Red)"
+			title: "Спектральная коррекция (Красный)"
 			x: -0.85d
 			y: 9.0d
 			shape: "circle"
 			description: [
-				"Crushing Dyed Singularities has a chance to yield little orbs of red colour."
+				"При дроблении окрашенных сингулярностей есть шанс получить маленькие шарики красного цвета."
 				""
-				"Since this is not the colour needed for chromatic compound, you can use Item Drains for frequency correction."
+				"Поскольку это не тот цвет, который нужен для хроматического соединения, вы можете использовать предметный осушитель для коррекции частоты."
 			]
 			dependencies: ["2CCD84D55DE71EB2"]
 			id: "3B421C8F7947E542"
@@ -166,14 +166,14 @@
 			}]
 		}
 		{
-			title: "Spectral Correction (Yellow)"
+			title: "Спектральная коррекция (Жёлтый)"
 			x: -2.0d
 			y: 9.0d
 			shape: "circle"
 			description: [
-				"Crushing Dyed Singularities has a chance to yield little orbs of yellow colour, aswell."
+				"При дроблении окрашенных одиночек есть шанс получить маленькие шарики желтого цвета."
 				""
-				"Much like the red ones, these have to be drained once again to shift the frequency in the right direction."
+				"Как и красные, они должны быть осушены еще раз, чтобы сдвинуть частоту в правильном направлении."
 			]
 			dependencies: [
 				"2CCD84D55DE71EB2"
@@ -188,11 +188,11 @@
 			}]
 		}
 		{
-			title: "Spectral Correction (Green)"
+			title: "Спектральная коррекция (Зелёный)"
 			x: -3.0d
 			y: 8.5d
 			shape: "circle"
-			description: ["The cycle continues. "]
+			description: ["Цикл продолжается. "]
 			dependencies: [
 				"2CCD84D55DE71EB2"
 				"381F8F373605BB97"
@@ -206,11 +206,11 @@
 			}]
 		}
 		{
-			title: "Spectral Correction (Blue)"
+			title: "Спектральная коррекция (Синий)"
 			x: -3.5d
 			y: 7.5d
 			shape: "circle"
-			description: ["Being almost there, all the Paint Balls now brought to the blue frequency will have to be run through the Item Drain one last time."]
+			description: ["Почти достигнув цели, все шарики с краской, доведенные до синей частоты, нужно будет в последний раз пропустить через предметный осушитель."]
 			dependencies: [
 				"2CCD84D55DE71EB2"
 				"6A76E65324F0ACC0"
@@ -224,12 +224,12 @@
 			}]
 		}
 		{
-			title: "Spectral Correction (Magenta)"
+			title: "Спектральная коррекция (Пурпурный)"
 			icon: "appliedenergistics2:magenta_paint_ball"
 			x: -3.5d
 			y: 6.35d
-			subtitle: "Contraption 26-2"
-			description: ["Magenta Paint Balls contain the essence needed for production of Chromatic Compound. Some will come directly from the crushed singularity, but the majority can be obtained by spectral correction on the other colours."]
+			subtitle: "Механизм #26-2"
+			description: ["Шарики пурпурной краски содержат эссенцию, необходимую для производства хроматического компаунда. Некоторые из них будут получены непосредственно из измельченной сингулярности, но большинство может быть получено путем спектральной коррекции других цветов."]
 			dependencies: [
 				"2CCD84D55DE71EB2"
 				"302FCD205CC2F708"
@@ -250,7 +250,7 @@
 			]
 		}
 		{
-			title: "Colours Refined"
+			title: "Изысканные цвета"
 			icon: {
 				id: "create:chromatic_compound"
 				Count: 1b
@@ -258,8 +258,8 @@
 			}
 			x: -5.0d
 			y: 6.35d
-			subtitle: "Contraption 26-3"
-			description: ["Use Mechanical Crafters once more to refine the paint orbs into Chromatic Compound."]
+			subtitle: "Механизм #26-3"
+			description: ["Используйте Механических ремесленников, чтобы переработать шарики краски в Хроматический компаунд."]
 			dependencies: ["3BE15AA5C237AB80"]
 			id: "7B23C933D76458BA"
 			tasks: [
@@ -281,19 +281,19 @@
 			]
 		}
 		{
-			title: "Throwing Flash"
+			title: "Метательная вспышка"
 			icon: "create:refined_radiance"
 			x: -6.5d
 			y: 6.35d
-			subtitle: "Contraption 28-1"
+			subtitle: "Механизм #28-1"
 			description: [
-				"When dropped as an item, Chromatic Compound will absorb light around itself and eventually turn into Refined Radiance. Choose one of three approaches:"
+				"Когда хроматический компаунд лежит на земле как предмет, он поглощает свет вокруг себя и в конечном итоге превращается в изысканное сияние. Выберите один из трех подходов:"
 				""
-				"- Autoplacing light emitting blocks near the dropped compound items (blocks need line of sight to item)"
+				"- Авторазмещение излучающих свет блоков рядом с выпавшими предметами соединения (блоки должны находиться в прямой видимости от предмета)"
 				""
-				"- Supplying light emitting blocks as items on nearby depots/belts (blocks need line of sight to item)"
+				"- Поставка светоизлучающих блоков в качестве предметов на близлежащие депо/ремни (блоки должны находиться в прямой видимости от предмета)"
 				""
-				"- Throwing the compound into a Beacon Beam for free and instant conversion"
+				"- Перекидывание компаунда через луч маяка для бесплатного и мгновенного преобразования"
 			]
 			dependencies: [
 				"3025B5861FE17ADF"
@@ -315,12 +315,12 @@
 			]
 		}
 		{
-			title: "Neon lights"
+			title: "Неоновые фонари"
 			icon: "kubejs:radiant_coil"
 			x: -4.0d
 			y: 11.0d
-			subtitle: "Contraption 28-3"
-			description: ["And finally, one last Crafter to cut and wind up the radiant sheet into an Induction Coil."]
+			subtitle: "Механизм #28-3"
+			description: ["И, наконец, последний крафтер, чтобы разрезать и намотать сияющий лист на индукционную катушку."]
 			dependencies: ["410FF28B63E0FC0C"]
 			id: "626A7D9947D82B89"
 			tasks: [
@@ -338,12 +338,12 @@
 			]
 		}
 		{
-			title: "More Cobblestone"
+			title: "Больше булыжника..."
 			icon: "minecraft:cobblestone"
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Contraption 20-1"
-			description: ["The trusty and cheap multi-purpose material of cobblestone is making its comeback."]
+			subtitle: "Механизм #20-1"
+			description: ["Надежный и дешевый многоцелевой материал - булыжник - снова возвращается."]
 			hide_dependency_lines: true
 			dependencies: ["397232F676CB621B"]
 			id: "5C277D27606F64DA"
@@ -369,12 +369,12 @@
 			]
 		}
 		{
-			title: "Deploy the Payload"
+			title: "Запускаем индукцию"
 			icon: "kubejs:inductive_mechanism"
 			x: -1.5d
 			y: 11.5d
-			subtitle: "Contraption 29"
-			description: ["You know the drill. It is time to upgrade your previously automated Precision Mechanisms to the next level!"]
+			subtitle: "Механизм #29"
+			description: ["Вы знаете, как это делается. Пришло время перевести ваши ранее автоматизированные механизмы точности на новый уровень!"]
 			dependencies: [
 				"59D2104DB6AE93FD"
 				"626A7D9947D82B89"
@@ -395,14 +395,14 @@
 			]
 		}
 		{
-			title: "Chapter 3 Complete!"
+			title: "Глава 3 завершена!"
 			x: -1.5d
 			y: 13.5d
 			shape: "hexagon"
 			description: [
-				"Congrats! Inductive Mechanisms will now be generated passively. This opens the door to new exciting technological and magical exploits!"
+				"Поздравляем! Индуктивные механизмы теперь будут стабильно создаваться. Это открывает двери для новых захватывающих технологических и магических открытий!"
 				""
-				"Once you are happy with the Assembly Line, head on back to the overview. There will be new options to explore."
+				"Как только вы будете довольны линией сборки, вернитесь на вкладку обзор. Там будут новые возможности для изучения."
 			]
 			dependencies: ["6CBA3D97CAD5DB63"]
 			size: 2.0d
@@ -435,12 +435,12 @@
 			]
 		}
 		{
-			title: "Inception"
+			title: "Аномально"
 			icon: "appliedenergistics2:singularity"
 			x: -1.5d
 			y: 4.0d
-			subtitle: "Contraption 20-3"
-			description: ["By Crushing the Crushing Wheels using Crushing Wheels, a strange anomaly is created and dropped. We can use this to our advantage."]
+			subtitle: "Механизм #20-3"
+			description: ["При дроблении колеса дробления с помощью колёс дробления создается и отбрасывается странная аномалия. Мы можем использовать это в наших интересах."]
 			dependencies: ["7AAE71F57FB89BCC"]
 			id: "2C81D358594C4352"
 			tasks: [
@@ -458,11 +458,11 @@
 			]
 		}
 		{
-			title: "The Reactor"
+			title: "Реактор"
 			icon: "appliedenergistics2:quantum_entangled_singularity"
 			x: -1.5d
 			y: 5.5d
-			subtitle: "Contraption 24"
+			subtitle: "Механизм #24"
 			description: [
 				"Here comes the central feature of this Factory Wing: the Reactor."
 				""
@@ -491,12 +491,12 @@
 			]
 		}
 		{
-			title: "Checker Crafters"
+			title: "Шахматные крафтеры"
 			icon: "minecraft:tnt"
 			x: 0.0d
 			y: 4.0d
-			subtitle: "Contraption 23-2"
-			description: ["Use Mechanical Crafters to build TNT. Since most of its slots will have to be supplied individually, a mechanical Arm might help for provinding the necessary logistics."]
+			subtitle: "Механизм #23-2"
+			description: ["Используйте механических крафтеров для создания динамита. Поскольку большинство его слотов придется поставлять по отдельности, Механическая рука может помочь в обеспечении необходимой логистики."]
 			dependencies: [
 				"5F9BA7BA46D2E5B8"
 				"050A20198A80CF1A"
@@ -517,15 +517,15 @@
 			]
 		}
 		{
-			title: "Cooking up some Gunpowder"
+			title: "Готовим немножко пороха"
 			icon: "minecraft:gunpowder"
 			x: 1.5d
 			y: 4.0d
-			subtitle: "Contraption 22-2"
+			subtitle: "Механизм #22-2"
 			description: [
-				"Transmuting the green reactive blend requires very special heating conditions, only available on Campfires or Stoves."
+				"Трансмутация зеленой реактивной смеси требует очень специальных условий нагрева, доступных только на кострах или кухонных плитах."
 				""
-				"This Contraption will need the special ability to both place and collect items from these places."
+				"Этому механизму потребуется особая способность как размещать, так и собирать предметы из этих мест."
 			]
 			dependencies: [
 				"3D1EEB596FDBE4E7"
@@ -548,12 +548,12 @@
 			]
 		}
 		{
-			title: "More Sand"
+			title: "...и больше песка"
 			icon: "minecraft:sand"
 			x: 0.0d
 			y: 1.0d
-			subtitle: "Contraption 23-1"
-			description: ["Sand will be required to build the Explosives needed for the Reactor. Thankfully, new standards have allowed you access to Crushing Wheels, which make sand production a lot less of a nuisance."]
+			subtitle: "Механизм #23-1"
+			description: ["Песок потребуется для создания взрывчатки, необходимой для Реактора. К счастью, новые стандарты открыли доступ к дробильным колесам, которые делают добычу песка гораздо менее хлопотным делом."]
 			hide_dependency_lines: true
 			dependencies: ["397232F676CB621B"]
 			id: "5F9BA7BA46D2E5B8"
@@ -572,15 +572,15 @@
 			]
 		}
 		{
-			title: "Cooking up some Ender Dust"
+			title: "Готовим немножко пыли Эндера"
 			icon: "appliedenergistics2:ender_dust"
 			x: 1.5d
 			y: 5.5d
-			subtitle: "Contraption 22-3"
+			subtitle: "Механизм #22-3"
 			description: [
-				"Transmuting the purple reactive blend requires very special heating conditions, only available on Campfires or Stoves."
+				"Трансмутация фиолетовой реактивной смеси требует очень специальных условий нагрева, доступных только на кострах или кухонных плитах."
 				""
-				"This Contraption will need the special ability to both place and collect items from these places."
+				"Этому механизму потребуется особая способность как размещать, так и собирать предметы из этих мест."
 			]
 			dependencies: [
 				"3D1EEB596FDBE4E7"
@@ -603,12 +603,12 @@
 			]
 		}
 		{
-			title: "Painting Space itself"
+			title: "Окраска космического холста"
 			icon: "kubejs:dye_entangled_singularity"
 			x: -1.5d
 			y: 7.0d
-			subtitle: "Contraption 26-1"
-			description: ["Mixing the Entangled Singularities with a dye of choice creates the very essence of colour! Just what we need for producing a perfected chromatic compound."]
+			subtitle: "Механизм #26-1"
+			description: ["Смешивание запутанных сингулярностей с выбранным красителем создает саму эссенцию цвета! Именно то, что нам нужно для создания совершенного хроматического компаунда."]
 			dependencies: [
 				"27C191346BB14D9D"
 				"5A199B898D41A309"
@@ -629,11 +629,11 @@
 			]
 		}
 		{
-			title: "Bonus 3A Complete!"
+			title: "Бонус 3A завершён!"
 			x: -1.5d
 			y: 21.0d
 			shape: "hexagon"
-			description: ["Marvellous! The power of instant transportation is in your hands at last. Surely there are some places in your factory where this could really speed things up."]
+			description: ["Великолепно! Сила мгновенной транспортировки наконец-то в ваших руках. Наверняка на вашем заводе есть места, где это действительно может ускорить работу."]
 			dependencies: ["6DBEF7A11890ADF8"]
 			size: 2.0d
 			id: "4EDD9A8F14E48EAE"
@@ -665,11 +665,11 @@
 			]
 		}
 		{
-			title: "Enderium Infused"
+			title: "Насыщенно эндериумом"
 			x: -1.5d
 			y: 19.0d
 			shape: "circle"
-			description: ["And finally, upgrade some of your Inductive Mechanisms in the Smelter using the newly obtained Alloy."]
+			description: ["И наконец, модернизируйте несколько из ваших индуктивных механизмов в плавильной печи, используя недавно полученный сплав."]
 			dependencies: ["7B080B5C87247EA1"]
 			id: "6DBEF7A11890ADF8"
 			tasks: [{
@@ -680,14 +680,14 @@
 			}]
 		}
 		{
-			title: "Gateway Expedition"
+			title: "Далёкая экспедиция"
 			x: 0.0d
 			y: 17.5d
 			shape: "circle"
 			description: [
-				"After your flawless encounter with the Ender Dragon, make your way to the Gateway and travel to the outer Islands."
+				"После безупречной встречи с Драконом Края, пройдите к вратам и отправляйтесь на внешние острова."
 				""
-				"Here you should be able to find the poise bushes necessary for creating Enderium Alloy."
+				"Здесь вы сможете найти пуазовые кустарники, необходимые для создания сплава Эндериума."
 			]
 			dependencies: ["05C7E580ED88B556"]
 			id: "794B3C10C6110CB5"
@@ -699,12 +699,12 @@
 			}]
 		}
 		{
-			title: "The Poise Cycle"
+			title: "Цикл равновесия"
 			icon: "endergetic:poise_cluster"
 			x: 0.0d
 			y: 19.5d
 			shape: "circle"
-			description: ["Thanks to Inductive Technology, you have the option to replicate Poise Bushes passively, should you require a steadier and more convenient supply of Enderium."]
+			description: ["Благодаря индуктивной технологии у вас есть возможность пассивно воспроизводить пуазовые кустарники, если вам требуется более стабильный и удобный запас Эндериума."]
 			dependencies: ["794B3C10C6110CB5"]
 			id: "1CCDA748B237F6F5"
 			tasks: [{
@@ -721,14 +721,14 @@
 			}]
 		}
 		{
-			title: "Alien Alloys"
+			title: "Чужеземные сплавы"
 			x: -1.5d
 			y: 18.0d
 			shape: "circle"
 			description: [
-				"Fire up your Induction Smelter for two rounds of processing:"
+				"Запустите индукционную плавильню для двух раундов обработки:"
 				""
-				"First off, refine your Silver Ingots with Ender Dust and Poise Bushes."
+				"Во-первых, обработайте серебряные слитки с помощью пыли Эндера и пуазовых кустарников."
 			]
 			dependencies: [
 				"0D146AD9FE774F8B"
@@ -744,14 +744,14 @@
 			}]
 		}
 		{
-			title: "Insert Coin"
+			title: "Вставьте монету"
 			x: -3.0d
 			y: 15.0d
 			shape: "circle"
 			description: [
-				"The Special properties of Silver can prove useful in creating Enderium Alloy."
+				"Особые свойства серебра могут оказаться полезными при создании сплава Эндериума."
 				""
-				"As it turns out, the only source of Silver seems to be your money. Makes you wonder where the official mints get it from.."
+				"Как оказалось, единственным источником серебра являются ваши деньги. Заставляет задуматься, откуда его берут официальные монетные дворы."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -768,11 +768,11 @@
 			}]
 		}
 		{
-			title: "Dissolved"
+			title: "Растворён"
 			x: -1.5d
 			y: 15.5d
 			shape: "circle"
-			description: ["Take the coins and throw them into your Smeltery. Watch out: this is an irreversible process."]
+			description: ["Возьмите монеты и бросьте их в плавильню. Осторожно: это необратимый процесс."]
 			dependencies: ["38B063C8DE71E86D"]
 			id: "0C11EC34D5FA508B"
 			tasks: [{
@@ -789,12 +789,12 @@
 			}]
 		}
 		{
-			title: "Not the End"
+			title: "Ещё не Конец"
 			icon: "minecraft:end_portal_frame"
 			x: 0.0d
 			y: 15.0d
 			shape: "circle"
-			description: ["The Secrets to Teleportation lie behind the dimensional gate to the End."]
+			description: ["Секреты телепортации лежат за пространственными вратами в Конец."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2BB2C7B95E3C89AE"
@@ -812,13 +812,13 @@
 			}]
 		}
 		{
-			title: "Arming the Deployer III"
+			title: "Вооружаем активатор III"
 			x: 0.0d
 			y: 11.5d
 			shape: "circle"
 			description: [
-				"It'll be good to stock up on a couple of resonators for the Mechanism Assembly."
-				"Don't worry about automating them fully, though."
+				"Хорошо бы запастись парой резонаторов для сборки механизмов".
+				"И нет, не нужно беспокоиться об их полной автоматизации."
 			]
 			hide_dependency_lines: true
 			dependencies: ["626A7D9947D82B89"]
@@ -837,12 +837,12 @@
 			}]
 		}
 		{
-			title: "Express Sticks"
+			title: "Палки экспресс"
 			icon: "minecraft:stick"
 			x: -3.0d
 			y: 1.0d
-			subtitle: "Contraption 19"
-			description: ["For this next trick a supply of Wooden Sticks is required. Whether that calls for a new harvester or just a scheduled shipment from Contraption 1 is up to you."]
+			subtitle: "Механизм #19"
+			description: ["Для следующего трюка необходим запас деревянных палок. Потребуется ли для этого новый комбайн или просто плановая поставка из механизма #1 - решать вам."]
 			hide_dependency_lines: true
 			dependencies: ["397232F676CB621B"]
 			id: "194B973EAF17809C"
@@ -861,15 +861,15 @@
 			]
 		}
 		{
-			title: "The Wall"
+			title: "Стена"
 			icon: "create:crushing_wheel"
 			x: -1.5d
 			y: 2.5d
-			subtitle: "Contraption 20-2"
+			subtitle: "Механизм #20-2"
 			description: [
-				"Next up, we need Crushing Wheels. Not only as a machine, but as an ingredient, too."
+				"Далее, нам нужны Дробящие колеса. Не только как машина, но и как ингредиент".
 				""
-				"Walls of Mechanical Crafters can quickly get in the way of paths and other infrastructure. Make sure to give them some space."
+				"Стены механических крафтеров могут быстро встать на пути дорожек и других объектов инфраструктуры. Обязательно дайте им немного пространства."
 			]
 			dependencies: [
 				"194B973EAF17809C"
@@ -891,12 +891,12 @@
 			]
 		}
 		{
-			title: "Toxic Byproducts"
+			title: "Отходы производства"
 			icon: "tconstruct:molten_ender_bucket"
 			x: 0.5d
 			y: 9.0d
 			shape: "circle"
-			description: ["Draining paint balls creates a significant amount of liquid byproduct, which has to be disposed of before it starts clogging up the production line."]
+			description: ["При сливе шариков краски образуется значительное количество жидкого побочного продукта, который необходимо утилизировать до того, как он начнет засорять производственную линию."]
 			dependencies: ["3B421C8F7947E542"]
 			id: "2C40901DB42DD8F8"
 			tasks: [{
@@ -905,15 +905,15 @@
 			}]
 		}
 		{
-			title: "Cooking up some Fertiliser"
+			title: "Готовим немножко удобрений"
 			icon: "minecraft:bone_meal"
 			x: 1.5d
 			y: 7.0d
-			subtitle: "Contraption 22-4"
+			subtitle: "Механизм #22-4"
 			description: [
-				"Transmuting the blue reactive blend requires very special heating conditions, only available on Campfires or Stoves."
+				"Трансмутация синей реактивной смеси требует очень специальных условий нагрева, доступных только на кострах или кухонных плитах."
 				""
-				"This Contraption will need the special ability to both place and collect items from these places."
+				"Этому механизму потребуется особая способность как размещать, так и собирать предметы из этих мест."
 			]
 			dependencies: [
 				"3D1EEB596FDBE4E7"
@@ -936,12 +936,12 @@
 			]
 		}
 		{
-			title: "Mysterious Biomass"
+			title: "Мистическая биомасса"
 			icon: "kubejs:sky_slime_fern_paste"
 			x: 3.5d
 			y: 4.0d
-			subtitle: "Contraption 22-1"
-			description: ["Route the excess leaves into a crusher, in preparation for the upcoming magic trick."]
+			subtitle: "Механизм #22-1"
+			description: ["Направьте лишние листья в дробилку, готовясь к предстоящему фокусу."]
 			dependencies: ["38D19F4EC634F33B"]
 			id: "3D1EEB596FDBE4E7"
 			tasks: [
@@ -971,19 +971,19 @@
 			]
 		}
 		{
-			title: "The Spirit Cycle"
+			title: "Духовный цикл"
 			icon: "kubejs:sky_slimy_fern_leaf"
 			x: 3.5d
 			y: 2.5d
-			subtitle: "Contraption 21"
+			subtitle: "Механизм #21"
 			description: [
-				"Slimy Ferns have the property of instant regeneration when exposed to Spirit Fire. Much like the Quartz Incubator in the other Factory, we can use this property to create a passive supply."
+				"Слизистые папоротники обладают свойством мгновенной регенерации под воздействием огня душ. Подобно Кварцевому Инкубатору на другой Фабрике, мы можем использовать это свойство для создания пассивного запаса."
 				""
-				"The cycle is simple: Cut the fern plant into halves using a Deployer, then throw one of the leaves into Spirit Fire. It is recommended to ensure that all colours of fern are duplicated at similar rates."
+				"Цикл прост: разрежьте растение папоротника на половинки с помощью активатора, затем бросьте один из листьев в огонь душ. Рекомендуется убедиться, что все цвета папоротника дублируются с одинаковой скоростью."
 				""
-				"Create Spirit Fire by tossing a Demon's Dream Fruit on the floor and then setting a fire in its space."
+				"Создайте Огонь душ, бросив на пол Плод мечты демона, а затем подожгите его"
 				""
-				"Oh, and keep a backup of each fern somewhere safe."
+				"О, и храните резервную копию каждого папоротника в безопасном месте."
 			]
 			dependencies: ["01BE1A7FCE79C63D"]
 			id: "38D19F4EC634F33B"
@@ -1014,15 +1014,15 @@
 			]
 		}
 		{
-			title: "Post-Process"
+			title: "Пост-процесс"
 			icon: "kubejs:radiant_sheet"
 			x: -6.0d
 			y: 9.0d
-			subtitle: "Contraption 28-2"
+			subtitle: "Механизм #28-2"
 			description: [
-				"The main work is done. All that's left is a small assembly line to process Refined Radiance into Radiant Coils."
+				"Основная работа выполнена. Осталась лишь небольшая сборочная линия для переработки изысканного сияния в сияющие катушки."
 				""
-				"Start with a Mechanical Press."
+				"Начните с механического пресса."
 			]
 			dependencies: ["286510750C333C1F"]
 			id: "410FF28B63E0FC0C"
@@ -1041,11 +1041,11 @@
 			]
 		}
 		{
-			title: "Expensive Bricks"
+			title: "Дорогие кирпичи"
 			x: -1.5d
 			y: 16.5d
 			shape: "circle"
-			description: ["Cast the molten silver into an Ingot and admire how shiny it is."]
+			description: ["Отлейте расплавленное серебро в слиток и полюбуйтесь его блеском."]
 			dependencies: ["0C11EC34D5FA508B"]
 			id: "0D146AD9FE774F8B"
 			tasks: [{
@@ -1064,11 +1064,11 @@
 			}]
 		}
 		{
-			title: "Ender for Garnish"
+			title: "На гарнир"
 			x: -3.0d
 			y: 17.5d
 			shape: "circle"
-			description: ["Set aside some Ender dust from your Reactor. In case your supply is bottlenecked, you can use Ender Pearls, too."]
+			description: ["Отложите немного пыли Эндера из вашего Реактора. В случае, если ваши поставки ограничены, вы можете использовать жемчуг Эндера."]
 			hide_dependency_lines: true
 			dependencies: [
 				"2BB2C7B95E3C89AE"
@@ -1084,15 +1084,15 @@
 			}]
 		}
 		{
-			title: "Slimy Ferns"
+			title: "Склизкие папоротники"
 			icon: "tconstruct:sky_slime_fern"
 			x: 3.5d
 			y: 1.0d
 			shape: "circle"
 			description: [
-				"In order to produce Gunpowder, Bone Meal and Ender Dust, the peculiar 'slimy fern' can be used as an alternative to Monster farms."
+				"Для производства пороха, костяной муки и пыли Эндера можно использовать особый \"слизистый папоротник\" в качестве альтернативы фермам монстров."
 				""
-				"Roam the lands for a bit and look out for egregiously vibrant spots of colour in the vegetation. Don't forget to bring a pair of Shears."
+				"Немного побродите по землям и обратите внимание на вопиюще яркие цветные пятна в растительности. Не забудьте взять с собой ножницы."
 			]
 			hide_dependency_lines: true
 			dependencies: ["397232F676CB621B"]
@@ -1119,12 +1119,12 @@
 			]
 		}
 		{
-			title: "Overcorrection"
+			title: "Перекоррекция"
 			icon: "appliedenergistics2:black_paint_ball"
 			x: -3.5d
 			y: 5.0d
 			shape: "circle"
-			description: ["Oops! Draining the colour's essence one too many times will create a mundane paint ball not able to be used for further processing."]
+			description: ["Упс! Истощение эссенции цвета слишком много раз приведет к созданию чёрного шарика с краской, который нельзя будет использовать для дальнейшей обработки."]
 			dependencies: ["3BE15AA5C237AB80"]
 			id: "03B7909623F97843"
 			tasks: [{
@@ -1133,16 +1133,14 @@
 			}]
 		}
 		{
-			title: "I like Mobs, actually"
+			title: "Мне нравятся мобы, вообще-то."
 			icon: "minecraft:zombie_head"
 			x: 3.5d
 			y: 5.5d
 			shape: "circle"
-			subtitle: "Alt. Contraption 21 \\& 22"
+			subtitle: "Alt. Механизм #21 \\& 22"
 			description: [
-				"An automation alternative to the Spirit Cycle is to set up a Monster Spawner of some kind."
-				""
-				"Click the Checkmark to skip the Fern Duplication Contraption."
+				"Альтернативой автоматизации Духовного цикла будет установка какого-нибудь спаунера монстров."
 			]
 			hide_dependency_lines: true
 			dependencies: ["397232F676CB621B"]
@@ -1154,16 +1152,16 @@
 			}]
 		}
 		{
-			title: "Keeping Stock"
+			title: "Удержание запасов"
 			x: -3.5d
 			y: -1.0d
 			shape: "circle"
 			description: [
-				"A few of the following contraptions involve dropping items on the ground. Whenever a process will not backstack on overflow (e.g. belt items waiting automatically), it is important to toggle the production at certain buffer thresholds."
+				"Некоторые из следующих приспособлений предполагают сбрасывание предметов на землю. В тех случаях, когда процесс не будет делать обратную укладку при переполнении (например, элементы ленты ожидают автоматически), важно переключать производство при определенных пороговых значениях буфера."
 				""
-				"More concretely: When the output buffer exceeds 75%, stop producing items. Once it reaches below 25%, start the process up again. This prevents overflow and machines from spewing items everywhere."
+				"Более конкретно: Когда выходной буфер превышает 75%, прекратите производство изделий. Как только он опустится ниже 25%, запустите процесс снова. Это предотвратит переполнение и машины не будут раскидывать предметы повсюду."
 				""
-				"The Stockpile Switch is designed for this purpose exactly. "
+				"Настраиваемый компаратор предназначен именно для этой цели. "
 			]
 			dependencies: ["397232F676CB621B"]
 			id: "472FB03D0E5A38D6"
@@ -1181,16 +1179,16 @@
 			}]
 		}
 		{
-			title: "Mechanical Auto Hammer"
+			title: "Механический автомолот"
 			icon: "thermal:invar_ingot"
 			x: 0.5d
 			y: -1.0d
 			shape: "circle"
-			subtitle: "Contraption 30"
+			subtitle: "Механизм #30"
 			description: [
-				"Aside from the Inductive Mechanism, Invar Machinery builds on a tough Metal Alloy between Iron and Nickel."
+				"Помимо индуктивного механизма, инварные машины построены на прочном металлическом сплаве между железом и никелем."
 				""
-				"Since the full refinement process of Invar takes a few lengthy steps, automation is recommended."
+				"Поскольку полный процесс обработки инвара занимает несколько длительных этапов, рекомендуется автоматизация."
 			]
 			dependencies: ["397232F676CB621B"]
 			id: "26A1E68DA7ACB025"
