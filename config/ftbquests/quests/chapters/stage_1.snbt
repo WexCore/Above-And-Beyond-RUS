@@ -14,7 +14,7 @@
 			x: -1.0d
 			y: 1.0d
 			shape: "square"
-			subtitle: "Устройство 1"
+			subtitle: "Изобретение #1"
 			description: [
 				"Строительный материал, топливо и ингредиент. Стабильное снабжение древесиной было бы хорошим первым шагом. "
 				""
@@ -51,7 +51,7 @@
 			icon: "minecraft:kelp"
 			x: 5.0d
 			y: 1.0d
-			subtitle: "Устройтво 3"
+			subtitle: "Изобретение #3"
 			description: [
 				"Ламинария - жизненно важный ингредиент для нашей первой цели на конвейере: Андезитовый сплав."
 				""
@@ -79,7 +79,7 @@
 			icon: "minecraft:sand"
 			x: 3.0d
 			y: 1.0d
-			subtitle: "Устройство 2"
+			subtitle: "Изобретение #2"
 			description: ["Хорошим способом автоматизации создания песка на данный момент является создание фильтров."]
 			hide_dependency_lines: true
 			dependencies: ["5799D55BB26BA52C"]
@@ -124,7 +124,7 @@
 			icon: "create:andesite_cobblestone"
 			x: 1.0d
 			y: 1.0d
-			subtitle: "Устройство 4"
+			subtitle: "Изобретение #4"
 			description: [
 				"Ручной сбор андезита забирает много времени. К счастью, горные породы могут заставить лаву бесконечно формировать андезит ."
 				""
@@ -154,7 +154,7 @@
 			x: 1.0d
 			y: 3.0d
 			shape: "circle"
-			subtitle: "Устройство 5"
+			subtitle: "Изобретение #5"
 			description: ["All your Andesite is likely not being generated near your factory. Figure out a way to bring it to the surface."]
 			dependencies: ["106C6DFDCB97327C"]
 			id: "6B7F0631060A9E62"
@@ -169,7 +169,7 @@
 			icon: "minecraft:clay_ball"
 			x: 3.5d
 			y: 2.5d
-			subtitle: "Устройство 6-1"
+			subtitle: "Изобретение #6-1"
 			description: ["С помощью вентиляторов песок можно перерабатывать в глину."]
 			dependencies: ["4CC420A6B673176A"]
 			id: "729FB5DD07C234E8"
@@ -192,7 +192,7 @@
 			icon: "architects_palette:algal_blend"
 			x: 5.0d
 			y: 3.5d
-			subtitle: "Устройство 6-2"
+			subtitle: "Изобретение #6-2"
 			description: ["Всё вперемешку! Глину и ламинарию можно обрабатывать с помощью механического смесителя."]
 			dependencies: [
 				"729FB5DD07C234E8"
@@ -218,7 +218,7 @@
 			icon: "minecraft:stripped_oak_log"
 			x: -1.0d
 			y: 3.5d
-			subtitle: "Устройство 7-1"
+			subtitle: "Изобретение #7-1"
 			description: ["Механические пилы, направленные вверх, могут обрабатывать заготовленные бревна и дальше..."]
 			dependencies: ["2CB570195DA7E106"]
 			id: "532EFE32C3A515B5"
@@ -354,7 +354,7 @@
 			icon: "minecraft:oak_planks"
 			x: -0.5d
 			y: 4.5d
-			subtitle: "Устройство 7-2"
+			subtitle: "Изобретение #7-2"
 			description: ["...и дальше..."]
 			dependencies: ["532EFE32C3A515B5"]
 			id: "19921941321965A4"
@@ -385,7 +385,7 @@
 			icon: "minecraft:oak_slab"
 			x: 0.5d
 			y: 5.0d
-			subtitle: "Устройство 7-3"
+			subtitle: "Изобретение #7-3"
 			description: [
 				"...и дальше, в идеальную базу для нашего первого Механизма."
 				""
@@ -420,7 +420,7 @@
 			icon: "create:andesite_alloy"
 			x: 3.5d
 			y: 5.0d
-			subtitle: "Устройство 6-4"
+			subtitle: "Изобретение #6-4"
 			description: ["Ещё раз вперемешку! На этот раз это будут кирпичи и ваш булыжник из андезита."]
 			dependencies: [
 				"106C6DFDCB97327C"
@@ -446,7 +446,7 @@
 			icon: "architects_palette:algal_brick"
 			x: 4.5d
 			y: 4.5d
-			subtitle: "Устройство 6-3"
+			subtitle: "Изобретение #6-3"
 			description: ["Переплавьте водорослевую смесь в кирпичи. Хотя печь работает отлично, вентилятор может делать это без необходимости в топливе."]
 			dependencies: ["72BE175C83834838"]
 			id: "32786E9D145FFE25"
@@ -469,7 +469,7 @@
 			icon: "kubejs:kinetic_mechanism"
 			x: 2.0d
 			y: 6.5d
-			subtitle: "Устройство 8"
+			subtitle: "Изобретение #8"
 			description: ["Сборка андезитового сплава и обрезных досок с помощью ряда развертывателей завершает вашу первую сборочную линию."]
 			dependencies: [
 				"59E4A6163753BC12"
@@ -601,7 +601,7 @@
 			x: 0.0d
 			y: 10.0d
 			shape: "square"
-			subtitle: "Устройство 9-1"
+			subtitle: "Изобретение #9-1"
 			description: ["Жидкая смола может быть извлечена из здоровых деревьев с помощью древесных выжимателей. Чем больше, тем веселее."]
 			dependencies: [
 				"3F45DFEF31838A00"
@@ -629,7 +629,7 @@
 			icon: "thermal:rubber"
 			x: 1.0d
 			y: 10.5d
-			subtitle: "Устройство 9-2"
+			subtitle: "Изобретение #9-2"
 			description: ["Соберите смолу через сеть жидкостных труб и используйте пресс для ее застывания.."]
 			dependencies: ["3728DF562D6DCE3A"]
 			id: "3EF5F89DBD6959E3"
@@ -653,7 +653,7 @@
 			x: 2.0d
 			y: 11.0d
 			shape: "square"
-			subtitle: "Устройство 9-3"
+			subtitle: "Изобретение #9-3"
 			description: [
 				"Наконец, переплавляем сырую резину в её вулканизированное состояние."
 				""
