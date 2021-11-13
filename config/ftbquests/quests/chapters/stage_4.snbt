@@ -9,15 +9,15 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Chapter 4 Start!"
+			title: "Начало 4 главы!"
 			icon: "kubejs:inductive_mechanism"
 			x: 1.0d
 			y: -2.5d
 			shape: "hexagon"
 			description: [
-				"The next target will be Printed Silicon. As one of two known ways to obtain it, the assembly line will move items, fluids and energy in and out of the new and rather compact Invar Machinery."
+				"Следующей целью станет печатный кремний. Как один из двух известных способов его получения, сборочная линия будет перемещать предметы, жидкости и энергию через новое и и довольно компактне инварное оборудование."
 				""
-				"Much like previous chapters, a few new material sources or shipments are required first."
+				"Как и в предыдущих главах, сначала потребуется несколько новых источников материала или поставок.."
 			]
 			dependencies: ["74CFD83C501C4952"]
 			hide: true
@@ -34,12 +34,12 @@
 			}]
 		}
 		{
-			title: "Ready to Deploy"
+			title: "Готовность к развертыванию"
 			icon: "kubejs:calculation_mechanism"
 			x: 1.0d
 			y: 7.5d
-			subtitle: "Contraption 40-2"
-			description: ["For one last time, a line of Deployers will be needed to upgrade the previous mechanism to the next tier."]
+			subtitle: "Механизм #40-2"
+			description: ["В последний раз для обновления предыдущего механизма до следующего уровня потребуется линия активаторов."]
 			dependencies: [
 				"1BF8F3CC8BEBB620"
 				"71D90A1E5D53FC0A"
@@ -60,14 +60,14 @@
 			]
 		}
 		{
-			title: "Chapter 4 Complete!"
+			title: "Глава 4 завершена!"
 			x: 1.0d
 			y: 9.5d
 			shape: "hexagon"
 			description: [
-				"Great work! The final assembly line is now complete. Your factory just entered the Digital Age."
+				"Отличная работа! Финальная сборочная линия завершена. Ваш завод только что вступил в цифровую эпоху."
 				""
-				"New options have opened up in the Overview. Whenever you are ready."
+				"В Обзоре открылись новые возможности. Когда вы будете готовы."
 			]
 			dependencies: ["6824055533465010"]
 			size: 2.0d
@@ -100,12 +100,12 @@
 			]
 		}
 		{
-			title: "Sand Delivery"
+			title: "Доставка песка"
 			icon: "minecraft:sand"
 			x: -1.0d
 			y: -0.5d
-			subtitle: "Contraption 31-1"
-			description: ["A new Shipment of Sand should be scheduled, for it is significantly rich in silicon."]
+			subtitle: "Механизм #31-1"
+			description: ["Следует запланировать новую поставку песка, так как он особенно богат кремнием."]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "22202C87352242D6"
@@ -124,15 +124,15 @@
 			]
 		}
 		{
-			title: "Ball o' Sand"
+			title: "Песчаный шарик"
 			icon: "kubejs:sand_ball"
 			x: -1.0d
 			y: 0.5d
-			subtitle: "Contraption 31-2"
+			subtitle: "Механизм #31-2"
 			description: [
-				"First, the raw blocks are washed and refined into small orbs of wet sand."
+				"Сначала сырые блоки промываются и перерабатываются в маленькие шарики мокрого песка."
 				""
-				"Since they could easily collapse, they should never be stacked on top of another. The inductive Fluid Encapsulator should have the necessary precision to generate these reliably."
+				"Поскольку они могут легко рухнуть, их никогда не следует складывать друг на друга. Индуктивный инкапсулятор жидкости способен надежно генерировать их."
 			]
 			dependencies: ["22202C87352242D6"]
 			id: "42F1A649D86DB86D"
@@ -151,12 +151,12 @@
 			]
 		}
 		{
-			title: "Liquid Sand"
+			title: "Жидкий песок"
 			icon: "kubejs:fine_sand_bucket"
 			x: 1.0d
 			y: 1.5d
 			shape: "circle"
-			description: ["Sifting for Coarse Sand creates a byproduct relevant for further refining the silicon compound."]
+			description: ["Просеивание крупного песка позволяет получить побочный продукт, необходимый для дальнейшего производства кремниевого компаунда."]
 			dependencies: ["42F1A649D86DB86D"]
 			id: "4412F3B2827606E4"
 			tasks: [{
@@ -165,12 +165,12 @@
 			}]
 		}
 		{
-			title: "Coarse Sand"
+			title: "Крупнозернистый песок"
 			icon: "kubejs:rough_sand"
 			x: -1.0d
 			y: 1.5d
-			subtitle: "Contraption 31-3"
-			description: ["Rolling the sand ball over an item drain reveals the larger chunks contained within."]
+			subtitle: "Механизм #31-3"
+			description: ["При перекатывании шарика с песком через предметный осушитель можно обнаружить содержащиеся в нем крупные кусочки."]
 			dependencies: ["42F1A649D86DB86D"]
 			id: "0F5AA5DF001DCDF5"
 			tasks: [
@@ -188,12 +188,12 @@
 			]
 		}
 		{
-			title: "Crystalline Sand"
+			title: "Кристаллический песок"
 			icon: "kubejs:purified_sand"
 			x: -1.0d
 			y: 3.0d
-			subtitle: "Contraption 33-3"
-			description: ["Enriching coarse sand with earth charges creates Sand Crystals. Not much more processing is left until the Silicon content reaches a state usable for circuits."]
+			subtitle: "Механизм #33-3"
+			description: ["Обогащение крупнозернистого песка земляными зарядами позволяет получить кристаллы песка. Остается совсем немного до тех пор, пока содержание кремния не достигнет состояния, пригодного для схем."]
 			dependencies: [
 				"60A8B4C736CE3226"
 				"0F5AA5DF001DCDF5"
@@ -214,12 +214,12 @@
 			]
 		}
 		{
-			title: "Pyrolyzer Round I"
+			title: "Пиролизер I"
 			icon: "minecraft:charcoal"
 			x: 3.0d
 			y: 0.5d
-			subtitle: "Contraption 34-2"
-			description: ["A Pyrolisation process is not strictly required for Charcoal, but the increased yield makes it worthwhile if the wood supply is limited."]
+			subtitle: "Механизм #34-2"
+			description: ["Для получения древесного угля процесс пиролизации не является обязательным, но увеличение выхода продукции делает его целесообразным, если запас древесины ограничен."]
 			dependencies: ["46820FBDDDEE491E"]
 			id: "3249CD08992F2BCD"
 			tasks: [
@@ -236,12 +236,12 @@
 			]
 		}
 		{
-			title: "Pyrolyzer Round II"
+			title: "Пиролизер II"
 			icon: "thermal:coal_coke"
 			x: 3.0d
 			y: 1.5d
-			subtitle: "Contraption 34-3"
-			description: ["In a secondary, more lengthy pyrolisation process, Coal Coke is formed. An ideal material for both refining Silicon and to provide heat as Solid Fuel."]
+			subtitle: "Механизм #34-3"
+			description: ["При вторичном, более длительном процессе пиролизации образуется коксовый уголь. Идеальный материал как для переработки кремния, так и для получения тепла в качестве твердого топлива."]
 			dependencies: ["3249CD08992F2BCD"]
 			id: "1A383F96B312D1B8"
 			tasks: [
@@ -259,12 +259,12 @@
 			]
 		}
 		{
-			title: "Controlled Cuts"
+			title: "Контролируемые разрезы"
 			icon: "kubejs:coke_chunk"
 			x: 3.0d
 			y: 3.0d
-			subtitle: "Contraption 35"
-			description: ["Using Mechanical Saws and Water, the coke can to be cut up into chunks in order to become a more effective catalyst."]
+			subtitle: "Механизм #35"
+			description: ["С помощью механических пил и воды кокс разрезается на куски, чтобы стать более эффективным катализатором."]
 			dependencies: ["1A383F96B312D1B8"]
 			id: "16F920C2AF2FA2E0"
 			tasks: [
@@ -282,12 +282,12 @@
 			]
 		}
 		{
-			title: "The Merge"
+			title: "Слияние"
 			icon: "kubejs:silicon_compound"
 			x: 1.0d
 			y: 4.0d
-			subtitle: "Contraption 36"
-			description: ["The process of refining silicon requires a blend of Sand Crystals, Fine Sand and the Carbon Catalyst."]
+			subtitle: "Механизм #36"
+			description: ["Для процесса рафинирования кремния требуется смесь кристаллов песка, мелкого песка и углеродного катализатора."]
 			dependencies: [
 				"343050A40A3AB1F0"
 				"4412F3B2827606E4"
@@ -309,12 +309,12 @@
 			]
 		}
 		{
-			title: "Concentrated Heat"
+			title: "Концентрированное тепло"
 			icon: "thermal:earth_charge"
 			x: -3.0d
 			y: 3.0d
-			subtitle: "Contraption 33-2"
-			description: ["Compact enough powder back together to create the highly reactive Earth Charge."]
+			subtitle: "Механизм #33-2"
+			description: ["Соедините достаточное количество порошка вместе, чтобы создать высокореактивный земляной заряд."]
 			dependencies: ["5799B4124EE20DB1"]
 			id: "60A8B4C736CE3226"
 			tasks: [
@@ -332,12 +332,12 @@
 			]
 		}
 		{
-			title: "Basalz Mill"
+			title: "Базальтовая мельница"
 			icon: "thermal:basalz_powder"
 			x: -3.0d
 			y: 2.0d
-			subtitle: "Contraption 33-1"
-			description: ["Before it is ready for processing, the basalz essence needs a bit of refinement. "]
+			subtitle: "Механизм #33-1"
+			description: ["Перед тем, как эссенция базальца будет готова к переработке, ее необходимо немного доработать."]
 			dependencies: ["6C4CB8F616A9C3DF"]
 			id: "5799B4124EE20DB1"
 			tasks: [
@@ -355,15 +355,15 @@
 			]
 		}
 		{
-			title: "Hot Laser"
+			title: "Горячий лазер"
 			icon: "thermal:basalz_rod"
 			x: -3.0d
 			y: 0.5d
-			subtitle: "Contraption 32-2"
+			subtitle: "Механизм #32-2"
 			description: [
-				"The first Alchemical Laser forms activated basalz essence from Basalt. This works only if a charged FluxoMagnet is present alongside it in the Hopper Cart."
+				"Первый алхимический лазер формирует активированную базальцевую эссенцию из базальта. Это работает только в том случае, если рядом с ним в вагонетке с воронкой находится заряженный флюксомагнит."
 				""
-				"A reliable way to automate the Laser is to use two Cart Loaders, one to place a magnet, one to fill the remaining slots with Basalt Blocks. Move the cart under the laser and activate it. From here you can use one Unloader to extract the worn magnet as well as the desired output."
+				"Надежный способ автоматизировать лазер - использовать два погрузчика вагонеток: один помещает магнит, другой заполняет оставшиеся слоты базальтовыми блоками. Переместите вагонетку под лазер и активируйте его. После вы можете использовать один Разгрузчик для выгрузки изношенного магнита, а также желаемой продукции."
 			]
 			dependencies: ["0B602ED47A0195A4"]
 			id: "6C4CB8F616A9C3DF"
@@ -382,12 +382,12 @@
 			]
 		}
 		{
-			title: "Modern Cobblegen"
+			title: "Современный генератор булыжника"
 			icon: "minecraft:basalt"
 			x: -3.0d
 			y: -1.0d
-			subtitle: "Contraption 32-1"
-			description: ["Basalt is an accessible type of rock that contains traces of inert Basalz Powder. For the purposes of this, a steady supply of them is needed."]
+			subtitle: "Механизм #32-1"
+			description: ["Базальт - это легко доступный тип горной породы, содержащий следы инертного базальтового порошка. Для решения этой задачи необходим постоянный запас."]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "0B602ED47A0195A4"
@@ -406,7 +406,7 @@
 			]
 		}
 		{
-			title: "Flux Charger"
+			title: "Флюксовая зарядка"
 			icon: {
 				id: "thermal:flux_magnet"
 				Count: 1b
@@ -414,11 +414,11 @@
 			}
 			x: -4.0d
 			y: 1.0d
-			subtitle: "Contraption 32-3"
+			subtitle: "Механизм #32-3"
 			description: [
-				"In order for the basalz essence to form, the FluxoMagnet present in the cart has to be charged."
+				"Для того чтобы сформировать эссенцию базальца, необходимо зарядить флюксомагнит, находящийся в тележке."
 				""
-				"Therefore, the contraption will have to route the magnets from the cart unloader through an Energetic Infuser before passing it back into the circuit."
+				"Поэтому устройство должно направлять магниты из разгрузочного устройства тележки через Energetic Infusor (Верстак мастеров?), прежде чем передать их обратно в цепь."
 			]
 			dependencies: ["0B602ED47A0195A4"]
 			id: "58B534C4AEB4139D"
@@ -441,12 +441,12 @@
 			]
 		}
 		{
-			title: "Snowball Machine"
+			title: "Снежковая машина"
 			icon: "minecraft:snowball"
 			x: 5.0d
 			y: -1.0d
-			subtitle: "Contraption 37"
-			description: ["New Invar Technology makes forming snowballs out of Water quite a simple process. Perhaps we should set aside a few for our next unannounced visitor.."]
+			subtitle: "Механизм #37"
+			description: ["Новая инваровая технология делает формирование снежков из воды довольно простым процессом. Возможно, нам стоит припасти несколько штук для следующего нежданного посетителя."]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "4B34B52092BA32BE"
@@ -465,7 +465,7 @@
 			]
 		}
 		{
-			title: "Entropy Charger"
+			title: "Энтропийная зарядка"
 			icon: {
 				id: "appliedenergistics2:entropy_manipulator"
 				Count: 1b
@@ -473,11 +473,11 @@
 			}
 			x: 6.0d
 			y: 3.0d
-			subtitle: "Contraption 38-2"
+			subtitle: "Механизм #38-2"
 			description: [
-				"In order for the blizz essence to form, the Entropy Manipulator present in the cart has to be charged."
+				"Для того чтобы сформировать эссенцию метели, манипулятор энтропией, находящийся в вагонетке, должен быть заряжен."
 				""
-				"Ensure the charge in it restored before its next use."
+				"Проверьте, чтобы заряд в нем восстановился перед следующим использованием."
 			]
 			dependencies: ["4B34B52092BA32BE"]
 			id: "6D1519B746E032FB"
@@ -500,15 +500,15 @@
 			]
 		}
 		{
-			title: "Cool Laser"
+			title: "Холодный лазер"
 			icon: "thermal:blizz_rod"
 			x: 5.0d
 			y: 2.5d
-			subtitle: "Contraption 38-1"
+			subtitle: "Механизм #38-1"
 			description: [
-				"The second Alchemical Laser forms activated blizz essence from Snowballs. This works only if a charged Entropy Manipulator is present alongside it in the Hopper Cart."
+				"Второй Алхимический лазер формирует активированную эссенцию метели из снежков. Это работает только в том случае, если рядом с ним в вагонетке с воронкой находится заряженный Манипулятор энтропией."
 				""
-				"Your automation strategy from Contraption 32 will perform just as effective here."
+				"Ваша стратегия автоматизации из Механизма #32 будет работать так же эффективно и здесь."
 			]
 			dependencies: ["4B34B52092BA32BE"]
 			id: "0AE7FAEBD5F86D9C"
@@ -527,12 +527,12 @@
 			]
 		}
 		{
-			title: "Blizz Mill"
+			title: "Вьюжная мельница"
 			icon: "thermal:blizz_powder"
 			x: 5.0d
 			y: 4.0d
-			subtitle: "Contraption 39-1"
-			description: ["Just like earlier, the essence becomes usable only after a bit of refinement."]
+			subtitle: "Механизм #39-1"
+			description: ["Как и раньше, эссенция становится пригодной для использования только после небольшой доработки."]
 			dependencies: ["0AE7FAEBD5F86D9C"]
 			id: "01B0A6236A5073D1"
 			tasks: [
@@ -550,12 +550,12 @@
 			]
 		}
 		{
-			title: "Concentrated Cold"
+			title: "Концентрированный холод"
 			icon: "thermal:ice_charge"
 			x: 5.0d
 			y: 5.0d
-			subtitle: "Contraption 39-2"
-			description: ["Compact enough powder back together to create the highly reactive Ice Charge."]
+			subtitle: "Механизм #39-2"
+			description: ["Соедините достаточное количество порошка вместе, чтобы создать высокореактивный ледяной заряд."]
 			dependencies: ["01B0A6236A5073D1"]
 			id: "4732465116D723EE"
 			tasks: [
@@ -573,12 +573,12 @@
 			]
 		}
 		{
-			title: "Final Induction"
+			title: "Последняя индукция"
 			icon: "appliedenergistics2:silicon"
 			x: 3.0d
 			y: 5.0d
-			subtitle: "Contraption 39-3"
-			description: ["One final pass in the Induction Smelter now produces a chunk of high-quality Silicon."]
+			subtitle: "Механизм #39-3"
+			description: ["Последний прогон в индукционной плавильной печи позволяет получить кусок высококачественного кремния."]
 			dependencies: [
 				"2268AFAF6E9AB5E2"
 				"4732465116D723EE"
@@ -599,12 +599,12 @@
 			]
 		}
 		{
-			title: "Circuit Stamper"
+			title: "Штамповщик микросхем"
 			icon: "appliedenergistics2:printed_silicon"
 			x: 1.0d
 			y: 6.0d
-			subtitle: "Contraption 40-1"
-			description: ["Use Deployers to create a circuit base out of silicon. The required Press can be located at the center of Sky Stone Meteors."]
+			subtitle: "Механизм #40-1"
+			description: ["Используйте активаторы, чтобы создать основу схемы из кремния. Необходимый пресс можно найти в центре метеоров из небесного камня."]
 			dependencies: [
 				"067C5FDA4709F195"
 				"4B19B6EAD511378D"
@@ -626,13 +626,13 @@
 			]
 		}
 		{
-			title: "Secrets uncovered"
+			title: "Раскрытые тайны"
 			icon: "kubejs:substrate_silicon"
 			disable_toast: true
 			x: -3.0d
 			y: 5.0d
 			shape: "hexagon"
-			description: ["The Secret path has been discovered and pursued. From here, getting the Calculation Mechanism will be trivial."]
+			description: ["Секретный путь был обнаружен и пройден. Отсюда получить Механизм вычисления будет проще простого."]
 			dependencies: ["3B431AAADE8845FA"]
 			hide: true
 			size: 1.5d
@@ -648,17 +648,17 @@
 			}]
 		}
 		{
-			title: "The Alchemical Laser"
+			title: "Алхимический лазер"
 			icon: "projectred-illumination:lime_inverted_cage_light"
 			x: 3.0d
 			y: -2.5d
 			shape: "circle"
 			description: [
-				"A central role in this age of technology is played by the Alchemical Laser."
+				"Центральную роль в этом веке технологий играет алхимический лазер."
 				""
-				"It usually involves converting one material into another, using a high-energy beam and a catalyst or tool of some kind."
+				"Обычно он предполагает преобразование одного материала в другой с помощью высокоэнергетического луча и катализатора или какого-либо инструмента."
 				""
-				"Inventors can familiarise themselves with the necessary machinery components via JEI or via entering"
+				"Изобретатели могут ознакомиться с необходимыми компонентами машин через JEI или написав следующую команду в чате"
 				""
 				" &6/c ponder kubejs:alchemical_laser"
 			]
@@ -685,13 +685,13 @@
 			}]
 		}
 		{
-			title: "Wood Delivery"
+			title: "Доставка древесины"
 			icon: "minecraft:oak_log"
 			x: 3.0d
 			y: -0.5d
 			shape: "square"
-			subtitle: "Contraption 34-1"
-			description: ["It'll be good to order a Wood supply to this location. Aside from Silicon it can contribute to this assembly line for some other useful products."]
+			subtitle: "Механизм #34-1"
+			description: ["Хорошо было бы заказать поставку древесины в это место. Помимо кремния, он может способствовать созданию на этом конвейере других полезных продуктов."]
 			hide_dependency_lines: true
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "46820FBDDDEE491E"
@@ -718,13 +718,13 @@
 			]
 		}
 		{
-			title: "Arming the Deployer IV"
+			title: "Вооружаем активатор IV"
 			x: -0.5d
 			y: 7.5d
 			shape: "circle"
 			description: [
-				"The installation process of Calculation Mechanisms can be facilitated by a Flash Drive."
-				"The precious Cobalt required can be found in the Nether. "
+				"Процесс монтажа Механизмов расчета может быть осуществлён с помощью флэш-накопителя."
+				"Необходимый драгоценный кобальт можно найти в Аду. "
 			]
 			hide_dependency_lines: true
 			dependencies: ["71D90A1E5D53FC0A"]
@@ -743,12 +743,12 @@
 			}]
 		}
 		{
-			title: "Unboxing"
+			title: "Распаковка"
 			icon: "appliedenergistics2:silicon"
 			x: -1.0d
 			y: 5.0d
-			subtitle: "Contraption 39-A"
-			description: ["Separate the Silicon from its jar using a Reagent Extractor."]
+			subtitle: "Механизм #39-A"
+			description: ["Извлеките кремний из банки с помощью экстрактора реагентов."]
 			dependencies: ["0CE88FEA070DC46C"]
 			id: "4B19B6EAD511378D"
 			tasks: [
@@ -766,7 +766,7 @@
 			]
 		}
 		{
-			title: "Coal Juice"
+			title: "Угольный сок"
 			icon: "thermal:creosote_bucket"
 			x: 4.0d
 			y: 1.0d
@@ -780,11 +780,11 @@
 			}]
 		}
 		{
-			title: "Express Circuitry I"
+			title: "Экспресс-схемотехника I"
 			x: 3.0d
 			y: 9.5d
-			subtitle: "Contraption 41-1"
-			description: ["Additional Processors are required in creating logistical components of ME Technology. At some point some Semi-Automation should come into consideration."]
+			subtitle: "Механизм #41-1"
+			description: ["Дополнительные процессоры необходимы для создания логистических компонентов МЕ технологии. Чуть позже следует рассмотреть вопрос о  полуавтоматизации."]
 			dependencies: ["28DAED70768C6A50"]
 			id: "24C48CFAAD71B230"
 			tasks: [
@@ -809,11 +809,11 @@
 			]
 		}
 		{
-			title: "Express Circuitry II"
+			title: "Экспресс-схемотехника II"
 			x: 4.0d
 			y: 9.5d
-			subtitle: "Contraption 41-2"
-			description: ["Assembling the Processors is not a trivial process. But it sure is fun to watch it work."]
+			subtitle: "Механизм #41-2"
+			description: ["Сборка процессоров - процесс нетривиальный. Но наблюдать за его работой очень интересно."]
 			dependencies: ["24C48CFAAD71B230"]
 			id: "2B8F1D804107EB8C"
 			tasks: [
@@ -838,12 +838,12 @@
 			]
 		}
 		{
-			title: "New Capacity"
+			title: "Новые мощности"
 			icon: "thermal:dynamo_magmatic"
 			x: -1.0d
 			y: -2.5d
 			shape: "circle"
-			description: ["The upcoming Assembly Line will require a significant amount of flux energy to run. It is recommended to find a suitable generation method and to consider higher scales in planning should it become necessary later."]
+			description: ["Для работы предстоящей сборочной линии потребуется значительное количество RF энергии. Рекомендуется найти подходящий метод генерации и учесть при планировании более высокие масштабы, если это понадобится в дальнейшем."]
 			dependencies: ["4B80A801A5BE4A01"]
 			id: "13B197C90F9812C8"
 			tasks: [{
