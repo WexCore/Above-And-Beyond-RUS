@@ -464,11 +464,11 @@
 			y: 5.5d
 			subtitle: "Механизм #24"
 			description: [
-				"Here comes the central feature of this Factory Wing: the Reactor."
+				"А вот и центральная особенность этого заводского крыла: Реактор."
 				""
-				"Progressing towards Inductive Coils requires a controlled Explosion where nearby Singularities and Ender Dust are combined. See if you can come up with a circuit to continuously blow up these dropped item-stacks."
+				"Для продвижения к индуктивным катушкам требуется контролируемый взрыв, когда близлежащие сингулярности и пыль Эндера объединяются. Попробуйте придумать схему, чтобы непрерывно взрывать эти стопки предметов."
 				""
-				"Note: Ender dust and Singularities are consumed in a 1:1 ratio. They do not have to be in the exact same location. One TNT can transform multiple sets of ingredients. The result will drop at the location of the Singularity item."
+				"Примечание: Эндер-пыль и Сингулярности расходуются в соотношении 1:1. Они не обязательно должны находиться в одном и том же месте. Один тротил может превратить несколько наборов ингредиентов. Результат будет выпадать в том месте, где находится предмет Сингулярности."
 			]
 			dependencies: [
 				"02B2E249421FAE58"
