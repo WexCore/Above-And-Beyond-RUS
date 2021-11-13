@@ -9,17 +9,17 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Another way forward"
+			title: "Еще один путь вперед"
 			icon: "kubejs:inductive_mechanism"
 			x: 1.75d
 			y: 2.0d
 			shape: "hexagon"
 			description: [
-				"As an alternative, more risky approach to a refined Silicon resource, Laser Alchemy can provide an obscure yet rewarding new path of progression."
+				"В качестве альтернативного, более рискованного подхода к получению переработанных кремниевых ресурсов, лазерная алхимия может обеспечить необычный, но выгодный новый вариант развития."
 				""
-				"Discover the secret codes of each reagent class in order to learn about the recipe of Chaos Catalysts."
+				"Откройте секретные коды каждого класса реагентов, чтобы узнать рецепт катализаторов Хаоса."
 				""
-				"Once found, the Chaos Catalyst can not only transmute a material into Silicon, but potentially create other valuable resources from the most trivial ingredients!"
+				"Найдя катализатор Хаоса, можно не только превратить материал в кремний, но и создать другие ценные ресурсы из самых простых ингредиентов!"
 			]
 			dependencies: ["5DF206B1738D08A0"]
 			hide: true
@@ -36,18 +36,18 @@
 			}]
 		}
 		{
-			title: "Encapsulate - Decapsulate"
+			title: "Инкапсуляция - Декапсуляция"
 			x: -0.25d
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"Aside from the Alchemical Laser setup, you'll need a few other Machines for your new Alchemy Lab. "
+				"Помимо установки алхимического лазера, вам понадобится еще несколько машин для вашей новой алхимической лаборатории. "
 				""
-				"- The Fluid Encapsulator uses Molten Glass to create Reagents from resources."
+				"- Инкапсулятор жидкости использует расплавленное стекло для создания реагентов из ресурсов."
 				""
-				"- The Reagent Extractor can reverse this process."
+				"- Экстрактор реагентов может обратить этот процесс вспять."
 				""
-				"- The Centrifugal Separator is required to analyse alchemical blends for clues. A vital routine when researching the recipe of Catalysts."
+				"- Центробежный сепаратор необходим для анализа алхимических смесей в поисках подсказок. Это жизненно важная процедура при исследовании рецептов катализаторов."
 			]
 			dependencies: ["05446225038D260A"]
 			id: "42B615F7BECA6E58"
@@ -545,11 +545,11 @@
 			y: 7.0d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Igneous Category."
+				"Открытие этой ноды обозначает что вы собрали все реагенты из магматической категории."
 				""
-				"The Igneous Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"Магматический катализатор может быть создан комбинацией четырех реагентов этой категории в Алхимическом лазере. &7(См. запись JEI о катализаторе для получения дополнительной информации)"
 				""
-				"It's recommended to always take notes of previous results. This way it is not uncommon to find the solution in under six attempts!"
+				"Рекомендуется всегда записывать предыдущие результаты. Так можно найти решение менее чем за шесть попыток!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -573,9 +573,9 @@
 			y: 6.5d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Herbal Category."
+				"Открытие этой ноды обозначает что вы собрали все реагенты из травяной категории."
 				""
-				"The Herbal Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"Травяной катализатор может быть создан комбинацией четырех реагентов этой категории в Алхимическом лазере. &7(См. запись JEI о катализаторе для получения дополнительной информации)"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -599,9 +599,9 @@
 			y: 6.25d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Volatile Category."
+				"Открытие этой ноды обозначает что вы собрали все реагенты из нестабильной категории."
 				""
-				"The Volatile Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"Нестабильный катализатор может быть создан комбинацией четырех реагентов этой категории в Алхимическом лазере. &7(См. запись JEI о катализаторе для получения дополнительной информации)"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -625,9 +625,9 @@
 			y: 6.25d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Crystalline Category."
+				"Открытие этой ноды обозначает что вы собрали все реагенты из кристаллической категории."
 				""
-				"The Crystalline Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"Кристаллический катализатор может быть создан комбинацией четырех реагентов этой категории в Алхимическом лазере. &7(См. запись JEI о катализаторе для получения дополнительной информации)"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -651,9 +651,9 @@
 			y: 6.5d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Metallurgic Category."
+				"Открытие этой ноды обозначает что вы собрали все реагенты из металлургической категории."
 				""
-				"The Metallurgic Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"Металлургический катализатор может быть создан комбинацией четырех реагентов этой категории в Алхимическом лазере. &7(См. запись JEI о катализаторе для получения дополнительной информации)"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -677,9 +677,9 @@
 			y: 7.0d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered all reagents of the Gemstone Category."
+				"Открытие этой ноды обозначает что вы собрали все реагенты из самоцветной категории."
 				""
-				"The Gemstone Catalyst can be created by a combination of four reagents of this Category in the Alchemical Laser. &7(See the Catalyst's JEI entry for more information)"
+				"Самоцветный катализатор может быть создан комбинацией четырех реагентов этой категории в Алхимическом лазере. &7(См. запись JEI о катализаторе для получения дополнительной информации)"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -699,15 +699,15 @@
 			}]
 		}
 		{
-			title: "The Final Code"
+			title: "Финальный код"
 			x: 1.75d
 			y: 7.5d
 			shape: "circle"
 			description: [
-				"If this is Unlocked, you have gathered Catalysts of every Category."
+				"Открытие этой ноды обозначает что вы собрали все катализаторы из всех категорий."
 				""
-				"This Ultimate Catalyst is now a combination of four of the Catalysts, much in the way the Catalysts are found and made by their Reagents."
-				"&7(See this item's JEI entry for more information)"
+				"Этот высший Катализатор представляет собой комбинацию четырех Катализаторов, подобно тому, как Катализаторы создаются из своих Реагентов."
+				"&7 (Более подробную информацию см. в записи JEI этого предмета)"
 			]
 			dependencies: [
 				"3EB5CD9776DF0E63"
@@ -726,16 +726,16 @@
 			}]
 		}
 		{
-			title: "The Discovery"
+			title: "Открытие"
 			x: 1.0d
 			y: 8.5d
 			shape: "circle"
 			description: [
-				"Armed with the Chaos Catalyst, you will find all manner of transmutation pairs among the Reagents above."
+				"Вооружившись Катализатором Хаоса, вы найдете всевозможные пары для трансмутации среди вышеперечисленных реагентов."
 				""
-				"Simply put the Chaos Catalyst and a few jars of one reagent (The transmutation is lossy) into the hopper cart and find a different reagent returned after activating the laser. Mind that the Catalyst is never consumed in the process."
+				"Просто положите катализатор хаоса и несколько банок одного реагента (трансмутация происходит с потерями) в вагонетку с воронкой и получите другой реагент после активации лазера. Имейте в виду, что катализатор никогда не расходуется в процессе."
 				""
-				"One of the Reagents should lead not to another known one, but to the Reagent of Silicon. If this turns out to be one that is reasonably accessible, you can consider choosing this path of production over the main one."
+				"Один из реактивов должен вести не к другому известному реактиву, а к реактиву кремния. Если он окажется достаточно доступным, вы можете рассмотреть возможность выбора этого пути производства вместо основного."
 			]
 			dependencies: ["7A9AA27029185035"]
 			id: "6FDC8DA2FDED5FDD"
@@ -747,17 +747,17 @@
 			}]
 		}
 		{
-			title: "The Alchemical Laser"
+			title: "Алхимический лазер"
 			icon: "projectred-illumination:lime_inverted_cage_light"
 			x: 3.75d
 			y: 2.0d
 			shape: "circle"
 			description: [
-				"A central role in your Laboratory is played by the Alchemical Laser."
+				"Главную роль в вашей лаборатории играет алхимический лазер."
 				""
-				"The Laser is the only way to obtain Catalysts or to find the necessary clues toward their recipe. Another use is the actual application of the Chaos Catalyst to a specific Reagent, causing the Transmutation."
+				"Лазер - единственный способ получить катализаторы или найти необходимые подсказки к их рецепту. Другой способ использования - это применение катализатора Хаоса к определенному реагенту, что приводит к трансмутации."
 				""
-				"Inventors can familiarise themselves with the necessary machinery components via JEI or via entering"
+				"Изобретатели могут ознакомиться с необходимыми компонентами машин через JEI или написав комманду"
 				""
 				" &6/c ponder kubejs:alchemical_laser"
 			]
@@ -784,15 +784,15 @@
 			}]
 		}
 		{
-			title: "Automatic Chaos"
+			title: "Автоматический хаос"
 			icon: "minecraft:hopper_minecart"
 			x: 2.5d
 			y: 9.0d
-			subtitle: "Contraption 31-A"
+			subtitle: "Механизм #31-A"
 			description: [
-				"With the transmutation recipe in hand, it is time to build a facility able to create an infinite amount of Silicon Reagent via Laser Alchemy and the other steps part of the process."
+				"С рецептом трансмутации в руках, пришло время построить установку, способную создавать бесконечное количество кремниевого реагента с помощью лазерной алхимии и других этапов процесса."
 				""
-				"Note that the concete solution depends highly on the transmutation pairings of your World, which is why it cannot be laid out in this Guide. You can use JEI to find other necessary recipes leading up to the reagent you require."
+				"Обратите внимание, что конкретное решение сильно зависит от трансмутационных пар вашего мира, поэтому оно не может быть изложено в этом руководстве. Вы можете использовать JEI для поиска других необходимых рецептов, ведущих к требуемому вам реагенту."
 			]
 			dependencies: ["6FDC8DA2FDED5FDD"]
 			id: "630DA0C83959E9D8"
@@ -803,12 +803,12 @@
 			}]
 		}
 		{
-			title: "Warp Zone"
+			title: "Варп зона"
 			icon: "create:warped_window_pane"
 			x: 1.75d
 			y: 11.0d
 			shape: "hexagon"
-			description: ["Now that you have a passive supply of Silicon Reagent, you may head over to the main section of Chapter 4. You will have opened up an entry point near the end of its recipe chain."]
+			description: ["Теперь, когда у вас есть пассивный запас кремниевого реагента, вы можете перейти к основному разделу главы 4. Вы откроете точку входа в конце цепочки рецептов."]
 			dependencies: ["630DA0C83959E9D8"]
 			size: 2.0d
 			id: "3B431AAADE8845FA"
@@ -818,14 +818,14 @@
 			}]
 		}
 		{
-			title: "Clueless"
+			title: "Непонятливые штуки"
 			x: -6.5d
 			y: 5.0d
 			shape: "circle"
 			description: [
-				"Glowstone or Redstone Accellerator can optionally be placed in the fifth slot of the Hopper Minecart when entering a catalyst code."
+				"Glowstone или Redstone Accellerator можно по желанию поместить в пятый слот вагонетки с воронкой при вводе кода катализатора."
 				""
-				"This may reveal additional information about the correct combination as described in their tooltip."
+				"Это может открыть дополнительную информацию о правильной комбинации, как описано в их всплывающей подсказке."
 			]
 			hide_dependency_lines: true
 			dependencies: ["05446225038D260A"]
@@ -850,7 +850,7 @@
 			x: 10.0d
 			y: 5.0d
 			shape: "circle"
-			description: ["Your coins seem to have a corresponding Reagent, too. Though do not expect to be able to mint new currency out of your silver ingots."]
+			description: ["Ваши монеты, похоже, тоже имеют соответствующий реагент. Хотя не надейтесь, что из ваших серебряных слитков можно будет чеканить новую валюту."]
 			hide_dependency_lines: true
 			dependencies: ["05446225038D260A"]
 			id: "566E72AE7D580917"
