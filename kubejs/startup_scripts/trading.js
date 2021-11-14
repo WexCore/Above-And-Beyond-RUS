@@ -516,7 +516,7 @@ onEvent('item.registry', event => {
 		simple("Catalyzing Gland", "Ускоряющая железа", RQ('catalyzing_gland', 1), 48, S, 0x268E23, 0x63CA52)
 		simple("Chelicerae", "Хелицеры", RQ('chelicerae', 1), 32, S, 0x251721, 0x4D0C3B)
 		simple("Slime Pearl", "Липкая жемчужина", RQ('slime_pearl', 1), 48, S, 0x1B9D33, 0x84F58E)
-		simple("Bat Wing", "Крыло летучей мышь", RQ('bat_wing', 1), 2, G, 0x464646, 0x6D6D6D)
+		simple("Bat Wing", "Крыло летучей мыши", RQ('bat_wing', 1), 2, G, 0x464646, 0x6D6D6D)
 		simple("Withered Rib", "Иссохшее ребро", RQ('withered_rib', 1), 2, G, 0x2A2E2E, 0x434949)
 		simple("Molten Core", "Расплавленная сердцевина", RQ('molten_core', 1), 48, S, 0xED7102, 0xFAFC58)
 		simple("Eye of the Storm", "Око бури", RQ('eye_of_the_storm', 1), 2, G, 0xFCD607, 0x96FC52)

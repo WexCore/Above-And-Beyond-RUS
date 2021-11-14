@@ -59,7 +59,7 @@
 			]
 		}
 		{
-			title: "16x Dirt"
+			title: "16x Земля"
 			icon: "minecraft:dirt"
 			disable_toast: true
 			x: -3.5d
@@ -92,7 +92,7 @@
 			]
 		}
 		{
-			title: "16x Sand"
+			title: "16x Песок"
 			icon: "minecraft:sand"
 			disable_toast: true
 			x: -2.5d
@@ -125,7 +125,7 @@
 			]
 		}
 		{
-			title: "16x Gravel"
+			title: "16x Гравий"
 			icon: "minecraft:gravel"
 			disable_toast: true
 			x: -1.5d
@@ -158,7 +158,7 @@
 			]
 		}
 		{
-			title: "16x Clay"
+			title: "16x Глина"
 			icon: "minecraft:clay"
 			disable_toast: true
 			x: -0.5d
@@ -191,7 +191,7 @@
 			]
 		}
 		{
-			title: "16x Ice"
+			title: "16x Лёд"
 			icon: "minecraft:ice"
 			disable_toast: true
 			x: 0.5d
@@ -224,7 +224,7 @@
 			]
 		}
 		{
-			title: "16x Blackstone"
+			title: "16x Чернит"
 			icon: "minecraft:blackstone"
 			disable_toast: true
 			x: 1.5d
@@ -257,7 +257,7 @@
 			]
 		}
 		{
-			title: "16x Grout"
+			title: "16x Цемент"
 			icon: "tconstruct:grout"
 			disable_toast: true
 			x: 2.5d
@@ -290,7 +290,7 @@
 			]
 		}
 		{
-			title: "16x Cobblestone"
+			title: "16x Булыжник"
 			icon: "minecraft:cobblestone"
 			disable_toast: true
 			x: 3.5d
@@ -323,7 +323,7 @@
 			]
 		}
 		{
-			title: "16x Granite"
+			title: "16x Гранит"
 			icon: "minecraft:granite"
 			disable_toast: true
 			x: -3.5d
@@ -356,7 +356,7 @@
 			]
 		}
 		{
-			title: "16x Diorite"
+			title: "16x Диорит"
 			icon: "minecraft:diorite"
 			disable_toast: true
 			x: -2.5d
@@ -389,7 +389,7 @@
 			]
 		}
 		{
-			title: "16x Andesite"
+			title: "16x Андезит"
 			icon: "minecraft:andesite"
 			disable_toast: true
 			x: -1.5d
@@ -422,7 +422,7 @@
 			]
 		}
 		{
-			title: "16x Limestone"
+			title: "16x Известняк"
 			icon: "create:limestone"
 			disable_toast: true
 			x: -0.5d
@@ -455,7 +455,7 @@
 			]
 		}
 		{
-			title: "16x Weathered Limestone"
+			title: "16x Обветренный известняк"
 			icon: "create:weathered_limestone"
 			disable_toast: true
 			x: 0.5d
@@ -488,7 +488,7 @@
 			]
 		}
 		{
-			title: "16x Dolomite"
+			title: "16x Доломит"
 			icon: "create:dolomite"
 			disable_toast: true
 			x: 1.5d
@@ -521,7 +521,7 @@
 			]
 		}
 		{
-			title: "16x Gabbro"
+			title: "16x Габбро"
 			icon: "create:gabbro"
 			disable_toast: true
 			x: 2.5d
@@ -554,7 +554,7 @@
 			]
 		}
 		{
-			title: "16x Scoria"
+			title: "16x Пепел"
 			icon: "create:scoria"
 			disable_toast: true
 			x: 3.5d
@@ -587,7 +587,7 @@
 			]
 		}
 		{
-			title: "16x Dark Scoria"
+			title: "16x Тёмный пепел"
 			icon: "create:dark_scoria"
 			disable_toast: true
 			x: -3.5d
@@ -620,7 +620,7 @@
 			]
 		}
 		{
-			title: "1x Obsidian"
+			title: "1x Обсидиан"
 			icon: "minecraft:obsidian"
 			disable_toast: true
 			x: -2.5d
@@ -653,7 +653,7 @@
 			]
 		}
 		{
-			title: "16x Dead Log"
+			title: "16x Мёртвое бревно"
 			icon: "biomesoplenty:dead_log"
 			disable_toast: true
 			x: -3.5d
@@ -686,7 +686,7 @@
 			]
 		}
 		{
-			title: "16x Oak Log"
+			title: "16x Дубовое бревно"
 			icon: "minecraft:oak_log"
 			disable_toast: true
 			x: -2.5d
@@ -719,7 +719,7 @@
 			]
 		}
 		{
-			title: "16x Birch Log"
+			title: "16x Берёзовое бревно"
 			icon: "minecraft:birch_log"
 			disable_toast: true
 			x: -1.5d
@@ -752,7 +752,7 @@
 			]
 		}
 		{
-			title: "16x Spruce Log"
+			title: "16x Еловое бревно"
 			icon: "minecraft:spruce_log"
 			disable_toast: true
 			x: -0.5d
@@ -785,7 +785,7 @@
 			]
 		}
 		{
-			title: "16x Jungle Log"
+			title: "16x Бревно тропического дерева"
 			icon: "minecraft:jungle_log"
 			disable_toast: true
 			x: 0.5d
@@ -818,7 +818,7 @@
 			]
 		}
 		{
-			title: "16x Acacia Log"
+			title: "16x Акациевое бревно"
 			icon: "minecraft:acacia_log"
 			disable_toast: true
 			x: 1.5d
@@ -851,7 +851,7 @@
 			]
 		}
 		{
-			title: "16x Dark Oak Log"
+			title: "16x Бревно тёмного дуба"
 			icon: "minecraft:dark_oak_log"
 			disable_toast: true
 			x: 2.5d
@@ -884,7 +884,7 @@
 			]
 		}
 		{
-			title: "16x Crimson Stem"
+			title: "16x Багровый стебель"
 			icon: "minecraft:crimson_stem"
 			disable_toast: true
 			x: 3.5d
@@ -917,7 +917,7 @@
 			]
 		}
 		{
-			title: "16x Warped Stem"
+			title: "16x Искажённый стебель"
 			icon: "minecraft:warped_stem"
 			disable_toast: true
 			x: -3.5d
@@ -950,7 +950,7 @@
 			]
 		}
 		{
-			title: "8x Iron Ingot"
+			title: "8x Железный слиток"
 			icon: "minecraft:iron_ingot"
 			disable_toast: true
 			x: -3.5d
@@ -983,7 +983,7 @@
 			]
 		}
 		{
-			title: "8x Zinc Ingot"
+			title: "8x Цинковый слиток"
 			icon: "create:zinc_ingot"
 			disable_toast: true
 			x: -2.5d
@@ -1016,7 +1016,7 @@
 			]
 		}
 		{
-			title: "8x Copper Ingot"
+			title: "8x Медный слиток"
 			icon: "create:copper_ingot"
 			disable_toast: true
 			x: -1.5d
@@ -1049,7 +1049,7 @@
 			]
 		}
 		{
-			title: "8x Nickel Ingot"
+			title: "8x Никелевый слиток"
 			icon: "thermal:nickel_ingot"
 			disable_toast: true
 			x: -0.5d
@@ -1082,7 +1082,7 @@
 			]
 		}
 		{
-			title: "8x Lead Ingot"
+			title: "8x Свинцовый слиток"
 			icon: "thermal:lead_ingot"
 			disable_toast: true
 			x: 0.5d
@@ -1115,7 +1115,7 @@
 			]
 		}
 		{
-			title: "8x Gold Ingot"
+			title: "8x Золотой слиток"
 			icon: "minecraft:gold_ingot"
 			disable_toast: true
 			x: 1.5d
@@ -1148,7 +1148,7 @@
 			]
 		}
 		{
-			title: "16x Andesite Alloy"
+			title: "16x Андезитовый сплав"
 			icon: "create:andesite_alloy"
 			disable_toast: true
 			x: 2.5d
@@ -1181,7 +1181,7 @@
 			]
 		}
 		{
-			title: "8x Brass Ingot"
+			title: "8x Латунный слиток"
 			icon: "create:brass_ingot"
 			disable_toast: true
 			x: 3.5d
@@ -1214,7 +1214,7 @@
 			]
 		}
 		{
-			title: "8x Invar Ingot"
+			title: "8x Инварный слиток"
 			icon: "thermal:invar_ingot"
 			disable_toast: true
 			x: -3.5d
@@ -1247,7 +1247,7 @@
 			]
 		}
 		{
-			title: "16x Coal"
+			title: "16x Уголь"
 			icon: "minecraft:coal"
 			disable_toast: true
 			x: -2.5d
@@ -1280,7 +1280,7 @@
 			]
 		}
 		{
-			title: "16x Flint"
+			title: "16x Кремень"
 			icon: "minecraft:flint"
 			disable_toast: true
 			x: -1.5d
@@ -1313,7 +1313,7 @@
 			]
 		}
 		{
-			title: "4x Cinnabar"
+			title: "4x Киноварь"
 			icon: "thermal:cinnabar"
 			disable_toast: true
 			x: -0.5d
@@ -1346,7 +1346,7 @@
 			]
 		}
 		{
-			title: "16x Redstone Dust"
+			title: "16x Редстоуновая пыль"
 			icon: "minecraft:redstone"
 			disable_toast: true
 			x: 0.5d
@@ -1379,7 +1379,7 @@
 			]
 		}
 		{
-			title: "1x Diamond"
+			title: "1x Алмаз"
 			icon: "minecraft:diamond"
 			disable_toast: true
 			x: 1.5d
@@ -1412,7 +1412,7 @@
 			]
 		}
 		{
-			title: "8x Lapis Lazuli"
+			title: "8x Лазурит"
 			icon: "minecraft:lapis_lazuli"
 			disable_toast: true
 			x: 2.5d
@@ -1445,7 +1445,7 @@
 			]
 		}
 		{
-			title: "1x Emerald"
+			title: "1x Изумруд"
 			icon: "minecraft:emerald"
 			disable_toast: true
 			x: 3.5d
@@ -1478,7 +1478,7 @@
 			]
 		}
 		{
-			title: "4x Sulfur"
+			title: "4x Сера"
 			icon: "thermal:sulfur"
 			disable_toast: true
 			x: -3.5d
@@ -1511,7 +1511,7 @@
 			]
 		}
 		{
-			title: "4x Apatite"
+			title: "4x Апатит"
 			icon: "thermal:apatite"
 			disable_toast: true
 			x: -2.5d
@@ -1544,7 +1544,7 @@
 			]
 		}
 		{
-			title: "4x Niter"
+			title: "4x Селитра"
 			icon: "thermal:niter"
 			disable_toast: true
 			x: -1.5d
@@ -1577,7 +1577,7 @@
 			]
 		}
 		{
-			title: "8x Nether Quartz"
+			title: "8x Незер-кварц"
 			icon: "minecraft:quartz"
 			disable_toast: true
 			x: -0.5d
@@ -1610,7 +1610,7 @@
 			]
 		}
 		{
-			title: "8x Certus Quartz"
+			title: "8x Истинный кварц"
 			icon: "appliedenergistics2:certus_quartz_crystal"
 			disable_toast: true
 			x: 0.5d
@@ -1643,7 +1643,7 @@
 			]
 		}
 		{
-			title: "8x Fluix Quartz"
+			title: "8x Изменчивый кристал"
 			icon: "appliedenergistics2:fluix_crystal"
 			disable_toast: true
 			x: 1.5d
@@ -1676,7 +1676,7 @@
 			]
 		}
 		{
-			title: "6x Cured Rubber"
+			title: "6x Вулканизированная резина"
 			icon: "thermal:cured_rubber"
 			disable_toast: true
 			x: 2.5d
@@ -1709,7 +1709,7 @@
 			]
 		}
 		{
-			title: "16x Scaffolding"
+			title: "16x Строительные леса"
 			icon: "minecraft:scaffolding"
 			disable_toast: true
 			x: -1.5d
@@ -1742,7 +1742,7 @@
 			]
 		}
 		{
-			title: "1x Wool"
+			title: "1x Шерсть"
 			icon: "minecraft:white_wool"
 			disable_toast: true
 			x: -0.5d
@@ -1775,7 +1775,7 @@
 			]
 		}
 		{
-			title: "1x Sponge"
+			title: "1x Губка"
 			icon: "minecraft:sponge"
 			disable_toast: true
 			x: 0.5d
@@ -1808,7 +1808,7 @@
 			]
 		}
 		{
-			title: "1x Cobweb"
+			title: "1x Паутина"
 			icon: "minecraft:cobweb"
 			disable_toast: true
 			x: 1.5d
@@ -1841,7 +1841,7 @@
 			]
 		}
 		{
-			title: "1x Rice"
+			title: "1x Рис"
 			icon: "farmersdelight:rice_bag"
 			disable_toast: true
 			x: -3.5d
@@ -1874,7 +1874,7 @@
 			]
 		}
 		{
-			title: "32x Straw"
+			title: "32x Солома"
 			icon: "farmersdelight:straw"
 			disable_toast: true
 			x: -2.5d
@@ -1907,7 +1907,7 @@
 			]
 		}
 		{
-			title: "4x Glowshroom"
+			title: "4x Светящийся гриб"
 			icon: "biomesoplenty:glowshroom"
 			disable_toast: true
 			x: -1.5d
@@ -1940,7 +1940,7 @@
 			]
 		}
 		{
-			title: "4x Bramble"
+			title: "4x Шипастый корень"
 			icon: "biomesoplenty:bramble"
 			disable_toast: true
 			x: -0.5d
@@ -1973,7 +1973,7 @@
 			]
 		}
 		{
-			title: "4x Barley"
+			title: "4x Ячмень"
 			icon: "biomesoplenty:barley"
 			disable_toast: true
 			x: 0.5d
@@ -2006,7 +2006,7 @@
 			]
 		}
 		{
-			title: "4x Watergrass"
+			title: "4x Водная трава"
 			icon: "biomesoplenty:watergrass"
 			disable_toast: true
 			x: 1.5d
@@ -2039,7 +2039,7 @@
 			]
 		}
 		{
-			title: "4x Mangrove Root"
+			title: "4x Мангровый корень"
 			icon: "biomesoplenty:mangrove_root"
 			disable_toast: true
 			x: 2.5d
@@ -2072,7 +2072,7 @@
 			]
 		}
 		{
-			title: "4x Reed"
+			title: "4x Камыш"
 			icon: "biomesoplenty:reed"
 			disable_toast: true
 			x: 3.5d
@@ -2105,7 +2105,7 @@
 			]
 		}
 		{
-			title: "4x Clover Petal"
+			title: "4x Лепесток клевера"
 			icon: "biomesoplenty:huge_clover_petal"
 			disable_toast: true
 			x: -3.5d
@@ -2138,7 +2138,7 @@
 			]
 		}
 		{
-			title: "4x Spanish Moss"
+			title: "4x Испанский мох"
 			icon: "biomesoplenty:spanish_moss"
 			disable_toast: true
 			x: -2.5d
@@ -2171,7 +2171,7 @@
 			]
 		}
 		{
-			title: "4x Willow Vine"
+			title: "4x Ивовая лоза"
 			icon: "biomesoplenty:willow_vine"
 			disable_toast: true
 			x: -1.5d
@@ -2204,7 +2204,7 @@
 			]
 		}
 		{
-			title: "4x Cattail"
+			title: "4x Рогоз"
 			icon: "biomesoplenty:cattail"
 			disable_toast: true
 			x: -0.5d
@@ -2237,7 +2237,7 @@
 			]
 		}
 		{
-			title: "4x Sugar Cane"
+			title: "4x Сахарный тростник"
 			icon: "minecraft:sugar_cane"
 			disable_toast: true
 			x: 0.5d
@@ -2270,7 +2270,7 @@
 			]
 		}
 		{
-			title: "8x Kelp"
+			title: "8x Ламинария"
 			icon: "minecraft:kelp"
 			disable_toast: true
 			x: 1.5d
@@ -2303,7 +2303,7 @@
 			]
 		}
 		{
-			title: "8x Bamboo"
+			title: "8x Бамбук"
 			icon: "minecraft:bamboo"
 			disable_toast: true
 			x: 2.5d
@@ -2336,7 +2336,7 @@
 			]
 		}
 		{
-			title: "8x Sweet Berries"
+			title: "8x Сладкие ягоды"
 			icon: "minecraft:sweet_berries"
 			disable_toast: true
 			x: 3.5d
@@ -2369,7 +2369,7 @@
 			]
 		}
 		{
-			title: "4x Vines"
+			title: "4x Лианы"
 			icon: "minecraft:vine"
 			disable_toast: true
 			x: -3.5d
@@ -2402,7 +2402,7 @@
 			]
 		}
 		{
-			title: "1x Tree Fertilizer"
+			title: "1x Удобрение для деревьев"
 			icon: "create:tree_fertilizer"
 			disable_toast: true
 			x: -2.5d
@@ -2435,7 +2435,7 @@
 			]
 		}
 		{
-			title: "16x Daub"
+			title: "16x Мазня"
 			icon: "supplementaries:daub"
 			disable_toast: true
 			x: -3.5d
@@ -2468,7 +2468,7 @@
 			]
 		}
 		{
-			title: "16x Clear Glass"
+			title: "16x Чистое стекло"
 			icon: "tconstruct:clear_glass"
 			disable_toast: true
 			x: -2.5d
@@ -2501,7 +2501,7 @@
 			]
 		}
 		{
-			title: "16x Copper Shingles"
+			title: "16x Медная черепица"
 			icon: "create:copper_shingles"
 			disable_toast: true
 			x: -1.5d
@@ -2534,7 +2534,7 @@
 			]
 		}
 		{
-			title: "32x Algal Bricks"
+			title: "32x Кирпичи из водорослей"
 			icon: "architects_palette:algal_bricks"
 			disable_toast: true
 			x: -0.5d
@@ -2567,7 +2567,7 @@
 			]
 		}
 		{
-			title: "32x Olivestone Bricks"
+			title: "32x Кирпичи из оливкового камня"
 			icon: "architects_palette:olivestone_bricks"
 			disable_toast: true
 			x: 0.5d
@@ -2600,7 +2600,7 @@
 			]
 		}
 		{
-			title: "32x Architect's Limestone"
+			title: "32x Известняк"
 			icon: "architects_palette:limestone"
 			disable_toast: true
 			x: 1.5d
@@ -2633,7 +2633,7 @@
 			]
 		}
 		{
-			title: "32x Sunmetal"
+			title: "32x Солнечный металл"
 			icon: "architects_palette:sunmetal_block"
 			disable_toast: true
 			x: 2.5d
@@ -2666,7 +2666,7 @@
 			]
 		}
 		{
-			title: "32x Plating Block"
+			title: "32x Блок обшивки"
 			icon: "architects_palette:plating_block"
 			disable_toast: true
 			x: 3.5d
@@ -2699,7 +2699,7 @@
 			]
 		}
 		{
-			title: "32x Twisted Planks"
+			title: "32x Доски из изогнутого дерева"
 			icon: "architects_palette:twisted_planks"
 			disable_toast: true
 			x: -3.5d
@@ -2732,7 +2732,7 @@
 			]
 		}
 		{
-			title: "32x Osseous Bricks"
+			title: "32x Костные кирпичи"
 			icon: "architects_palette:osseous_bricks"
 			disable_toast: true
 			x: -2.5d
@@ -2798,7 +2798,7 @@
 			]
 		}
 		{
-			title: "16x Scorched Stone"
+			title: "16x Выжженный камень"
 			icon: "tconstruct:scorched_stone"
 			disable_toast: true
 			x: -0.5d
@@ -2831,7 +2831,7 @@
 			]
 		}
 		{
-			title: "1x Lantern"
+			title: "1x Фонарь"
 			icon: "minecraft:lantern"
 			disable_toast: true
 			x: 0.5d
@@ -2864,7 +2864,7 @@
 			]
 		}
 		{
-			title: "1x Copper Lantern"
+			title: "1x Медный фонарь"
 			icon: "supplementaries:copper_lantern"
 			disable_toast: true
 			x: 1.5d
@@ -2897,7 +2897,7 @@
 			]
 		}
 		{
-			title: "1x Brass Lantern"
+			title: "1x Латунный фонарь"
 			icon: "supplementaries:brass_lantern"
 			disable_toast: true
 			x: 2.5d
@@ -2930,7 +2930,7 @@
 			]
 		}
 		{
-			title: "1x Crimson Lantern"
+			title: "1x Багровый фонарь"
 			icon: "supplementaries:crimson_lantern"
 			disable_toast: true
 			x: 3.5d
@@ -2963,7 +2963,7 @@
 			]
 		}
 		{
-			title: "4x Slime Ball"
+			title: "4x Шар слизи"
 			icon: "minecraft:slime_ball"
 			disable_toast: true
 			x: -3.5d
@@ -2996,7 +2996,7 @@
 			]
 		}
 		{
-			title: "4x String"
+			title: "4x Нить"
 			icon: "minecraft:string"
 			disable_toast: true
 			x: -2.5d
@@ -3029,7 +3029,7 @@
 			]
 		}
 		{
-			title: "4x Feather"
+			title: "4x Перо"
 			icon: "minecraft:feather"
 			disable_toast: true
 			x: -1.5d
@@ -3062,7 +3062,7 @@
 			]
 		}
 		{
-			title: "4x Gunpowder"
+			title: "4x Порох"
 			icon: "minecraft:gunpowder"
 			disable_toast: true
 			x: -0.5d
@@ -3095,7 +3095,7 @@
 			]
 		}
 		{
-			title: "4x Leather"
+			title: "4x Кожа"
 			icon: "minecraft:leather"
 			disable_toast: true
 			x: 0.5d
@@ -3128,7 +3128,7 @@
 			]
 		}
 		{
-			title: "4x Ink Sac"
+			title: "4x Чернильный мешок"
 			icon: "minecraft:ink_sac"
 			disable_toast: true
 			x: 1.5d
@@ -3161,7 +3161,7 @@
 			]
 		}
 		{
-			title: "1x Experience"
+			title: "1x Опыт"
 			icon: "minecraft:experience_bottle"
 			disable_toast: true
 			x: 2.5d
@@ -3194,7 +3194,7 @@
 			]
 		}
 		{
-			title: "1x Shulker Shell"
+			title: "1x Панцирь шалкера"
 			icon: "minecraft:shulker_shell"
 			disable_toast: true
 			x: 3.5d
@@ -3227,7 +3227,7 @@
 			]
 		}
 		{
-			title: "4x Spider Eye"
+			title: "4x Паучий глаз"
 			icon: "minecraft:spider_eye"
 			disable_toast: true
 			x: -3.5d
@@ -3260,7 +3260,7 @@
 			]
 		}
 		{
-			title: "1x Ender Pearl"
+			title: "1x Эндер-жемчуг"
 			icon: "minecraft:ender_pearl"
 			disable_toast: true
 			x: -2.5d
@@ -3293,7 +3293,7 @@
 			]
 		}
 		{
-			title: "4x Rotten Flesh"
+			title: "4x Гнилая плоть"
 			icon: "minecraft:rotten_flesh"
 			disable_toast: true
 			x: -1.5d
@@ -3326,7 +3326,7 @@
 			]
 		}
 		{
-			title: "1x Blaze Rod"
+			title: "1x Огненный стержень"
 			icon: "minecraft:blaze_rod"
 			disable_toast: true
 			x: -0.5d
@@ -3359,7 +3359,7 @@
 			]
 		}
 		{
-			title: "4x Bone"
+			title: "4x Кость"
 			icon: "minecraft:bone"
 			disable_toast: true
 			x: 0.5d
@@ -3392,7 +3392,7 @@
 			]
 		}
 		{
-			title: "4x Prismarine Shard"
+			title: "4x Осколок призмарина"
 			icon: "minecraft:prismarine_shard"
 			disable_toast: true
 			x: 1.5d
@@ -3425,7 +3425,7 @@
 			]
 		}
 		{
-			title: "4x Prismarine Crystals"
+			title: "4x Кристал призмарина"
 			icon: "minecraft:prismarine_crystals"
 			disable_toast: true
 			x: 2.5d
@@ -3458,7 +3458,7 @@
 			]
 		}
 		{
-			title: "1x Witch Hat"
+			title: "1x Шляпа ведьмы"
 			icon: "xreliquary:witch_hat"
 			disable_toast: true
 			x: 3.5d
@@ -3491,7 +3491,7 @@
 			]
 		}
 		{
-			title: "1x Zombie heart"
+			title: "1x Сердце зомби"
 			icon: "xreliquary:zombie_heart"
 			disable_toast: true
 			x: -3.5d
@@ -3524,7 +3524,7 @@
 			]
 		}
 		{
-			title: "1x Squid Beak"
+			title: "1x Клюв спрута"
 			icon: "xreliquary:squid_beak"
 			disable_toast: true
 			x: -2.5d
@@ -3557,7 +3557,7 @@
 			]
 		}
 		{
-			title: "1x Rib Bone"
+			title: "1x Реберная кость"
 			icon: "xreliquary:rib_bone"
 			disable_toast: true
 			x: -1.5d
@@ -3590,7 +3590,7 @@
 			]
 		}
 		{
-			title: "1x Catalyzing Gland"
+			title: "1x Ускоряющая железа"
 			icon: "xreliquary:catalyzing_gland"
 			disable_toast: true
 			x: -0.5d
@@ -3623,7 +3623,7 @@
 			]
 		}
 		{
-			title: "1x Chelicerae"
+			title: "1x Хелицеры"
 			icon: "xreliquary:chelicerae"
 			disable_toast: true
 			x: 0.5d
@@ -3656,7 +3656,7 @@
 			]
 		}
 		{
-			title: "1x Slime Pearl"
+			title: "1x Липкая жемчужина"
 			icon: "xreliquary:slime_pearl"
 			disable_toast: true
 			x: 1.5d
@@ -3689,7 +3689,7 @@
 			]
 		}
 		{
-			title: "1x Bat Wing"
+			title: "1x Крыло летучей мыши"
 			icon: "xreliquary:bat_wing"
 			disable_toast: true
 			x: 2.5d
@@ -3722,7 +3722,7 @@
 			]
 		}
 		{
-			title: "1x Withered Rib"
+			title: "1x Иссохшее ребро"
 			icon: "xreliquary:withered_rib"
 			disable_toast: true
 			x: 3.5d
@@ -3755,7 +3755,7 @@
 			]
 		}
 		{
-			title: "1x Molten Core"
+			title: "1x Расплавленная сердцевина"
 			icon: "xreliquary:molten_core"
 			disable_toast: true
 			x: -3.5d
@@ -3788,7 +3788,7 @@
 			]
 		}
 		{
-			title: "1x Eye of the Storm"
+			title: "1x Око бури"
 			icon: "xreliquary:eye_of_the_storm"
 			disable_toast: true
 			x: -2.5d
@@ -3821,7 +3821,7 @@
 			]
 		}
 		{
-			title: "1x Frozen Core"
+			title: "1x Замороженная сердцевина"
 			icon: "xreliquary:frozen_core"
 			disable_toast: true
 			x: -1.5d
@@ -3854,7 +3854,7 @@
 			]
 		}
 		{
-			title: "1x Nebulous Heart"
+			title: "1x Затуманенное сердце"
 			icon: "xreliquary:nebulous_heart"
 			disable_toast: true
 			x: -0.5d
@@ -3887,7 +3887,7 @@
 			]
 		}
 		{
-			title: "1x Guardian Spike"
+			title: "1x Шип стража"
 			icon: "xreliquary:guardian_spike"
 			disable_toast: true
 			x: 0.5d
@@ -3920,7 +3920,7 @@
 			]
 		}
 		{
-			title: "1x Phantom Membrane"
+			title: "1x Мембрана фантома"
 			icon: "minecraft:phantom_membrane"
 			disable_toast: true
 			x: 1.5d
@@ -3953,7 +3953,7 @@
 			]
 		}
 		{
-			title: "1x Blaze Cake"
+			title: "1x Торт всполоха"
 			icon: "create:blaze_cake"
 			disable_toast: true
 			x: 2.5d
@@ -3986,16 +3986,16 @@
 			]
 		}
 		{
-			title: "Early Shipping"
+			title: "Ранние поставки"
 			icon: "thermal:machine_press"
 			x: -2.0d
 			y: 12.25d
 			shape: "circle"
 			subtitle: "16 Серебра"
 			description: [
-				"Getting to the Brass Age is hard work!"
+				"Переход к медному веку - тяжелая работа!"
 				""
-				"The avid salesman can come here for purchasing Trading Machines from the get go. This should help you take off!"
+				"Заядлый торговец может прийти сюда, чтобы продать вам торговые автоматы с самого начала. Это поможет вам начать!"
 			]
 			dependencies: ["6AC1CED0D341150E"]
 			id: "4DFE4FD3B504AF4B"
