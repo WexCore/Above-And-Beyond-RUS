@@ -56,9 +56,9 @@
 			shape: "circle"
 			subtitle: "Механизм #12-1"
 			description: [
-				"This piece of quartz is too small. With enough water we might get somewhere."
+				"Этот кусочек кварца слишком мал. При наличии достаточного количества воды у нас может что-то получиться."
 				""
-				"If you're not too stoked about waiting hours on crystal growth, you can set up Water Spouts to greatly accellerate the process. "
+				"Если вам не очень нравится ждать часами роста кристаллов, вы можете установить дозаторы с водой, чтобы значительно ускорить процесс. "
 			]
 			dependencies: [
 				"0AF5F19F5D9FB5C9"
@@ -246,7 +246,7 @@
 			x: 1.0d
 			y: 9.5d
 			subtitle: "Механизм #15-4"
-			description: ["Направьте кусочки (металла) в оборудование для высокотемпературной плавки. Например, плавильщик из Tinkers' Construct."]
+			description: ["Направьте кусочки (металла) в оборудование для высокотемпературной плавки. Например, плавильню из Tinkers' Construct."]
 			dependencies: ["53735DC4231AB566"]
 			id: "2167272204B6627B"
 			tasks: [
@@ -297,7 +297,7 @@
 			]
 		}
 		{
-			title: "(Пере) зарядник"
+			title: "(Пере)зарядник"
 			icon: "appliedenergistics2:charged_certus_quartz_crystal"
 			x: 1.0d
 			y: 6.0d
