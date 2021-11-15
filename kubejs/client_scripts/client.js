@@ -34,13 +34,13 @@ onEvent('jei.remove.categories', event => {
 })
 
 onEvent('item.tooltip', tooltip => {
-	let holds = (id, slots) => tooltip.add("metalbarrels:" + id + "_barrel", [`§7${slots} Slots`])
-	let main_assembly = (id, stage) => tooltip.add(id, [`§7Main Assembly: ${stage == "4" ? "§6Finale" : "§6Chapter " + stage}`, '§8Consider automating this item'])
-	let bonus_assembly = (id, stage) => tooltip.add(id, [`§7Bonus Assembly: §6Chapter ${stage}`])
-	let not_consumed = (id, stage) => tooltip.add(id, [`§7Not consumed in the`, `§7Assembly Process`])
-	let ore = (id, y1, y2) => tooltip.add(id, [`§o§7Y level §6${y1} §7to §6${y2}`])
+	let holds = (id, slots) => tooltip.add("metalbarrels:" + id + "_barrel", [`§7${slots} Слотов`])
+	let main_assembly = (id, stage) => tooltip.add(id, [`§7Основная сборка: ${stage == "4" ? "§6Финал" : "§6Глава " + stage}`, '§8Подумайте над автоматизацией',  '§8производства этого предмета'])
+	let bonus_assembly = (id, stage) => tooltip.add(id, [`§7Бонусная сборка: §6Глава ${stage}`])
+	let not_consumed = (id, stage) => tooltip.add(id, [`§7Не тратится в процессе сборки`])
+	let ore = (id, y1, y2) => tooltip.add(id, [`§o§7Находится на высоте от §6${y1} §7до §6${y2}`])
 
-	tooltip.add("minecraft:redstone_ore", [`§7Does not generate, crush Cinnabar to obtain Redstone.`]);
+	tooltip.add("minecraft:redstone_ore", [`§7Не генерируется в мире, для получения редстоуна нужно измельчить киноварь.`]);
 
 	ore("forbidden_arcanus:arcane_crystal_ore", 1, 9)
 	ore("appliedenergistics2:charged_quartz_ore", 1, 30)
@@ -64,7 +64,7 @@ onEvent('item.tooltip', tooltip => {
 	ore("minecraft:gold_ore", 1, 32)
 	ore("minecraft:diamond_ore", 1, 16)
 
-	tooltip.add("advancedrocketry:planet_id_chip", [`§3How to Use:`, `1. §7Use the Survival Mode recipes to obtain these`, `2. §7Open the UI of your Rocket`, `3. §7Click on the displayed Guidance Computer item`, `4. §7Insert chip into the empty slot`, "§8§o(Using the Planet Selection menu crashes the game)"]);
+	tooltip.add("advancedrocketry:planet_id_chip", [`§3Как использовать:`, `1. §7Используйте рецепты крафта чтобы их получить`, `2. §7Откройте интерфейс вашей ракеты`, `3. §7Щелкните по отображаемому элементу Guidance Computer`, `4. §7Вставьте чип в пустую ячейку`, "§8§o(Использование меню выбора планеты приводит к крашу)"]);
 
 	holds('copper', 5 * 9)
 	holds('iron', 6 * 9)
@@ -89,71 +89,71 @@ onEvent('item.tooltip', tooltip => {
 	// not_consumed('xreliquary:mercy_cross')
 	// not_consumed('xreliquary:ender_staff')
 
-	global.substrates[0].forEach(e => tooltip.add(e.id, [`§8Category: §7Igneous`]));
-	global.substrates[1].forEach(e => tooltip.add(e.id, [`§8Category: §7Herbal`]));
-	global.substrates[2].forEach(e => tooltip.add(e.id, [`§8Category: §7Volatile`]));
-	global.substrates[3].forEach(e => tooltip.add(e.id, [`§8Category: §7Crystalline`]));
-	global.substrates[4].forEach(e => tooltip.add(e.id, [`§8Category: §7Metallurgic`]));
-	global.substrates[5].forEach(e => tooltip.add(e.id, [`§8Category: §7Gemstone`]));
-	global.substrates[6].forEach(e => tooltip.add(e.id, [`§8Category: §7Catalyst`]));
+	global.substrates[0].forEach(e => tooltip.add(e.id, [`§8Категория: §7Магматические`]));
+	global.substrates[1].forEach(e => tooltip.add(e.id, [`§8Категория: §7Травяные`]));
+	global.substrates[2].forEach(e => tooltip.add(e.id, [`§8Категория: §7Нестабильные`]));
+	global.substrates[3].forEach(e => tooltip.add(e.id, [`§8Категория: §7Кристалические`]));
+	global.substrates[4].forEach(e => tooltip.add(e.id, [`§8Категория: §7Металлургические`]));
+	global.substrates[5].forEach(e => tooltip.add(e.id, [`§8Категория: §7Самоцветные`]));
+	global.substrates[6].forEach(e => tooltip.add(e.id, [`§8Категория: §7Катализаторы`]));
 
-	tooltip.add("structurescompass:structures_compass", [`§7Right-Click to Activate`]);
+	tooltip.add("structurescompass:structures_compass", [`§7ПКМ для активации`]);
 
-	tooltip.add("kubejs:accellerator_redstone", ["§7When used in Alchemy Research:", "  §6One of the §ecorrect §6Reagents",
-		"  §6in §eincorrect §6slots will not be consumed"]);
-	tooltip.add("kubejs:accellerator_glowstone", ["§7When used in Alchemy Research:", "  §6One of the §ecorrect §6Reagents",
-		"  §6in §ecorrect §6slots will not be consumed"]);
+	tooltip.add("kubejs:accellerator_redstone", ["§7При использовании в алхимическом исследовании:", "  §6Один из §eправильных §6реагентов",
+		"  §6в §eнеправильном §6слоте не будет потрачен"]);
+	tooltip.add("kubejs:accellerator_glowstone", ["§7При использовании в алхимическом исследовании:", "  §6Один из §eправильных §6реагентов",
+		"  §6в §eправильном §6слоте не будет потрачен"]);
 
 	for (i = 0; i < 15; i++)
 		tooltip.add(`kubejs:failed_alchemy_${i}`, [
-			`§7Place in Centrifugal Separator to analyse.`,
+			`§7Поместите в центробежный разделитель для анализа.`,
 			"",
-			"§6Yields",
-			"- Ash §7for each incorrect ingredient",
-			"- Redstone §7for each correct ingredient",
-			"   §7in an incorrect slot",
-			"- Glowstone §7for each correct ingredient",
-			"   §7in the correct slot"
+			"§6Даёт:",
+			"- Пепел §7за каждый неправильный ингридиент",
+			"- Редстоун §7за каждый правильный ингридиент",
+			"   §7в неправильном слоте",
+			"- Глоустоун §7за каждый правильный ингридиент",
+			"   §7в правильном слоте"
 		])
 })
 
 onEvent('jei.information', event => {
 	// event.add('thermal:blitz_rod', ["Obtain by running a §9Charged Staff§0 (with Charge) and any amount of §9Tiny Smoke Clouds§0 through an §5Alchemical Laser§0."])
-	event.add('thermal:blizz_rod', ["Obtain by running an §9Entropy Manipulator§0 (with Charge) and any amount of §9Snowballs§0 through an §5Alchemical Laser§0."])
-	event.add('thermal:basalz_rod', ["Obtain by running a §9FluxoMagnet§0 (with Charge) and any amount of §9Basalt§0 through an §5Alchemical Laser§0."])
-	event.add('kubejs:substrate_silicon', ["Obtained only by running a §9Chaos Catalyst§0 and any amount of one specific other §9Reagent§0 through an §5Alchemical Laser§0.", " ", "The Reagent in question §9differs from World to World§0."])
+	event.add('thermal:blizz_rod', ["Можно получить, если §9Манипулятор энтропии§0 (заряженный) и любое количество §9снежков§0 прогнать через §5Алхимический лазер§0. "])
+	event.add('thermal:basalz_rod', ["Можно получить, если §9Потоковый магнит§0 (заряженный) и любое количество §9базальта§0 прогнать через §5Алхимический лазер§0. "])
+	event.add('kubejs:substrate_silicon', ["Можно получить, если §9Катализатор хаоса§0 и любое количество §9определённого реагента§0 прогнать через §5Алхимический лазер§0.", " ", "Реагент под вопросом §9меняется от мира к миру§0."])
 
-	event.add('kubejs:alchemical_laser', ["This item represents the §5Alchemical Laser§0 machine. Use the §9Ponder Feature§0 on this item to learn how it is build."])
+	event.add('kubejs:alchemical_laser', ["Этот предмет представляет §5Алхимический лазер§0. Используйте §9Размышление§0 (зажмите w) на этом предмете, чтобы узнать, как он создается."])
 
 	let catalyst = (name, me) =>
 		[
-			`Obtained by finding the §9Correct Combination§0 of four §9${me ? name : name + " §0Reagent"}s§0 with the §5Alchemical Laser§0.`, " ",
-			`§81.§0 Occupy the first four slots of the Hopper Cart with one §9${me ? name : name + " §0Reagent"}§0 each`,
-			`§82.§0 Run the §5Alchemical Laser§0 on the contents and find either the §9${me ? me : name + " §9Catalyst"}§0, or a §9Hint§0 towards the Correct Combination`, " ",
-			"§8Note:§0 The Correct Combination may contain §9Duplicates§0",
-			"§8Note:§0 The Correct Combination §9Differs from World to World§0",
-			"§8Optional:§0 Place §9Redstone Accellerator§0 or §9Glowstone Accellerator§0 in the fifth slot for §9Additional Hints§0",
+			`Получается путём нахождения §9правильной комбинации§0 четырёх §9${me ? name : name + " §0реагентов"}§0 используя §5Алхимический лазер§0.`, " ",
+			`§81.§0 Поместите в первые четыре слота вагонетки с воронкой четыре §9${me ? name : name + " §0реагента"}§0`,
+			`§82.§0 Запустите §5Алхимический лазер§0 на содержимое и получите §9катализатор§0, или §9подсказку§0 к правильной комбинации`, " ",
+			"§8PS:§0 В правильной комбинации могут быть §9дубликаты§0",
+			"§8PS:§0 Правильная комбинация §9разнится от мира к миру§0",
+			"§8Опционально:§0 Поместите §9Редстоун ускоритель§0 или §9Глоустоун ускоритель§0 в пятый слот для §9дополнительных подсказок§0",
 		]
 
-	event.add('kubejs:substrate_igneous', catalyst("Igneous"))
-	event.add('kubejs:substrate_herbal', catalyst("Herbal"))
-	event.add('kubejs:substrate_volatile', catalyst("Volatile"))
-	event.add('kubejs:substrate_crystal', catalyst("Crystalline"))
-	event.add('kubejs:substrate_metal', catalyst("Metallurgic"))
-	event.add('kubejs:substrate_gem', catalyst("Gemstone"))
+	event.add('kubejs:substrate_igneous', catalyst("Магматических"))
+	event.add('kubejs:substrate_herbal', catalyst("Травяных"))
+	event.add('kubejs:substrate_volatile', catalyst("Нестабильных"))
+	event.add('kubejs:substrate_crystal', catalyst("Кристальных"))
+	event.add('kubejs:substrate_metal', catalyst("Металлургических"))
+	event.add('kubejs:substrate_gem', catalyst("Самоцветных"))
 
 	let beer = (id, igs) =>
-		event.add('drinkbeer:beer_mug' + id, ["Place 4 Empty Beer Mugs, " + igs + " in a Keg to create this Beverage."])
+		event.add('drinkbeer:beer_mug' + id, ["Поместите 4 пустые пивные кружки, " + igs + " в бочонок для создания этого напитка."])
 
-	beer("", "3 Wheat and a Water Bucket")
-	beer("_blaze_stout", "2 Wheat, 1 Blaze Powder and a Water Bucket")
-	beer("_blaze_milk_stout", "1 Wheat, 1 Sugar, 1 Blaze Powder and a Water Bucket") //wtf are these drinks
-	beer("_apple_lambic", "2 Wheat, an Apple and a Water Bucket")
-	beer("_sweet_berry_kriek", "2 Wheat, 1 Sweet Berry and a Water Bucket")
-	beer("_haars_icey_pale_lager", "3 Wheat and a block of Blue Ice")
-	beer("_pumpkin_kvass", "2 Bread, a Pumpkin and a Water Bucket")
+	beer("", "3 пшеницы и ведро воды")
+	beer("_blaze_stout", "2 пшеницы, 1 огненный порошок и ведро воды")
+	beer("_blaze_milk_stout", "1 пшеница, 1 сахар, 1 огненный порошок и ведро воды") //wtf are these drinks
+	beer("_apple_lambic", "2 пшеницы, яблоко и ведро воды")
+	beer("_sweet_berry_kriek", "2 пшеницы, 1 сладкая ягода и ведро воды")
+	beer("_haars_icey_pale_lager", "3 пшеницы и блок синего льда")
+	beer("_pumpkin_kvass", "2 хлеба, тыква и ведро воды")
 
-	event.add('kubejs:substrate_chaos', catalyst("Catalyst", "Chaos Catalyst").concat([
-		" ", "§8Usage:§0", "Running the §9Chaos Catalyst§0 with any amount of one §9Reagent§0 through an §5Alchemical Laser§0 will §9transmute§0 the Reagent to another. The Transmutation Pairings are §9unique to each World§0."
+	event.add('kubejs:substrate_chaos', catalyst("катализаторов", "Chaos Catalyst").concat([
+		" ", "§8Использование:§0", "Прокат вагонетки с §9Катализатором Хаоса§0 и любым количеством §9реагента§0 через §5алхимический лазер§0 произведёт §9трансмутацию§0 одного реагента в другой. Трансмутационные пары §9уникальны для каждого мира§0."
 	]))
 })
