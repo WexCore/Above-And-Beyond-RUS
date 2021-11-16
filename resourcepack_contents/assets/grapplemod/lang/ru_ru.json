@@ -21,17 +21,23 @@
     "item.grapplemod.doublemotorhook": "Двойная моторизованная кошка",
     "item.grapplemod.smarthook": "Умная моторизованная кошка",
 
-    "item.baseupgradeitem": "Базовое улучшения для кошки",
-    "item.doubleupgradeitem": "Улучшение: Двойная кошка",
-    "item.forcefieldupgradeitem": "Улучшение: Кошка с силовым щитом",
-    "item.motorupgradeitem": "Улучшение: Моторизованная кошка",
-    "item.magnetupgradeitem": "Улучшение: Магнитная кошка",
-    "item.ropeupgradeitem": "Улучшение: Верёвка кошки",
-    "item.staffupgradeitem": "Улучшение: Кошка посоха эндера",
-    "item.swingupgradeitem": "Улучшение: Размах кошкой",
-    "item.throwupgradeitem": "Улучшение: Метатель крюков кошки",
-    "item.limitsupgradeitem": "Улучшение: Ограничитель для кошки",
-    "item.rocketupgradeitem": "Улучшение: Ракетная кошка",
+
+    "item.grapplemod.motorhook": "Моторизованная кошка",
+    "item.grapplemod.rockethook": "Rocket Grappling Hook",
+    "item.grapplemod.rocketdoublemotorhook": "Rocket Dual Motorized Grappling Hooks",
+
+
+    "item.grapplemod.baseupgradeitem": "Базовое улучшения для кошки",
+    "item.grapplemod.doubleupgradeitem": "Улучшение: Двойная кошка",
+    "item.grapplemod.forcefieldupgradeitem": "Улучшение: Кошка с силовым щитом",
+    "item.grapplemod.motorupgradeitem": "Улучшение: Моторизованная кошка",
+    "item.grapplemod.magnetupgradeitem": "Улучшение: Магнитная кошка",
+    "item.grapplemod.ropeupgradeitem": "Улучшение: Верёвка кошки",
+    "item.grapplemod.staffupgradeitem": "Улучшение: Кошка посоха эндера",
+    "item.grapplemod.swingupgradeitem": "Улучшение: Размах кошкой",
+    "item.grapplemod.throwupgradeitem": "Улучшение: Метатель крюков кошки",
+    "item.grapplemod.limitsupgradeitem": "Улучшение: Ограничитель для кошки",
+    "item.grapplemod.rocketupgradeitem": "Улучшение: Ракетная кошка",
 
     "block.block_grapple_modifier": "Модификатор кошки",
 
@@ -49,9 +55,9 @@
     "key.rocket.desc": "Взлететь",
     "key.slide.desc": "Скользить",
 
-    "enchantment.wallrunenchantment": "Бег по стенам",
-    "enchantment.doublejumpenchantment": "Двойной прыжок",
-    "enchantment.slidingenchantment": "Скольжение",
+    "enchantment.grapplemod.wallrunenchantment": "Бег по стенам",
+    "enchantment.grapplemod.doublejumpenchantment": "Двойной прыжок",
+    "enchantment.grapplemod.slidingenchantment": "Скольжение",
 
     "itemGroup.tabGrapplemod": "Grappling Hook Mod",
 
