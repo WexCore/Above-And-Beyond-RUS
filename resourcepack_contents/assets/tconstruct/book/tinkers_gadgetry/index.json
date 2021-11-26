@@ -1,0 +1,38 @@
+[
+  {
+    "name": "intro",
+    "data": "sections/intro.json",
+    "icon": {
+      "item": {
+        "id": "tconstruct:sky_slime_ball"
+      }
+    }
+  },
+  {
+    "name": "gadgets",
+    "data": "sections/gadgets.json",
+    "icon": {
+      "item": {
+        "id": "tconstruct:flint_shuriken"
+      }
+    }
+  },
+  {
+    "name": "modifiers",
+    "data": "sections/modifiers.json",
+    "icon": {
+      "item": {
+        "id": "minecraft:wet_sponge"
+      }
+    }
+  },
+  {
+    "name": "exploration",
+    "data": "sections/exploration.json",
+    "icon": {
+      "item": {
+        "id": "tconstruct:sky_slime_sapling"
+      }
+    }
+  }
+]

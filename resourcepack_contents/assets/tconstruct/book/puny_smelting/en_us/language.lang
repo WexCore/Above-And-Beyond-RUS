@@ -1,0 +1,15 @@
+// Sections - Puny Smelting
+intro=Introduction
+melter=Melter
+moving_fluids=Moving Fluids
+casting=Casting
+tier_two_materials=Tier 2 Materials
+
+upgrades=Upgrades
+upgrades.general=§1§lGeneral§r
+upgrades.harvest=§1§lHarvest§r
+upgrades.weapon=§1§lWeapon§r
+
+slotless=Slotless Modifier
+slotless.slotless=§1§lSlotless§r
+slotless.bonus_upgrades=§1§lUpgrades++§r
