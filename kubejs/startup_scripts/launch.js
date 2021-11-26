@@ -15,10 +15,10 @@ onEvent('item.registry', event => {
 	});
 
 	event.create('growing_fluix_seed').type('create:sequenced_assembly').texture("appliedenergistics2:item/crystal_seed_fluix").displayName('Изменчивое семя')
-	event.create('tiny_fluix_crystal').texture("appliedenergistics2:item/crystal_seed_fluix2").displayName('Изменчивый крошечный кристал')
-	event.create('growing_tiny_fluix_crystal').type('create:sequenced_assembly').texture("appliedenergistics2:item/crystal_seed_fluix2").displayName('Изменчивый крошечный кристал')
-	event.create('small_fluix_crystal').texture("appliedenergistics2:item/crystal_seed_fluix3").displayName('Изменчивый малый кристал')
-	event.create('growing_small_fluix_crystal').type('create:sequenced_assembly').texture("appliedenergistics2:item/crystal_seed_fluix3").displayName('Изменчивый малый кристал')
+	event.create('tiny_fluix_crystal').texture("appliedenergistics2:item/crystal_seed_fluix2").displayName('Крошечный изменчивый кристал')
+	event.create('growing_tiny_fluix_crystal').type('create:sequenced_assembly').texture("appliedenergistics2:item/crystal_seed_fluix2").displayName('Крошечный изменчивый кристал')
+	event.create('small_fluix_crystal').texture("appliedenergistics2:item/crystal_seed_fluix3").displayName('Малый изменчивый кристал')
+	event.create('growing_small_fluix_crystal').type('create:sequenced_assembly').texture("appliedenergistics2:item/crystal_seed_fluix3").displayName('Малый изменчивый кристал')
 
 
 
@@ -73,11 +73,11 @@ onEvent('item.registry', event => {
 		event.create(`${id}_slimy_fern_leaf`)
 			.color(0, slime_colours[i])
 			.texture("kubejs:item/slimy_fern_leaf")
-			.displayName(`Slimy Fern Leaf`)
+			.displayName(`Лист слизневого папоротника`)
 		event.create(`${id}_slime_fern_paste`)
 			.color(0, slime_colours[i])
 			.texture("kubejs:item/ground_slimy_fern")
-			.displayName(`Slimy Fern Blend`)
+			.displayName(`Смесь из слизневого папоротника`)
 	}
 
 	// Misc / Integration
@@ -107,13 +107,13 @@ onEvent('item.registry', event => {
 	event.create('flash_drive').texture("kubejs:item/boot_medium").displayName('Флеш-накопитель').maxDamage(512)
 
 	event.create('alchemical_laser').parentModel("kubejs:block/ponder_laser_lamp_on").displayName('Алхимический лазер (для Размышлений)').unstackable()
-	event.create('thermal_cast').texture("kubejs:item/thermal_cast").displayName('Термический слепок').unstackable()
-	event.create('three_cast').texture("kubejs:item/three_cast").displayName('Слепок цифры (3)').unstackable()
-	event.create('eight_cast').texture("kubejs:item/eight_cast").displayName('Слепок цифры (8)').unstackable()
-	event.create('plus_cast').texture("kubejs:item/plus_cast").displayName('Слепок оператора (+)').unstackable()
-	event.create('minus_cast').texture("kubejs:item/minus_cast").displayName('Слепок оператора (-)').unstackable()
-	event.create('multiply_cast').texture("kubejs:item/multiply_cast").displayName('Слепок оператора (x)').unstackable()
-	event.create('divide_cast').texture("kubejs:item/divide_cast").displayName('Слепок оператора (/)').unstackable()
+	event.create('thermal_cast').texture("kubejs:item/thermal_cast").displayName('Термическая литейная форма').unstackable()
+	event.create('three_cast').texture("kubejs:item/three_cast").displayName('Литейная форма цифры (3)').unstackable()
+	event.create('eight_cast').texture("kubejs:item/eight_cast").displayName('Литейная форма цифры (8)').unstackable()
+	event.create('plus_cast').texture("kubejs:item/plus_cast").displayName('Литейная форма оператора (+)').unstackable()
+	event.create('minus_cast').texture("kubejs:item/minus_cast").displayName('Литейная форма оператора (-)').unstackable()
+	event.create('multiply_cast').texture("kubejs:item/multiply_cast").displayName('Литейная форма оператора (x)').unstackable()
+	event.create('divide_cast').texture("kubejs:item/divide_cast").displayName('Литейная форма оператора (/)').unstackable()
 	event.create('computation_matrix').parentModel("kubejs:item/computation_matrix").displayName('Матрица расчётов').rarity(RARITY_UNCOMMON).unstackable()
 })
 
