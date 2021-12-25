@@ -421,6 +421,7 @@ onEvent('item.registry', event => {
 		simple("Gold Ingot", "Золотой слиток", MC('gold_ingot', 8), 48, S, 0xD99413, 0xFAF25E)
 		
 		simple("Andesite Alloy", "Андезитовый сплав", CR('andesite_alloy', 16), 8, S, 0x505050, 0x878787)
+		simple("Silica Steel", "Кремниевая сталь", "8x moreminecarts:silica_steel", 16, S, 0x3E4644, 0xB8DAC8)		
 		simple("Brass Ingot", "Латунный слиток", CR('brass_ingot', 8), 48, S, 0x6F3C2D, 0xFCF085)
 		simple("Invar Ingot", "Инварный слиток", TE('invar_ingot', 8), 64, S, 0x406D6C, 0xC3CAC1)
 		
@@ -431,7 +432,7 @@ onEvent('item.registry', event => {
 		simple("Redstone Dust", "Красная пыль", MC('redstone', 16), 8, S, 0xA80F01, 0xFC7781)
 		simple("Diamond", "Алмаз", MC('diamond', 1), 2, G, 0x20C3B3, 0xD2FCF3)
 		simple("Lapis Lazuli", "Лазурит", MC('lapis_lazuli', 8), 32, S, 0x335DC1, 0x7395E7)
-		simple("Emerald", "Изумруд", MC('emerald', 1), 64, S, 0x00A82B, 0xADFACB)
+		simple("Emerald", "Изумруд", MC('emerald', 1), 1, G, 0x00A82B, 0xADFACB)
 		simple("Sulfur", "Сера", TE('sulfur', 4), 8, S, 0xC7A94A, 0xEEF071)
 		simple("Apatite", "Апатит", TE('apatite', 4), 8, S, 0x27A9BB, 0x2CC7C9)
 		simple("Niter", "Селитра", TE('niter', 4), 8, S, 0x735A65, 0xB8AFAF)
@@ -474,6 +475,8 @@ onEvent('item.registry', event => {
 		entry_cost = 10
 		simple("Daub", "Мазня", SP('daub', 16), 5, S, 0xBFBAAA, 0xCBC8B6)
 		simple("Clear Glass", "Чистое стекло", TC('clear_glass', 16), 8, S, 0xA9C3CF, 0xE8E8E8)
+		simple("Factory Block", "Фабричный блок", "16x chisel:factory/dots", 2, S, 0x211C10, 0x604B43)
+		simple("Laboratory Block", "Лабораторный блок", "16x chisel:laboratory/wallpanel", 4, S, 0x71706E, 0x9D9A98)
 		simple("Copper Shingles", "Медная черепица", CR('copper_shingles', 16), 3, S, 0xB5654B, 0xE4BB79)
 		simple("Algal Bricks", "Кирпичи из водорослей", AP('algal_bricks', 32), 8, S, 0x292926, 0x3D4D48)
 		simple("Olivestone Bricks", "Кирпичи из оливкового камня", AP('olivestone_bricks', 32), 8, S, 0x3A3C2E, 0x57553E)
@@ -509,7 +512,7 @@ onEvent('item.registry', event => {
 		simple("Prismarine Crystals", "Кристалл призмарина", MC('prismarine_crystals', 4), 24, S, 0x71A296, 0xDCE6D9)
 		
 		entry_cost = 10
-		simple("Witch Hat", "Шляпа ведьмы", RQ('witch_hat', 1), 2, G, 0x424242, 0x568125)
+		simple("Witch Hat", "Шляпа ведьмы", RQ('witch_hat', 1), 1, G, 0x424242, 0x568125)
 		simple("Zombie heart", "Сердце зомби", RQ('zombie_heart', 1), 32, S, 0x532B38, 0x8D584A)
 		simple("Squid Beak", "Клюв спрута", RQ('squid_beak', 1), 32, S, 0x00613B, 0x5BCDA1)
 		simple("Rib Bone", "Реберная кость", RQ('rib_bone', 1), 32, S, 0xDFDDCE, 0xFAF9E9)

@@ -3,6 +3,7 @@
 onEvent('jei.hide.items', event => {
 	event.hide('appliedenergistics2:facade')
 	event.hide(`#buddycards:cards`)
+	event.hide(`#buddycards:gummy_cards`)
 })
 
 onEvent('jei.subtypes', event => {
@@ -103,6 +104,11 @@ onEvent('item.tooltip', tooltip => {
 		"  §6в §eнеправильном §6слоте не будет потрачен"]);
 	tooltip.add("kubejs:accellerator_glowstone", ["§7При использовании в алхимическом исследовании:", "  §6Один из §eправильных §6реагентов",
 		"  §6в §eправильном §6слоте не будет потрачен"]);
+		tooltip.add("magicfeather:magicfeather", [`§6Дарует креативный полёт`]);
+
+	tooltip.add("xreliquary:alkahestry_tome", [`§6Невозможно использовать в механическом крафте`]);
+
+	tooltip.add("pipez:energy_pipe", [`§7Connections may have to be`, `§7marked as §fInputs §7by sneak-clicking`, `§7the connection with a §fWrench`]);
 
 	for (i = 0; i < 15; i++)
 		tooltip.add(`kubejs:failed_alchemy_${i}`, [

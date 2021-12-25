@@ -85,6 +85,7 @@ onEvent('item.registry', event => {
 	event.create('pipe_module_tier_1').texture("kubejs:item/pipe_module_tier_1").displayName('Модуль латунных труб')
 	event.create('pipe_module_tier_2').texture("kubejs:item/pipe_module_tier_2").displayName('Модуль инваровых труб')
 	event.create('pipe_module_tier_3').texture("kubejs:item/pipe_module_tier_3").displayName('Модуль эндериумовых труб')
+	event.create('circuit_scrap').texture("kubejs:item/circuit_scrap").displayName('Микросхемный металлолом')
 
 	event.create('charged_calculator').texture("kubejs:item/charged_calculator").displayName('Калькулятор').maxDamage(64)
 	event.create('missingno').texture("kubejs:item/missingno").displayName('∄')
