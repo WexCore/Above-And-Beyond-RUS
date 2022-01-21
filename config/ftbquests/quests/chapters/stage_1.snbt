@@ -155,7 +155,7 @@
 			y: 3.0d
 			shape: "circle"
 			subtitle: "Изобретение #5"
-			description: ["All your Andesite is likely not being generated near your factory. Figure out a way to bring it to the surface."]
+			description: ["Скорее всего вы не генерируете ваш андезит в непосредственой близости к фабрике. Придумайте способ поднимать его на поверхность."]
 			dependencies: ["106C6DFDCB97327C"]
 			id: "6B7F0631060A9E62"
 			tasks: [{
